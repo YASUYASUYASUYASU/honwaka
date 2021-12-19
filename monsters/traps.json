@@ -1,0 +1,46 @@
+[
+  {
+    "type": "trap",
+    "id": "tr_landmine",
+    "trigger_weight": "200 g",
+    "name": "land mine",
+    "color": "red",
+    "symbol": "^",
+    "visibility": 1,
+    "avoidance": 14,
+    "difficulty": 5,
+    "action": "landmine",
+    "drops": [ "landmine" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 500,
+      "shrapnel": 8,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  },
+  {
+    "type": "trap",
+    "id": "tr_landmine_buried",
+    "trigger_weight": "200 g",
+    "name": "buried land mine",
+    "color": "red",
+    "symbol": "_",
+    "visibility": 2,
+    "avoidance": 14,
+    "difficulty": 5,
+    "action": "landmine",
+    "drops": [ "landmine" ],
+    "vehicle_data": {
+      "do_explosion": true,
+      "damage": 500,
+      "shrapnel": 8,
+      "sound_volume": 10,
+      "sound": "Boom!",
+      "sound_type": "explosion",
+      "sound_variant": "default"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "12mm_makeshift",
+    "type": "AMMO",
+    "name": { "str_sp": "弾薬(12mm/自作)" },
+    "description": "スクラップから作られたH&Kレールガン用の弾薬です。正規品ほどの威力は出ませんが、レールガンで発射が可能です。",
+    "weight": "11 g",
+    "volume": "250 ml",
+    "price": 3000,
+    "price_postapoc": 3000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "blue",
+    "count": 20,
+    "stack_size": 40,
+    "ammo_type": "12mm",
+    "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 30 },
+    "dispersion": 45,
+    "recoil": 100
+  }
+]

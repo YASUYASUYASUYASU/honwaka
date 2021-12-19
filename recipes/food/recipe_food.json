@@ -1,0 +1,60 @@
+[
+  {
+    "type": "recipe",
+    "result": "royal_jelly",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": 5000,
+    "book_learn": [
+      [ "textbook_chemistry", 6 ],
+      [ "adv_chemistry", 6 ],
+      [ "atomic_survival", 4 ],
+      [ "survival_book", 5 ],
+      [ "recipe_labchem", 5 ]
+    ],
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [  ],
+    "components": [ [ [ "honeycomb", 1 ] ], [ [ "bleach", 2 ], [ "oxy_powder", 200 ], [ "purifier", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pine_nuts",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 1,
+    "charges": 1,
+    "time": 1500,
+    "autolearn": true,
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "pinecone", 1 ] ] ]
+  },{
+    "type": "recipe",
+    "result": "taint_tornado",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": 7000,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
+    "components": [ [ [ "meat_tainted", 12 ] ], [ [ "hard_liquor_chem", 1, "LIST" ] ] ]
+  },{
+    "type": "recipe",
+    "result": "drink_sewerbrew",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 1 ],
+    "difficulty": 5,
+    "time": 7000,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "water_boiling_heat", 1, "LIST" ] ] ],
+    "components": [ [ [ "sewage", 1 ] ], [ [ "hard_liquor_chem", 1, "LIST" ] ] ]
+  }
+]

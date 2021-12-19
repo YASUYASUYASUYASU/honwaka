@@ -1,0 +1,36 @@
+[
+  {
+    "id": "unbio_blaster_gun",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "ライフル(ﾌｭｰｼﾞｮﾝﾌﾞﾗｽﾀｰ)" },
+    "description": "サイボーグからもぎ取ったフュージョンブラスターをライフルにしました。この即席の武器はUPSで動作します。",
+    "weight": "2680 g",
+    "volume": "2500 ml",
+    "price": 420000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 22 },
+    "dispersion": 90,
+    "durability": 6,
+    "loudness": 15,
+    "ups_charges": 40,
+    "reload": 600,
+    "valid_mod_locations": [
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "rail mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "ammo_effects": [ "PLASMA", "EXPLOSIVE", "FLAME", "NEVER_JAMS" ],
+    "flags": [ "NO_UNLOAD" ]
+  }
+]

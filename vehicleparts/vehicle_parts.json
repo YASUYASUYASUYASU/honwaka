@@ -1,0 +1,99 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "solar_panel",
+    "name": { "str": "solar panel" },
+    "symbol": "#",
+    "categories": [ "energy" ],
+    "color": "yellow",
+    "broken_symbol": "x",
+    "broken_color": "yellow",
+    "damage_modifier": 10,
+    "durability": 20,
+    "description": "A solar panel.",
+    "epower": 50,
+    "item": "solar_panel",
+    "location": "on_roof",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair" : { "skills": [ [ "electronics", 5 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SOLAR_PANEL","SIMPLE_PART" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 4 ] },
+      { "item": "steel_chunk", "count": [ 2, 4 ] },
+      { "item": "scrap", "count": [ 2, 4 ] },
+      { "item": "solar_cell", "count": [ 1, 4 ] }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "reinforced_solar_panel",
+    "copy-from": "solar_panel",
+    "looks_like": "solar_panel",
+    "name": { "str": "reinforced solar panel" },
+    "color": "light_blue",
+    "broken_color": "light_gray",
+    "proportional": { "epower": 0.9 },
+    "damage_modifier": 80,
+    "durability": 300,
+    "description": "A solar panel.  Reinforced with armored glass to make it more resistant to damage.",
+    "item": "reinforced_solar_panel",
+    "requirements": {
+      "repair" : { "skills": [ [ "electronics", 6 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 4, 7 ] },
+      { "item": "steel_chunk", "count": [ 4, 7 ] },
+      { "item": "scrap", "count": [ 4, 7 ] },
+      { "item": "solar_cell", "count": [ 1, 4 ] }
+    ],
+    "damage_reduction": { "all": 12 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "solar_panel_v2",
+    "copy-from": "solar_panel",
+    "name": { "str": "upgraded solar panel" },
+    "looks_like": "solar_panel",
+    "description": "A high performance solar panel.",
+    "item": "solar_panel_v2",
+    "proportional": { "epower": 2.0 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] },
+      "repair" : { "skills": [ [ "electronics", 8 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 4 ] },
+      { "item": "steel_chunk", "count": [ 2, 4 ] },
+      { "item": "scrap", "count": [ 2, 4 ] },
+      { "item": "solar_cell", "count": [ 1, 6 ] }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "reinforced_solar_panel_v2",
+    "copy-from": "solar_panel_v2",
+    "looks_like": "reinforced_solar_panel",
+    "name": { "str": "upgraded reinforced solar panel" },
+    "color": "light_blue",
+    "broken_color": "light_gray",
+    "proportional": { "epower": 0.9 },
+    "damage_modifier": 80,
+    "durability": 300,
+    "description": "A high performance solar panel.  Reinforced with armored glass to make it more resistant to damage.",
+    "item": "reinforced_solar_panel_v2",
+    "requirements": {
+      "repair" : { "skills": [ [ "electronics", 8 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 4, 7 ] },
+      { "item": "steel_chunk", "count": [ 4, 7 ] },
+      { "item": "scrap", "count": [ 4, 7 ] },
+      { "item": "solar_cell", "count": [ 1, 6 ] }
+    ],
+    "damage_reduction": { "all": 10 }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "aux_flamer",
+    "type": "GUNMOD",
+    "name": { "str": "補助火炎放射器" },
+    "description": "大抵の銃器に取り付けられる、特製の小型火炎放射器です。殺傷能力を大幅に拡張します。",
+    "weight": "1820 g",
+    "volume": "1 L",
+    "price": 85000,
+    "install_time": "10 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_red",
+    "location": "underbarrel",
+    "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
+    "gun_data": { "ammo": "flammable", "skill": "launcher", "dispersion": 300, "durability": 10 },
+    "min_skills": [ [ "weapon", 2 ], [ "launcher", 1 ] ],
+    "flags": [ "PUMP_RAIL_COMPATIBLE", "NON_FOULING" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "aux_pressurized_tank" ]
+      }
+    ]
+  }
+]

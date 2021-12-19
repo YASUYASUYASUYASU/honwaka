@@ -1,0 +1,251 @@
+[
+  {
+    "result": "nailrifle",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "gun", 2 ],
+    "time": 12000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "nailgun", 1 ] ], [ [ "pipe", 1 ] ], [ [ "2x4", 2 ], [ "stick", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "helsing",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 4,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 30 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "pipe", 8 ] ],
+      [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pneumatic_shotgun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 5,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 30 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "pipe", 3 ] ],
+      [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "steel_chunk", 4 ], [ "scrap", 12 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "mininuke_launcher",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 6,
+    "time": "4 h",
+    "book_learn": [ [ "recipe_mininuke_launch", 5 ] ],
+    "using": [ [ "welding_standard", 20 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "pipe", 2 ], [ "rebar", 2 ] ],
+      [ [ "duct_tape", 200 ] ],
+      [ [ "2x4", 2 ], [ "stick", 2 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "rebar_rifle",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [ "mechanics", 6 ],
+    "difficulty": 4,
+    "time": 360000,
+    "autolearn": true,
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "GLARE", "level": 1 }
+    ],
+    "tools": [ [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
+    "components": [
+      [ [ "cable", 80 ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "steel_chunk", 3 ], [ "scrap", 18 ] ],
+      [ [ "rebar", 1 ], [ "pipe", 1 ] ],
+      [ [ "e_scrap", 20 ] ]
+    ]
+  },{
+  "type" : "recipe",
+  "result": "heavy_rail_rifle",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_RANGED",
+  "skill_used": "fabrication",
+  "skills_required": [["mechanics", 10], ["electronics", 9], ["computer", 2]],
+  "using": [ [ "soldering_standard", 20 ], [ "welding_standard", 50 ], [ "forging_standard", 4 ], [ "surface_heat", 30 ] ],
+  "difficulty": 7,
+  "time": 720000,
+  "autolearn": true,
+  "qualities":
+    [
+      { "id": "ANVIL", "level": 3 },
+      {"id":"SAW_M","level":1},
+      {"id":"SAW_M_FINE","level":1},
+      {"id":"SCREW_FINE","level":1},
+      {"id":"WRENCH_FINE","level":1},
+      {"id":"HAMMER","level":3},
+      { "id": "CHISEL", "level": 3 }
+    ],
+  "tools":
+    [
+      [
+        ["tongs", -1]
+      ],
+      [
+        ["crucible", -1],
+        ["crucible_clay", -1]
+      ],
+      [
+        ["swage", -1]
+      ],
+      [
+        ["mold_plastic", -1]
+      ]
+    ],
+  "components":
+    [
+      [
+        ["steel_lump", 6],
+        ["steel_chunk", 24],
+        ["scrap", 72]
+      ],
+      [
+        ["plastic_chunk", 20]
+      ],
+      [
+        ["sheet_metal", 1]
+      ],
+      [
+        ["cable", 240]
+      ],
+      [
+        ["amplifier", 11]
+      ],
+      [
+        ["power_supply", 11]
+      ],
+      [
+        ["e_scrap", 30]
+      ],
+      [
+        ["processor", 1]
+      ],
+      [
+        ["RAM", 1]
+      ],
+      [
+        ["small_lcd_screen", 1]
+      ],
+      [
+        ["battery_ups", 1]
+      ],
+      [
+        [ "small_storage_battery", 2],
+        [ "UPS_off", 2]
+      ]
+    ]
+},{
+    "id": "unbio_blaster_gun",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "fusion blaster rifle" },
+    "description": "A cyborg's fusion blaster arm, cannibalized and converted into a rifle.  This improvised weapon is powered by a standard UPS connection.",
+    "weight": "2680 g",
+    "volume": "2500 ml",
+    "price": 420000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 22 },
+    "dispersion": 90,
+    "durability": 4,
+    "loudness": 15,
+    "ups_charges": 40,
+    "reload": 600,
+    "valid_mod_locations": [
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "rail mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "ammo_effects": [ "PLASMA", "EXPLOSIVE", "FLAME", "NEVER_JAMS" ],
+    "flags": [ "NO_UNLOAD" ]
+  },
+  {
+  "type" : "recipe",
+  "result": "unbio_blaster_gun",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_RANGED",
+  "skill_used": "electronics",
+  "skills_required": [ "fabrication", 4, "gun", 2 ],
+  "difficulty": 4,
+  "time": 30000,
+  "book_learn": [[ "recipe_lab_elec", 5]],
+  "qualities":[
+    {"id":"SCREW_FINE","level":1}
+  ], "tools": [
+    [
+      [ "soldering_standard", 20, "LIST" ],
+      [ "small_repairkit", 20 ],
+      [ "large_repairkit", 10 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "bio_blaster", 1 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "2x4", 1 ],
+      [ "stick", 1 ]
+    ],
+    [
+      ["cable", 3]
+    ],
+    [
+      ["plastic_chunk", 3]
+    ]
+  ]
+}
+]

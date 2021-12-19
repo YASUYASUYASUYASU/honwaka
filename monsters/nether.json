@@ -1,0 +1,28 @@
+[
+  {
+    "id": "mon_flaming_eye",
+    "type": "MONSTER",
+    "name": { "str": "flaming eye" },
+    "description": "An enormous disembodied eyeball the size of a person, flying through the air through some unknown agency.  Wreathed in unnatural flickering blue flame, it possesses a blazing yellow iris with a slitted pupil like that of a cat and trails a set of flailing black tendrils as it slowly drifts about; its unearthly presence filling you with dread at the prospect of falling under its baleful gaze.",
+    "default_faction": "nether",
+    "species": [ "NETHER" ],
+    "diff": 20,
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 300,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "e",
+    "color": "light_blue",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 1,
+    "armor_bash": 4,
+    "vision_day": 20,
+    "vision_night": 10,
+    "luminance": 25,
+    "harvest": "zombie_meatslug",
+    "special_attacks": [ [ "STARE", 12 ] ],
+    "flags": [ "SEES", "WARM", "FLIES", "FIREY", "NO_BREATHE", "NOHEAD" ]
+  }
+]

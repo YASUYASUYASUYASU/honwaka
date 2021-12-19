@@ -1,0 +1,26 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "acidchitin_plate",
+    "copy-from": "chitin_plate",
+    "name": "装甲キット(シリコンキチン)",
+    "description": "車両に取り付けられる、シリコン化したキチン質で作られた耐久性の高い装甲です。",
+    "material": [ "acidchitin" ],
+    "proportional": { "price": 1.333, "weight": 1.2, "volume": 1.18, "bashing": 1.25 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "bone_plate",
+    "symbol": "]",
+    "color": "white",
+    "name": "装甲キット(骨)",
+    "description": "車両に取り付けられる、骨で作られた装甲です。",
+    "price": 1200,
+    "material": [ "bone" ],
+    "weight": 4000,
+    "volume": 38,
+    "bashing": 8,
+    "to_hit": -4,
+    "category": "veh_parts"
+  }
+]

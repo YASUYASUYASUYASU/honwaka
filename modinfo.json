@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "honwaka",
+    "name": "変更 - ほんわかmod",
+    "authors": [ "YasuYasu" ] ,
+    "maintainers": [ "YasuYasu" ] ,
+    "description": "現状のバランスを少し緩やかにします",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

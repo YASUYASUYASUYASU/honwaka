@@ -1,0 +1,20 @@
+[
+  {
+    "id": "recipe_mininuke_launch",
+    "type": "BOOK",
+    "name": { "str": "本(学習/238-NK: 実用性の強化)", "str_pl": "本(学習/238-NK: 実用性の強化)" },
+    "description": "この文書の執筆者は、バネ式原子核制御装置について徹底的に研究し、説得力のある提案をしたようです。「否認」のスタンプが押されています。",
+    "weight": "854 g",
+    "volume": "1500 ml",
+    "price": 30000,
+    "price_postapoc": 5000000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_green",
+    "skill": "fabrication",
+    "required_level": 4,
+    "max_level": 5,
+    "intelligence": 9,
+    "time": "10 m"
+  }
+]

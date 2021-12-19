@@ -1,0 +1,81 @@
+[
+  {
+    "id": "bio_furnace",
+    "type": "bionic",
+    "name": { "str": "体内炉" },
+    "description": "このCBMを移植している場合、エネルギー密度の高い有機素材を(Eキーを押すことで)燃料として焼却してCBM電力を充電できます。特定の素材を燃焼すると他の素材よりも多くの電力を生成できます。",
+    "occupied_bodyparts": [ [ "torso", 40 ] ],
+    "fuel_options": [ "wood", "alcohol", "diesel", "jp8", "avgas", "biodiesel", "gasoline", "lamp_oil", "motor_oil", "charcoal", "coal" ],
+    "fuel_efficiency": 0.25,
+    "fuel_capacity": 1500,
+    "time": 1,
+    "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_furnace",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "CBM: 体内炉" },
+    "description": "このCBMを移植している場合、エネルギー密度の高い有機素材を(Eキーを押すことで)燃料として焼却してCBM電力を充電できます。特定の素材を燃焼すると他の素材よりも多くの電力を生成できます。",
+    "price": 450000,
+    "difficulty": 4
+  },
+  {
+    "id": "bio_storage",
+    "type": "bionic",
+    "name": { "str": "体内格納庫" },
+    "description": "胸の内部を格納領域に改造します。 最大所持容量が2L増加します。",
+    "occupied_bodyparts": [ [ "torso", 32 ] ],
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_storage",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "CBM: 体内格納庫" },
+    "description": "胸の内部を格納領域に改造します。 最大所持容量が2L増加します。",
+    "price": 400000,
+    "difficulty": 7
+  },
+  {
+    "id": "bio_blaster",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "CBM: フュージョンブラスターアーム" },
+    "description": "左腕をフュージョンブラスターアームに取り替えます！電力を使って熱線を射出する武器を得ますが、片腕を失うため、武器の両手持ちはできず、片手分の力でしか物を扱えなくなります。",
+    "price": 220000,
+    "difficulty": 3
+  },
+  {
+    "id": "bio_blaster",
+    "type": "bionic",
+    "name": { "str": "Fusion Blaster Arm" },
+    "description": "外科手術によって左腕をフュージョンブラスターアームに取り替えます！電力を使って熱線を射出する武器を得ますが、片腕を失うため、武器の両手持ちはできず、片手分の力でしか物を扱えなくなります。",
+    "occupied_bodyparts": [ [ "arm_l", 20 ], [ "hand_l", 5 ] ],
+    "act_cost": 50,
+    "fake_weapon": "bio_blaster_gun",
+    "flags": [ "BIONIC_GUN" ]
+  },
+  {
+    "id": "bio_blaster_gun",
+    "type": "GUN",
+    "name": { "str": "フュージョンブラスターアーム" },
+    "description": "this a pseudo item",
+    "volume": "3 L",
+    "price": 0,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 22, "armor_penetration": 15 },
+    "dispersion": 30,
+    "durability": 10,
+    "loudness": 12,
+    "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "triple shot", 3 ] ],
+    "reload": 500,
+    "built_in_mods": [ "bio_powershot" ],
+    "ammo_effects": [ "PLASMA" ],
+    "flags": [ "NEVER_JAMS", "TRADER_AVOID", "ZERO_WEIGHT" ]
+  }
+]

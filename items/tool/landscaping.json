@@ -1,0 +1,22 @@
+[
+  {
+    "id": "shovel",
+    "type": "TOOL",
+    "name": { "str": "shovel" },
+    "description": "This is a digging tool.  Use it to dig pits adjacent to your location.",
+    "weight": "2032 g",
+    "volume": "3500 ml",
+    "longest_side": "140 cm",
+    "price": 2000,
+    "price_postapoc": 250,
+    "to_hit": 3,
+    "bashing": 14,
+    "cutting": 3,
+    "material": [ "steel", "wood" ],
+    "symbol": "/",
+    "color": "brown",
+    "qualities": [ [ "DIG", 4 ], [ "COOK", 1 ], [ "BUTCHER", -70 ] ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "NONCONDUCTIVE" ]
+  }
+]

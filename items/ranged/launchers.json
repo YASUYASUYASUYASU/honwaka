@@ -1,0 +1,55 @@
+[
+  {
+    "id": "flamethrower_simple",
+    "copy-from": "flamethrower_base",
+    "type": "GUN",
+    "name": { "str": "火炎放射器(自作)" },
+    "description": "シンプルな自作の火炎放射器です。その性能は素晴らしいとまでは言えないが、地形や怪物に火をつけるには十分な性能です。",
+    "weight": "907 g",
+    "volume": "5 L",
+    "price": 20000,
+    "to_hit": -1,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "range": 4,
+    "dispersion": 600,
+    "durability": 6,
+    "relative": { "reload": 2 },
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "aux_pressurized_tank", "pressurized_tank" ]
+      }
+    ]
+  },
+  {
+    "id": "flamethrower_crude",
+    "type": "GUN",
+    "symbol": "(",
+    "name": { "str": "火炎放射器(スプレー缶)" },
+    "description": "世界中のごろつきが愛用する簡易兵器です。スプレー缶にダクトテープでライターを取り付けただけでも十分危なっかしいオモチャになりますが、小さなガソリンタンクと噴霧ノズル、簡単な加圧ポンプまで付いています。加圧に数分の時間がかかります。",
+    "weight": "451 g",
+    "volume": "500 ml",
+    "price": 16000,
+    "material": [ "steel" ],
+    "range": -2,
+    "dispersion": 300,
+    "durability": 8,
+    "skill": "launcher",
+    "ammo": [ "gasoline" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "gasoline": 10 },
+        "watertight": true
+      }
+    ],
+    "valid_mod_locations": [ [ "sling", 1 ], [ "stock", 1 ], [ "rail mount", 1 ] ],
+    "relative": { "reload": 4 }
+  }
+]

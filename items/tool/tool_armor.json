@@ -1,0 +1,127 @@
+[
+  {
+    "id": "goggles_nv",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "name": { "str": "pair of light amp goggles", "str_pl": "pairs of light amp goggles" },
+    "description": "A pair of battery-powered goggles that amplify ambient light, allowing you to see in the dark.  Use it to turn them on.",
+    "flags": [ "FRAGILE" ],
+    "price": 92000,
+    "price_postapoc": 3500,
+    "material": [ "plastic", "steel" ],
+    "weight": "1020 g",
+    "volume": "1 L",
+    "to_hit": -3,
+    "charges_per_use": 1,
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "goggles_nv_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead."
+    },
+    "warmth": 10,
+    "environmental_protection": 6,
+    "armor": [ { "encumbrance": 40, "coverage": 100, "covers": [ "eyes" ] } ],
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "rigid": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_plus_battery_cell",
+          "light_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goggles_nv_on",
+    "copy-from": "goggles_nv",
+    "repairs_like": "goggles_nv",
+    "type": "TOOL_ARMOR",
+    "name": { "str_pl": "pairs of light amp goggles (on)", "str": "pair of light amp goggles (on)" },
+    "description": "A pair of battery-powered light amplifying goggles with an infrared illuminator, allowing you to see in the dark.  It is turned on, and continually draining batteries.  Use it to turn them off.",
+    "flags": [ "GNV_EFFECT", "FRAGILE", "TRADER_AVOID" ],
+    "//": "2019 commercial models can operate at under 0.375W with the IR illuminator on",
+    "power_draw": 375,
+    "revert_to": "goggles_nv",
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s deactivates.", "target": "goggles_nv" },
+    "warmth": 25
+  },
+  {
+    "id": "goggles_ir",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "name": { "str": "pair of infrared goggles", "str_pl": "pairs of infrared goggles" },
+    "description": "A pair of battery-powered goggles that grant infrared vision, allowing you to see warm-blooded creatures in the dark.  Use it to turn them on.",
+    "flags": [ "FRAGILE" ],
+    "price": 92000,
+    "price_postapoc": 2500,
+    "material": [ "plastic", "steel" ],
+    "weight": "1240 g",
+    "volume": "1 L",
+    "to_hit": -3,
+    "charges_per_use": 1,
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "goggles_ir_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead."
+    },
+    "warmth": 10,
+    "environmental_protection": 6,
+    "armor": [ { "encumbrance": 40, "coverage": 100, "covers": [ "eyes" ] } ],
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "rigid": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_plus_battery_cell",
+          "light_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goggles_ir_on",
+    "copy-from": "goggles_ir",
+    "repairs_like": "goggles_ir",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "pair of infrared goggles (on)", "str_pl": "pairs of infrared goggles (on)" },
+    "description": "A pair of battery-powered goggles that grant infrared vision, allowing you to see warm-blooded creatures in the dark.  Use it to turn them off.",
+    "material": [ "plastic", "steel" ],
+    "flags": [ "IR_EFFECT", "FRAGILE", "TRADER_AVOID" ],
+    "power_draw": 1000,
+    "revert_to": "goggles_ir",
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s deactivates.", "target": "goggles_ir" },
+    "warmth": 25,
+    "armor": [ { "encumbrance": 40, "coverage": 100, "covers": [ "eyes" ] } ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "makeshift_crowbar",
+    "type": "TOOL",
+    "name": { "str": "makeshift crowbar" },
+    "description": "This is a pipe whose ends have been bent and hammered flat to resemble a crowbar.  Use it to open locked crates without destroying them, or to lift manhole covers.  You could also wield it to fight with, in a pinch.",
+    "weight": "1000 g",
+    "volume": "1 L",
+    "longest_side": "60 cm",
+    "price": 0,
+    "price_postapoc": 10,
+    "to_hit": -1,
+    "bashing": 12,
+    "cutting": 1,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "PRY", 2 ], [ "HAMMER", 1 ] ],
+    "use_action": [ "CROWBAR" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "BELT_CLIP" ]
+  }
+]
