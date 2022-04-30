@@ -14,5 +14,21 @@
       [ [ "nomex", 5 ] ],
       [ [ "lamp_oil", 50 ], [ "chem_ethanol", 100 ], [ "denat_alcohol", 100 ], [ "gasoline", 250 ], [ "diesel", 250 ] ]
     ]
+  },
+  {
+    "result": "crutches",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "rag", 2 ] ],
+      [ [ "pipe", 3 ] ],
+      [ [ "superglue", 1 ], [ "duct_tape", 75 ], [ "string_36", 2 ] ]
+    ]
   }
 ]

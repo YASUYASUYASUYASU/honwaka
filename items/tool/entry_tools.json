@@ -1,5 +1,34 @@
 [
   {
+    "id": "emergency_lockpick",
+    "type": "TOOL",
+    "name": { "str": "rudimentary lockpick" },
+    "description": "This is a pair of thin pieces of metal, one bent in an 'L' shape to push tumblers and the other a stiff object acting as a torsion wrench.  The tools are almost totally inadequate for the job, but when you've got nothing else, it might work.",
+    "ascii_picture": "crude_picklock",
+    "weight": "25 g",
+    "volume": "5 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "LOCKPICK", 5 ] ]
+  },
+  {
+    "id": "crude_picklock",
+    "type": "TOOL",
+    "name": { "str": "improvised lockpick" },
+    "description": "This is an improvised set of picks and torsion wrenches made from scrap metal.  You need MacGyver-like skills to open locks with these as they are brittle, but they lower the chances of alarms being set off.",
+    "ascii_picture": "crude_picklock",
+    "weight": "23 g",
+    "volume": "5 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [ [ "LOCKPICK", 10 ] ]
+  },{
     "id": "makeshift_crowbar",
     "type": "TOOL",
     "name": { "str": "makeshift crowbar" },
@@ -19,5 +48,20 @@
     "use_action": [ "CROWBAR" ],
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "id": "picklocks",
+    "type": "TOOL",
+    "name": { "str": "locksmith kit" },
+    "description": "This is a locksmith's set of sturdy steel lock picks and torsion wrenches.  It is essential for silently and quickly opening locks, provided you have some lock picking and mechanical skills.",
+    "ascii_picture": "picklocks",
+    "weight": "544 g",
+    "volume": "100 ml",
+    "price": 20000,
+    "price_postapoc": 1000,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [ [ "LOCKPICK", 15 ] ]
   }
 ]

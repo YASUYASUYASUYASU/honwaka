@@ -45,7 +45,7 @@
     "ammo": [ "nail" ],
     "skill": "rifle",
     "range": 12,
-    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 8 },
     "dispersion": 180,
     "durability": 5,
     "ups_charges": 2,

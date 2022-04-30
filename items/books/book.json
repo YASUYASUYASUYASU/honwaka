@@ -16,5 +16,25 @@
     "max_level": 5,
     "intelligence": 9,
     "time": "10 m"
+  },
+  {
+    "id": "bookhei_01",
+    "type": "BOOK",
+    "name":  "航空機用マニュアル",
+    "description": "自分で調べ上げ、操作方法をまとめた航空機用マニュアルです。",
+    "weight": "191 g",
+    "volume": "243 ml",
+    "longest_side": "23 cm",
+    "copy-from": "book_fict_soft_pulp_tpl"
+  },
+  {
+    "id": "bookhei_02",
+    "type": "BOOK",
+    "name":  "航空機整備用マニュアル",
+    "description": "自分で調べ上げ、整備方法をまとめた航空機整備用マニュアルです。",
+    "weight": "191 g",
+    "volume": "243 ml",
+    "longest_side": "23 cm",
+    "copy-from": "book_fict_soft_pulp_tpl"
   }
 ]

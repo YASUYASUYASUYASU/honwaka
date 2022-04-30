@@ -1,0 +1,5 @@
+
+      "summer_temp_manual_mod": -5,
+      "spring_temp_manual_mod": 5,
+      "autumn_temp_manual_mod": 1,
+      "winter_temp_manual_mod": 1

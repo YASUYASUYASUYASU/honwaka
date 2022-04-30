@@ -2,28 +2,37 @@
   {
     "type": "item_group",
     "id": "bionics",
-    "items": [
-      [ "bio_furnace", 10 ],
-      [ "bio_storage", 10 ]
-    ]
+    "copy-from": "bionics",
+    "extend": {
+      "items": [
+        [ "bio_furnace", 10 ],
+        [ "bio_storage", 10 ]
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "bionics_common",
     "subtype": "distribution",
-    "items": [
-      [ "bio_furnace", 10 ],
-      [ "bio_storage", 10 ]
-    ]
+    "copy-from": "bionics_common",
+    "extend": {
+      "items": [
+        [ "bio_furnace", 10 ],
+        [ "bio_storage", 10 ]
+      ]
+    }
   },
     {
     "type": "item_group",
     "id": "bionics_sci",
     "subtype": "distribution",
     "//": "High-tech bionics, handy for the harried researcher.  They get access to classified toys too, but only stuff a scientist would have use for.",
-    "items": [
-      [ "bio_furnace", 10 ],
-      [ "bio_storage", 10 ]
-    ]
+    "copy-from": "bionics_sci",
+    "extend": {
+      "items": [
+        [ "bio_furnace", 10 ],
+        [ "bio_storage", 10 ]
+      ]
+    }
   }
 ]

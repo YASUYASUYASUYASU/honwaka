@@ -1,0 +1,13 @@
+[
+  {
+    "type": "item_group",
+    "id": "drugs_heal_simple",
+    "copy-from": "drugs_heal_simple",
+    "subtype": "distribution",
+    "extend": {
+      "items": [
+        { "item": "coldmedicine", "prob": 5, "charges": [ 1, 2 ] }
+      ]
+    }
+  }
+]

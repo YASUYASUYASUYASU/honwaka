@@ -1,0 +1,33 @@
+[
+  {
+    "result": "bookhei_01",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "driving",
+    "difficulty": 4,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_helicopter_pilot","time_multiplier": 1.1,"fail_multiplier": 1 } ],
+    "components": [
+      [ [ "paper", 20 ] ]
+    ]
+  },
+  {
+    "result": "bookhei_02",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_aircraft_mechanic","time_multiplier": 1.1,"fail_multiplier": 1 } ],
+    "components": [
+      [ [ "paper", 20 ] ]
+    ]
+  }
+
+]
