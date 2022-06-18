@@ -413,7 +413,7 @@
     },
     "flags": [ "ROOF", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": "ig_vp_sheet_metal",
-    "damage_reduction": { "all": 28 }
+    "damage_reduction": { "all": 20 }
   },
   {
     "type": "vehicle_part",
@@ -435,7 +435,7 @@
     },
     "flags": [ "ROOF", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": "ig_vp_steel_plate",
-    "damage_reduction": { "all": 75 }
+    "damage_reduction": { "all": 30 }
   },
   {
     "type": "vehicle_part",
@@ -844,7 +844,7 @@
       "install": { "time": "10 m", "using": [ [ "rope_natural_short", 1 ] ] },
       "repair": { "time": "5 m", "using": [ [ "adhesive", 1 ] ] }
     },
-    "damage_reduction": { "all": 18, "stab": 8, "cut": 8 }
+    "damage_reduction": { "all": 4 }
   },
   {
     "type": "vehicle_part",
@@ -868,7 +868,7 @@
     },
     "flags": [ "CARGO", "BOARDABLE", "COVERED", "LOCKABLE_CARGO", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 5 ] }, { "item": "nail", "charges": [ 10, 15 ] } ],
-    "damage_reduction": { "all": 16, "stab": 6, "cut": 6 }
+    "damage_reduction": { "all": 5 }
   },
   {
     "type": "vehicle_part",
@@ -893,7 +893,7 @@
     },
     "flags": [ "CARGO", "BOARDABLE", "COVERED", "FOLDABLE", "LOCKABLE_CARGO", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 5 ] }, { "item": "nail", "charges": [ 10, 15 ] } ],
-    "damage_reduction": { "all": 10, "stab": 4, "cut": 5 }
+    "damage_reduction": { "all": 4 }
   },
   {
     "type": "vehicle_part",
@@ -1698,7 +1698,7 @@
     "damage_modifier": 10,
     "durability": 15,
     "description": "A small wind turbine.",
-    "epower": 10,
+    "epower": 1,
     "item": "wind_turbine",
     "location": "on_roof",
     "requirements": {
@@ -1731,7 +1731,7 @@
     "damage_modifier": 10,
     "durability": 70,
     "description": "A large wind turbine with stabilizing legs.  Will cause extra drag on the vehicle.",
-    "epower": 30,
+    "epower": 3,
     "item": "xl_wind_turbine",
     "location": "on_roof",
     "power": -3000,
@@ -2312,7 +2312,6 @@
     "description": "A device for recharging batteries.  When turned on, it charges any rechargeable batteries (battery cells, lead-acid batteries, etc) placed directly in the attached storage space, drawing power from the vehicle's batteries.",
     "//": "Standby power is negligible",
     "bonus": 600,
-    "epower": 10,
     "item": "recharge_station",
     "location": "on_cargo",
     "requirements": {
@@ -2320,7 +2319,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ], [ "soldering_standard", 8 ] ] }
     },
-    "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "ENABLED_DRAINS_EPOWER", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "folded_volume": "2 L",
     "breaks_into": [
       { "item": "steel_chunk", "count": [ 0, 2 ] },
@@ -2691,6 +2690,22 @@
     "item": "acidchitin_plate",
     "breaks_into": [ { "item": "acidchitin_piece", "count": [ 6, 19 ] } ],
     "damage_reduction": { "all": 24 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "plating_bone",
+    "name": { "str": "bone plating" },
+    "symbol": ")",
+    "categories": [ "warfare" ],
+    "color": "white",
+    "broken_symbol": ")",
+    "broken_color": "light_gray",
+    "durability": 120,
+    "item": "bone_plate",
+    "location": "armor",
+    "flags": [ "ARMOR" ],
+    "breaks_into": [ { "item": "bone_tainted", "count": [ 10, 30 ] } ],
+    "damage_reduction": { "all": 18 }
   },
   {
     "type": "vehicle_part",

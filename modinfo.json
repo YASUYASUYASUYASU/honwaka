@@ -7,6 +7,7 @@
     "maintainers": [ "YasuYasu" ] ,
     "description": "現状のバランスを少し緩やかにします",
     "category": "rebalance",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "dda" ],
+    "version": "0.94"
   }
 ]

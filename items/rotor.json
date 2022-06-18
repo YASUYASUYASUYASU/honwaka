@@ -7,12 +7,13 @@
     "description": "A set of four rotor blades from a military attack helicopter.",
     "price": 23400,
     "price_postapoc": 500,
-    "weight": "45200 g",
-    "volume": "452000 ml",
+    "weight": "4520 g",
+    "volume": "4520 ml",
     "looks_like": "xl_wind_turbine",
     "material": [ "steel" ],
     "symbol": "X",
-    "color": "dark_gray"
+    "color": "dark_gray",
+    "degradation_multiplier": 0
   },
   {
     "id": "small_helicopter_rotor",
@@ -22,11 +23,12 @@
     "description": "A set of four rotor blades from a civilian light helicopter.",
     "price": 1200,
     "price_postapoc": 250,
-    "weight": "25100 g",
-    "volume": "251000 ml",
+    "weight": "2510 g",
+    "volume": "2510 ml",
     "looks_like": "xl_wind_turbine",
     "material": [ "steel" ],
     "symbol": "X",
-    "color": "blue"
+    "color": "blue",
+    "degradation_multiplier": 0
   }
 ]

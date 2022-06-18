@@ -1,24 +1,5 @@
 [
   {
-    "id": "helmet_bone",
-    "type": "ARMOR",
-    "category": "armor",
-    "name": { "str": "ボーンアーマーヘルメット" },
-    "description": "グロテスクな骨から彫った角の生えたヘルメットです。頭全体を守り、とても軽くて丈夫です。",
-    "weight": "1621 g",
-    "volume": "4250 ml",
-    "price": 42000,
-    "to_hit": -2,
-    "bashing": 2,
-    "material": [ "bone" ],
-    "symbol": "[",
-    "color": "white",
-    "armor": [ { "encumbrance": 25, "coverage": 100, "covers": [ "head", "eyes", "mouth" ] } ],
-    "warmth": 10,
-    "material_thickness": 5,
-    "environmental_protection": 3,
-    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
-  },  {
     "id": "helmet_survivor",
     "type": "ARMOR",
     "category": "armor",

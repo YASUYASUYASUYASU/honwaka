@@ -20,13 +20,13 @@
     "item": "heavy_duty_military_rotor",
     "//": "rotor diameter is in meters",
     "rotor_diameter": 15,
-    "durability": 450000,
+    "durability": 4500000,
     "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
     "damage_modifier": 10,
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "breaks_into": [ { "item": "scrap", "count": [ 15, 30 ] }, { "item": "steel_chunk", "count": [ 8, 16 ] } ],
     "damage_reduction": { "all": 90 }
@@ -39,13 +39,13 @@
     "item": "small_helicopter_rotor",
     "//": "rotor diameter is in meters",
     "rotor_diameter": 8,
-    "durability": 4500009,
+    "durability": 4500000,
     "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
     "damage_modifier": 80,
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
     "damage_reduction": { "all": 22 }
@@ -60,9 +60,9 @@
     "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
     "rotor_diameter": 16,
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
   {
@@ -75,9 +75,28 @@
     "description": "A set of three military-grade helicopter rotor blades, used to provide lift by rotation.",
     "rotor_diameter": 11,
       "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] }
     }
+  },
+  {
+    "id": "small_civilian_rotors_kogata",
+    "copy-from": "helicopter_rotors",
+    "type": "vehicle_part",
+    "name": { "str": "飛行装置" },
+    "item": "small_helicopter_rotor",
+    "//": "rotor diameter is in meters",
+    "rotor_diameter": 1,
+    "durability": 4500009,
+    "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
+    "damage_modifier": 80,
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
+    "damage_reduction": { "all": 22 }
   }
 ]

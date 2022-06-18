@@ -135,5 +135,19 @@
     "stack_size": 40,
     "count": 20,
     "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "money",
+    "price": 1,
+    "price_postapoc": 1,
+    "//": "= one cent, gives correct prices for cash cards",
+    "name": { "str": "cent" },
+    "symbol": "=",
+    "color": "light_gray",
+    "description": "A unit of currency equivalent to 0.01 US dollars.",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "volume": "0 ml",
+    "ammo_type": "money"
   }
 ]
