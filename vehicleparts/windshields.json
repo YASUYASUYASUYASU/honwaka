@@ -33,7 +33,8 @@
     "color": "light_cyan",
     "damage_modifier": 70,
     "description": "A sheet of glass that lets you see outside the vehicle.",
-    "durability": 50,
+    "durability": 200,
+    "damage_reduction": { "all": 5 },
     "flags": [ "OVER", "WINDSHIELD", "OBSTACLE", "WINDOW", "SIMPLE_PART" ],
     "item": "glass_sheet",
     "location": "center",
@@ -41,7 +42,8 @@
     "name": { "str": "windshield" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "15 m", "using": [ [ "adhesive", 2 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ [ "vehicle_nail_removal", 1 ] ] }
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
+      "repair":  { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
   {

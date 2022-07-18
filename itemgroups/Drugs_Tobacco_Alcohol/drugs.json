@@ -1,12 +1,14 @@
 [
   {
+    "//": "風邪薬(coldmedicine)とリンゲル液(ringer_solution)の生成を指定",
     "type": "item_group",
     "id": "drugs_heal_simple",
     "copy-from": "drugs_heal_simple",
     "subtype": "distribution",
     "extend": {
       "items": [
-        { "item": "coldmedicine", "prob": 5, "charges": [ 1, 2 ] }
+        { "item": "coldmedicine", "prob": 5, "charges": [ 1, 2 ] },
+        { "item": "ringer_solution", "prob": 5, "charges": [ 1, 3 ] }
       ]
     }
   }

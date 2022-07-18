@@ -1,17 +1,18 @@
 [
   {
+    "//": "パワーアーマーシリーズを軍事設備に生成するよう追記",
     "type": "item_group",
     "id": "military",
     "subtype": "distribution",
     "copy-from": "military",
     "extend": {
       "items": [
-        { "item": "power_armor_basic", "prob": 5 },
-        { "item": "power_armor_frame", "prob": 5 },
-        { "item": "power_armor_heavy", "prob": 5 },
-        { "item": "power_armor_helmet_basic", "prob": 5 },
-        { "item": "power_armor_helmet_heavy", "prob": 5 },
-        { "item": "power_armor_helmet_light", "prob": 5 }
+        { "item": "power_armor_basic", "prob": 1 },
+        { "item": "power_armor_frame", "prob": 1 },
+        { "item": "power_armor_heavy", "prob": 1 },
+        { "item": "power_armor_helmet_basic", "prob": 1 },
+        { "item": "power_armor_helmet_heavy", "prob": 1 },
+        { "item": "power_armor_helmet_light", "prob": 1 }
       ]
     }
   }

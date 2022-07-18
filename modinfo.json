@@ -8,6 +8,6 @@
     "description": "現状のバランスを少し緩やかにします",
     "category": "rebalance",
     "dependencies": [ "dda" ],
-    "version": "0.94"
+    "version": "0.95"
   }
 ]

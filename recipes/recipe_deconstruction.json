@@ -2,7 +2,7 @@
   {
     "result": "battletorch_done",
     "type": "uncraft",
-    "time": 2000,
+    "time": "20s",
     "components": [ [ [ "bat", 1 ] ], [ [ "nomex", 5 ] ] ]
   }
 ]

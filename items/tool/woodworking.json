@@ -4,9 +4,7 @@
     "type": "TOOL",
     "name": { "str": "wood axe" },
     "copy-from": "ax",
-    "qualities": [ [ "AXE", 4 ], [ "BUTCHER", -36 ] ],
-    "flags": [ "NONCONDUCTIVE", "SHEATH_AXE" ],
-    "weapon_category": [ "HOOKING_WEAPONRY" ]
+    "qualities": [ [ "AXE", 4 ], [ "BUTCHER", -36 ] ]
   },
   {
     "id": "chainsaw_on",

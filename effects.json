@@ -7,5 +7,25 @@
       "flu"
     ],
     "base_mods": { "pkill_min": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "blood_transfusion",
+    "name": [ "輸血の副作用" ],
+    "desc": [ "素人のによる無茶な輸血により、とても気分が悪いです。安静にしましょう" ],
+    "remove_message": "輸血による気持ち悪さが収まってきました",
+    "rating": "bad",
+    "int_dur_factor": "3 m",
+    "max_intensity": 5,
+    "max_duration": "15 m",
+    "base_mods": { 
+      "vomit_chance": [ 500 ],
+      "per_mod": [ -2, -1 ],
+      "dex_mod": [ -1, -1 ],
+      "str_mod": [ -2, 0 ],
+      "pain_min": [ 1 ],
+      "pain_chance": [ 150, 900 ],
+      "speed_mod": [ -10 ]
+    }
   }
 ]

@@ -1,5 +1,6 @@
 [
   {
+    "//": "アリ解体用の設定(通常肉)が取れるように",
     "id": "arachnid_honwaka",
     "type": "harvest",
     "message": "<arachnid_harvest>",

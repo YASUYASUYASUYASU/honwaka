@@ -5,7 +5,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
-    "time": 2000,
+    "time": "10m",
     "reversible": true,
     "autolearn": true,
     "components": [

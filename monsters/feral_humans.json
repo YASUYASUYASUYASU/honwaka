@@ -1,5 +1,6 @@
 [
   {
+    "//": "フェラルヒューマン(パイプ):投石を弱体化",
     "id": "mon_feral_human_pipe",
     "type": "MONSTER",
     "name": { "str": "feral human" },
@@ -21,6 +22,19 @@
     ]
   },
   {
+    "//": "フェラルヒューマン(斧もち):投石を弱体化",
+    "id": "mon_feral_human_axe",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_axe",
+    "hp": 70,
+    "melee_skill": 1,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_damage": [ { "damage_type": "cut", "amount": 6 } ],
+    "dodge": 0
+  },
+  {
+    "//": "狂人警備員(銃もち):射撃を弱体化",
     "id": "mon_feral_labsecurity_9mm",
     "type": "MONSTER",
     "name": { "str": "feral security guard" },
@@ -33,11 +47,82 @@
         "gun_type": "m9",
         "ammo_type": "9mm",
         "fake_skills": [ [ "gun", 0 ], [ "pistol", 0 ] ],
-        "fake_dex": 2,
-        "fake_per": 4,
+        "fake_dex": 1,
+        "fake_per": 2,
         "ranges": [ [ 0, 14, "DEFAULT" ] ],
         "require_targeting_player": false,
         "description": "The feral security guard fires their Beretta M9A1!"
+      }
+    ]
+  },
+  {
+    "//": "狂人プレッパー(銃もち):射撃を弱体化",
+    "id": "mon_feral_prepper",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_prepper",
+    "hp": 70,
+    "starting_ammo": { "9mm": 1 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 10,
+        "move_cost": 50,
+        "//": "(movecost is 50 to show that the feral prepper doesn't take time to aim, and just shoots barbaric-ly)",
+        "gun_type": "m9",
+        "ammo_type": "9mm",
+        "fake_skills": [ [ "gun", 0 ], [ "pistol", 0 ] ],
+        "fake_dex": 1,
+        "fake_per": 1,
+        "ranges": [ [ 0, 14, "DEFAULT" ], [ 10, 35, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "description": "The feral prepper haphazardly fires their firearm!"
+      }
+    ]  
+  },
+  {
+    "//": "狂人州兵(銃もち):射撃を弱体化",
+    "id": "mon_feral_militia",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_militia",
+    "hp": 90,
+    "starting_ammo": { "223": 1 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "move_cost": 150,
+        "gun_type": "feral_militia_gun",
+        "ammo_type": "223",
+        "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
+        "fake_dex": 2,
+        "fake_per": 1,
+        "ranges": [ [ 0, 15, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "description": "The mad militiaman fires their rifle!"
+      }
+    ]
+  },
+  {
+    "//": "狂人バイカー(銃もち):射撃を弱体化",
+    "id": "mon_feral_jackboot",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_militia",
+    "speed": 95,
+    "starting_ammo": { "shot_00": 1 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 10,
+        "move_cost": 150,
+        "gun_type": "feral_jackboot_gun",
+        "ammo_type": "shot_00",
+        "fake_skills": [ [ "gun", 1 ], [ "shotgun",1 ] ],
+        "fake_dex": 2,
+        "fake_per": 1,
+        "//": "(ferals don't care about max-effective range.)",
+        "ranges": [ [ 0, 25, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "description": "The feral biker fires their shotgun!"
       }
     ]
   }

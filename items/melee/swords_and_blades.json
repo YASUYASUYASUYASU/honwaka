@@ -317,19 +317,7 @@
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "trench knife", "str_pl": "trench knives" },
-    "description": "This stout combat knife features a steel guard to protect the user's knuckles.  The guard can also be used for striking or blocking, and the knife can also be used to butcher corpses.",
-    "weight": "608 g",
-    "volume": "500 ml",
-    "longest_side": "20 cm",
-    "price": 11000,
-    "price_postapoc": 1250,
-    "bashing": 6,
-    "cutting": 19,
-    "material": [ "steel", "wood" ],
-    "symbol": ";",
-    "color": "dark_gray",
-    "techniques": [ "WBLOCK_1" ],
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
-    "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE" ,"UNARMED_WEAPON"]
+    "copy-from": "knife_trench",
+    "extend": { "flags": [ "UNARMED_WEAPON" ] }
   }
 ]

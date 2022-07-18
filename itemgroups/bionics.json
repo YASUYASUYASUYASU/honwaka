@@ -1,5 +1,6 @@
 [
   {
+    "//": "体内炉と体内格納庫の生成を追記",
     "type": "item_group",
     "id": "bionics",
     "copy-from": "bionics",
