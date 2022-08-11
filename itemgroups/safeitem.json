@@ -1,0 +1,43 @@
+[
+  {
+    "//": "現在大したものが入っていない金庫(vault(銀行の金庫)・金庫(jewelry_safe/mansion_safe)でCBMを生成するように設定)",
+    "type": "item_group",
+    "id": "vault",
+    "copy-from": "vault",
+    "extend": {
+      "items": [
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "jewelry_safe",
+    "copy-from": "jewelry_safe",
+    "extend": {
+      "items": [
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "mansion_safe",
+    "copy-from": "mansion_safe",
+    "subtype": "collection",
+    "extend": {
+      "items": [
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+      ]
+    }
+  }
+]

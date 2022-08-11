@@ -1,0 +1,28 @@
+[
+  {
+    "result": "minifreezer",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "copy-from": "minifreezer",
+    "time": "2 h"
+  },
+  {
+    "result": "minifridge",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "copy-from": "minifreezer",
+    "time": "2 h"
+  },
+  {
+    "result": "fridgetank",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "copy-from": "fridgetank",
+    "skills_required": [ "fabrication", 4 ],
+    "time": "2 h"
+  }
+]
