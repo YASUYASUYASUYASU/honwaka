@@ -1,10 +1,32 @@
 [
   {
+    "//1": "フレーミングアイの視界範囲低下",
     "id": "mon_flaming_eye",
     "type": "MONSTER",
     "copy-from": "mon_flaming_eye",
     "vision_day": 20,
     "vision_night": 10
-
+  },
+  {
+    "//1": "ポータル嵐時の人間の扉を開ける能力を無効化",
+    "id": "mon_hallucinator",
+    "type": "MONSTER",
+    "name": { "str": "person" },
+    "copy-from": "mon_hallucinator",
+    "path_settings": { "max_dist": 60, "allow_open_doors": false },
+    "flags": [
+      "NO_BREATHE",
+      "SEES",
+      "HEARS",
+      "ACIDPROOF",
+      "FIREPROOF",
+      "LOUDMOVES",
+      "SLUDGEPROOF",
+      "SMELLS",
+      "STUN_IMMUNE",
+      "WEBWALK",
+      "ALL_SEEING",
+      "ALWAYS_VISIBLE"
+    ]
   }
 ]

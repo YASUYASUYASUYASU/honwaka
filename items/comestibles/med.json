@@ -1,5 +1,14 @@
 [
   {
+    "//": "アスピリンの健康度低下を削除",
+    "id": "aspirin",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "aspirin" },
+    "copy-from": "aspirin",
+    "healthy": 0
+  },
+  {
     "//": "包帯系アイテムの使用時間削減の記述",
     "id": "adhesive_bandages",
     "type": "COMESTIBLE",
