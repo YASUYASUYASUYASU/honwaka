@@ -23,7 +23,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "qualities": [ { "id": "WRENCH", "level": 1 } ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 1 ] ] }
     },
-    "flags": [ "FLUIDTANK", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "FLUIDTANK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 26, "stab": 8 }
   },
   {
@@ -270,7 +270,7 @@
       { "item": "steel_chunk", "count": [ 2, 4 ] },
       { "item": "scrap", "count": [ 2, 10 ] }
     ],
-    "flags": [ "FLUIDTANK", "OPAQUE", "OBSTACLE", "AIRCRAFT_REPAIRABLE_NOPROF", "SIMPLE_PART" ],
+    "flags": [ "FLUIDTANK", "OPAQUE", "OBSTACLE", "AIRCRAFT_REPAIRABLE_NOPROF", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 30, "stab": 12 }
   },
   {
@@ -329,7 +329,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "qualities": [ { "id": "WRENCH", "level": 2 } ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
-    "flags": [ "GASTANK" ],
+    "flags": [ "GASTANK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 28, "stab": 12 }
   },
   {
@@ -360,7 +360,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "qualities": [ { "id": "WRENCH", "level": 2 } ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
-    "flags": [ "FLUIDTANK" ],
+    "flags": [ "FLUIDTANK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 28, "stab": 12 }
   },
   {
@@ -391,7 +391,56 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "qualities": [ { "id": "WRENCH", "level": 2 } ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
-    "flags": [ "GASTANK" ],
+    "flags": [ "GASTANK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 28, "stab": 12 }
+  },
+  {
+    "id": "tank_55gal_drum_aluminum",
+    "copy-from": "tank_55gal_drum",
+    "type": "vehicle_part",
+    "name": { "str": "aluminum tank (200L)" },
+    "item": "55gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 25 ] } ]
+  },
+  {
+    "id": "tank_30gal_drum_aluminum",
+    "copy-from": "tank_30gal_drum",
+    "type": "vehicle_part",
+    "name": { "str": "aluminum tank (100L)" },
+    "item": "30gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 13 ] } ]
+  },
+  {
+    "id": "external_tank_small_aluminum",
+    "copy-from": "external_tank_small",
+    "type": "vehicle_part",
+    "name": { "str": "external aluminum tank (100L)" },
+    "looks_like": "afs_roof_external_tank",
+    "item": "30gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 13 ] } ]
+  },
+  {
+    "id": "afs_small_roof_external_tank_aluminum",
+    "copy-from": "external_tank_small_aluminum",
+    "type": "vehicle_part",
+    "name": { "str": "roof-mounted external aluminum tank (100L)" },
+    "item": "30gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 13 ] } ]
+  },
+  {
+    "id": "external_tank_aluminum",
+    "copy-from": "external_tank",
+    "type": "vehicle_part",
+    "name": { "str": "external aluminum tank (200L)" },
+    "item": "55gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 25 ] } ]
+  },
+  {
+    "id": "afs_roof_external_tank_aluminum",
+    "copy-from": "afs_roof_external_tank",
+    "type": "vehicle_part",
+    "name": { "str": "roof-mounted external aluminum tank (200L)" },
+    "item": "55gal_drum_aluminum",
+    "breaks_into": [ { "item": "scrap_aluminum", "count": [ 4, 25 ] } ]
   }
 ]

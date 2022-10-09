@@ -8,7 +8,7 @@
     "color": "light_blue",
     "broken_symbol": "O",
     "broken_color": "light_gray",
-    "flags": [ "ROTOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF","FOLDABLE" ],
+    "flags": [ "ROTOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "folded_volume": "2500 ml",
     "description": "A set of aerofoil helicopter rotors, when spun at high speed, they generate thrust via lift."
   },

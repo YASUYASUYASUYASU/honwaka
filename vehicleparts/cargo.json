@@ -19,7 +19,7 @@
       "removal": { "skills": [ [ "fabrication", 2 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
       "repair": { "skills": [ [ "fabrication", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ] ] }
     },
-    "flags": [ "CARGO", "BOARDABLE", "COVERED", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "COVERED", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": "ig_vp_cloth"
   },
   {
@@ -110,7 +110,7 @@
         "using": [ [ "repair_welding_standard", 1 ] ]
       }
     },
-    "flags": [ "CARGO", "OBSTACLE", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "OBSTACLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 4 }
   },
   {
@@ -138,7 +138,7 @@
         "using": [ [ "repair_welding_standard", 1 ] ]
       }
     },
-    "flags": [ "CARGO", "BOARDABLE", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 6 }
   },
   {

@@ -35,7 +35,7 @@
     "description": "A sheet of glass that lets you see outside the vehicle.",
     "durability": 200,
     "damage_reduction": { "all": 5 },
-    "flags": [ "OVER", "WINDSHIELD", "OBSTACLE", "WINDOW", "SIMPLE_PART" ],
+    "flags": [ "OVER", "WINDSHIELD", "OBSTACLE", "WINDOW", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "item": "glass_sheet",
     "location": "center",
     "looks_like": "t_wall_glass",
@@ -88,14 +88,14 @@
     "damage_reduction": { "all": 16 },
     "description": "A sheet of glass that lets you see outside the vehicle.  Reinforced with wire to make it harder to break than normal glass.",
     "durability": 250,
-    "flags": [ "WINDSHIELD", "OBSTACLE", "WINDOW", "SIMPLE_PART" ],
+    "flags": [ "WINDSHIELD", "OBSTACLE", "WINDOW", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "item": "reinforced_glass_sheet",
     "location": "center",
     "looks_like": "windshield",
     "name": { "str": "reinforced windshield" },
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },

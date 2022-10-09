@@ -62,7 +62,7 @@
       "repair": { "skills": [ [ "fabrication", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ] ] }
     },
     "damage_reduction": { "all": 0, "bash": 3 },
-    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "DOOR", "FOLDABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
+    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "DOOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
   },
   {
     "copy-from": "cloth_door_abstract",
@@ -227,7 +227,7 @@
     "damage_reduction": { "all": 20 },
     "description": "A strong door.  A window lets you see through it when closed.",
     "durability": 420,
-    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "DOOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "DOOR", "WINDOW", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "item": "frame",
     "location": "center",
     "looks_like": "door",
@@ -279,7 +279,7 @@
     "damage_reduction": { "all": 30 },
     "description": "A very strong door.  A window lets you see through it when closed.",
     "durability": 900,
-    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "DOOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "LOCKABLE_CARGO", "OBSTACLE", "OPENABLE", "MULTISQUARE", "BOARDABLE", "COVERED", "DOOR", "WINDOW", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "item": "hdframe",
     "location": "center",
     "looks_like": "hatch",
