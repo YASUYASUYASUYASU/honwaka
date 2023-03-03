@@ -107,7 +107,6 @@
     "rolling_resistance": 1.5,
     "wheel_type": "off-road",
     "description": "Attach this part to a beast of burden to allow it to pull your vehicle.",
-    "size": 25,
     "power": 0,
     "location": "structure",
     "requirements": {
@@ -2911,7 +2910,6 @@
     "damage_modifier": 5,
     "durability": 80,
     "description": "A funnel that will collect rainwater into the tank beneath it.",
-    "size": 200,
     "item": "leather_funnel",
     "location": "on_roof",
     "folded_volume": "250 ml",
@@ -2936,7 +2934,6 @@
     "damage_modifier": 5,
     "durability": 60,
     "description": "A funnel that will collect rainwater into the tank beneath it.",
-    "size": 240,
     "item": "birchbark_funnel",
     "location": "on_roof",
     "folded_volume": "250 ml",
@@ -2961,7 +2958,6 @@
     "damage_modifier": 5,
     "durability": 80,
     "description": "A funnel that will collect rainwater into the tank beneath it.",
-    "size": 200,
     "item": "makeshift_funnel",
     "location": "on_roof",
     "folded_volume": "250 ml",
@@ -2985,7 +2981,6 @@
     "damage_modifier": 5,
     "durability": 200,
     "description": "A funnel that will collect rainwater into the tank beneath it.",
-    "size": 300,
     "item": "funnel",
     "location": "on_roof",
     "requirements": {
@@ -3009,7 +3004,6 @@
     "damage_modifier": 30,
     "durability": 300,
     "description": "A funnel that will collect rainwater into the tank beneath it.",
-    "size": 400,
     "item": "metal_funnel",
     "location": "on_roof",
     "requirements": {
