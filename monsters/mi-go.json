@@ -1,5 +1,6 @@
 [
   {
+    "//1": "ミ=ゴ達は感知範囲を落とし、速度を低下させる",
     "id": "mon_mi_go",
     "type": "MONSTER",
     "copy-from": "mon_mi_go",

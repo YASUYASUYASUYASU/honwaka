@@ -4,7 +4,7 @@
     "id": "mon_feral_human_pipe",
     "type": "MONSTER",
     "name": { "str": "feral human" },
-    "copy-from": "mon_zombie",
+    "copy-from": "mon_feral_human_pipe",
     "special_attacks": [
       {
         "type": "gun",
@@ -13,8 +13,8 @@
         "gun_type": "feral_human_thrown_rock",
         "ammo_type": "rock",
         "no_ammo_sound": "",
-        "fake_skills": [ [ "throw", 1 ] ],
-        "fake_str": 7,
+        "fake_skills": [ [ "throw", 0 ] ],
+        "fake_str": 6,
         "require_targeting_player": false,
         "ranges": [ [ 2, 6, "DEFAULT" ] ],
         "description": "The feral human throws a rock!"
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "//": "フェラルヒューマン(斧もち):投石を弱体化",
+    "//": "フェラルヒューマン(斧もち):斧攻撃を弱体化",
     "id": "mon_feral_human_axe",
     "type": "MONSTER",
     "copy-from": "mon_feral_human_axe",

@@ -1,0 +1,44 @@
+[
+  {
+
+    "id": "rebar_rail",
+    "type": "AMMO",
+    "name": { "str_sp": "弾薬(ﾚｰﾙ/鉄筋)" },
+    "description": "一端を尖らせた真っ直ぐな短い鉄筋です。かなり強力な電磁兵器の発射体として利用できます。",
+    "weight": "236 g",
+    "longest_side": "16 cm",
+    "volume": "300 ml",
+    "price": 1000,
+    "price_postapoc": 250,
+    "to_hit": -1,
+    "bashing": 5,
+    "cutting": 1,
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 10,
+    "ammo_type": "metal_rail",
+    "range": 40,
+    "damage": { "damage_type": "stab", "amount": 70, "armor_penetration": 25 },
+    "dispersion": 150,
+    "effects": [ "RECYCLED", "NON_FOULING" ]
+  },
+  {
+    "id": "steel_rail",
+    "copy-from": "rebar_rail",
+    "type": "AMMO",
+    "name": { "str_sp": "弾薬(ﾚｰﾙ/鋼)" },
+    "description": "一端を尖らせた真っ直ぐに鍛造した短い鋼鉄です。かなり強力な電磁兵器の発射体として利用できます。",
+    "weight": "212 g",
+    "volume": "270 ml",
+    "price": 1500,
+    "price_postapoc": 500,
+    "bashing": 4,
+    "cutting": 2,
+    "material": [ "steel" ],
+    "color": "light_gray",
+    "dispersion": 0,
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
+    "relative": { "range": 10, "damage": { "damage_type": "stab", "amount": -5, "armor_penetration": 15 } }
+  }
+]

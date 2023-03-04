@@ -1,7 +1,9 @@
 [
   {
+    "//1": "カウンターテーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_counter",
+    "copy-from": "f_counter",
     "name": "counter",
     "description": "Affixed to the wall or found in kitchens or stores.",
     "symbol": "#",
@@ -10,6 +12,7 @@
     "coverage": 60,
     "required_str": 10,
     "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF" ],
+    "connect_groups": "COUNTER",
     "connects_to": "COUNTER",
     "deconstruct": {
       "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": [ 6, 10 ] } ]
@@ -26,6 +29,7 @@
     "workbench": { "multiplier": 1.5, "mass": 200000, "volume": "100L" }
   },
   {
+    "//1": "テーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_cupboard",
     "name": "cupboard",
@@ -36,7 +40,9 @@
     "coverage": 55,
     "required_str": -1,
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "CONTAINER", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "FLAT_SURF" ],
+    "connect_groups": "COUNTER",
     "connects_to": "COUNTER",
+    "rotates_to": "INDOORFLOOR",
     "deconstruct": {
       "items": [ { "item": "2x4", "count": 3 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": [ 6, 8 ] } ]
     },
@@ -56,6 +62,7 @@
     "workbench": { "multiplier": 1.5, "mass": 200000, "volume": "100L" }
   },
   {
+    "//1": "カウンターの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_counter_gate_c",
     "name": "closed counter gate",
@@ -67,6 +74,7 @@
     "required_str": 4,
     "coverage": 60,
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "DOOR", "ORGANIC" ],
+    "connect_groups": "COUNTER",
     "connects_to": "COUNTER",
     "open": "f_counter_gate_o",
     "crafting_pseudo_item": "medium_surface_pseudo",
@@ -80,6 +88,7 @@
     }
   },
   {
+    "//1": "カウンターの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_counter_gate_o",
     "name": "open counter gate",
@@ -88,8 +97,9 @@
     "color": "blue",
     "move_cost_mod": 2,
     "required_str": 4,
-    "connects_to": "COUNTER",
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "FLAT", "ROAD", "ORGANIC" ],
+    "connect_groups": "COUNTER",
+    "connects_to": "COUNTER",
     "close": "f_counter_gate_c",
     "deconstruct": { "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": 10 } ] },
     "bash": {
@@ -101,6 +111,7 @@
     }
   },
   {
+    "//1": "机の制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_desk",
     "name": "desk",
@@ -112,6 +123,7 @@
     "required_str": 5,
     "crafting_pseudo_item": "medium_surface_pseudo",
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "CONTAINER", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "FLAT_SURF" ],
+    "rotates_to": "INDOORFLOOR",
     "deconstruct": {
       "items": [ { "item": "2x4", "count": 8 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": [ 16, 24 ] } ]
     },
@@ -131,6 +143,7 @@
     "workbench": { "multiplier": 1.5, "mass": 20000, "volume": "100L" }
   },
   {
+    "//1": "作業台の制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_workbench",
     "name": "workbench",
@@ -160,6 +173,7 @@
     "workbench": { "multiplier": 2, "mass": 500000, "volume": "200L" }
   },
   {
+    "//1": "防水シート(革)の制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_leather_tarp",
     "name": "leather tarp",
@@ -183,6 +197,7 @@
     "workbench": { "multiplier": 1, "mass": 500000, "volume": "100L" }
   },
   {
+    "//1": "レジャーシートの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_plastic_groundsheet",
     "name": "plastic groundsheet",
@@ -206,6 +221,7 @@
     "workbench": { "multiplier": 1, "mass": 50000, "volume": "100L" }
   },
   {
+    "//1": "繊維マットの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_fiber_mat",
     "name": "fiber mat",
@@ -229,9 +245,10 @@
     "workbench": { "multiplier": 1, "mass": 50000, "volume": "100L" }
   },
   {
+    "//1": "折り畳みテーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_tourist_table",
-    "name": "tourist table",
+    "name": "folding table",
     "description": "Small metal folding table, ideal for off-road trips into the wild.  Can be used as a workbench in a pinch.",
     "symbol": "#",
     "bgcolor": "light_gray",
@@ -258,6 +275,7 @@
     "workbench": { "multiplier": 1.2, "mass": 100000, "volume": "100L" }
   },
   {
+    "//1": "木製テーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_table",
     "name": "table",
@@ -288,6 +306,7 @@
     "workbench": { "multiplier": 1.5, "mass": 20000, "volume": "100L" }
   },
   {
+    "//1": "コ－ヒーテーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_coffee_table",
     "name": "table",
@@ -318,6 +337,7 @@
     "workbench": { "multiplier": 1, "mass": 20000, "volume": "100L" }
   },
   {
+    "//1": "金属テーブルの制作速度、アイテムvolumeを増加させておく",
     "type": "furniture",
     "id": "f_metal_table",
     "name": "metal table",

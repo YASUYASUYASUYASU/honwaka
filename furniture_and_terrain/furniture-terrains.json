@@ -1,5 +1,6 @@
 [
   {
+    "//1": "街灯を車の邪魔にならないようにしておく(通過可能に)",
     "type": "furniture",
     "id": "f_street_light",
     "name": "street light",
@@ -27,6 +28,7 @@
     }
   },
   {
+    "//1": "信号機を車の邪魔にならないようにしておく(通過可能に)",
     "type": "furniture",
     "id": "f_traffic_light",
     "name": "traffic light",

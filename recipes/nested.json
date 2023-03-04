@@ -1,0 +1,24 @@
+[
+  {
+    "//1": "弓のネストにモダンリカーブボウとアーチェリー弓、コンパウンドハンティングボウを追加",
+    "id": "nested_bows",
+    "type": "nested_category",
+    "copy-from": "nested_bows",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "name": "bows",
+    "nested_category_data": [ "selfbow", "shortbow", "longbow", "compositebow", "compgreatbow", "woodgreatbow","recurbow", "compbow", "reflexrecurvebow" ]
+  },
+  {
+    "//1": "クロスボウのネストにコンパウンドクロスボウを追加",
+    "id": "nested_crossbows",
+    "type": "nested_category",
+    "copy-from": "nested_crossbows",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "name": "crossbows",
+    "nested_category_data": [ "bullet_crossbow", "compositecrossbow", "huge_crossbow", "hand_crossbow", "rep_crossbow", "crossbow", "compcrossbow"]
+  }
+]

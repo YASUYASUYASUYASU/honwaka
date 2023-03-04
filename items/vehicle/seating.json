@@ -2,43 +2,22 @@
   {
     "type": "GENERIC",
     "id": "seat",
+    "copy-from": "seat",
     "name": { "str": "seat" },
-    "description": "A soft car seat made from synthetic fabric.",
-    "weight": "9071 g",
-    "to_hit": -4,
-    "color": "red",
-    "symbol": "0",
-    "material": [ "cotton", "steel" ],
-    "volume": "7500 ml",
-    "bashing": 4,
-    "category": "veh_parts",
-    "price": 35000,
-    "price_postapoc": 100,
     "degradation_multiplier": 0
   },
   {
     "type": "GENERIC",
-    "copy-from": "seat",
+    "copy-from": "seat_leather",
     "id": "seat_leather",
     "name": { "str": "leather seat" },
-    "description": "A soft car seat covered with leather.",
-    "material": [ "leather", "cotton", "steel" ],
-    "price": 60000,
-    "price_postapoc": 250,
     "degradation_multiplier": 0
   },
   {
     "type": "GENERIC",
     "id": "saddle",
+    "copy-from": "saddle",
     "name": { "str": "saddle" },
-    "description": "A leather-covered seat designed to be straddled.",
-    "weight": "300 g",
-    "material": [ "plastic", "aluminum" ],
-    "volume": "1250 ml",
-    "bashing": 2,
-    "price": 2500,
-    "price_postapoc": 250,
-    "copy-from": "seat",
     "degradation_multiplier": 0
   }
 ]

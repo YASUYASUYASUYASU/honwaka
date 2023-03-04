@@ -1,5 +1,6 @@
 [
   {
+    "//1": "地雷の解除難易度を低下させ、ダメージを低下させる(半分に)",
     "type": "trap",
     "id": "tr_landmine",
     "trigger_weight": "200 g",

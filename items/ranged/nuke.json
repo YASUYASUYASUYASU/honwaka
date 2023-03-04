@@ -1,40 +1,12 @@
 [
   {
-    "id": "mounted_mininuke_launcher",
-    "copy-from": "turret",
-    "type": "vehicle_part",
-    "name": { "str": "車載/小型原子爆弾ランチャー" },
-    "item": "mininuke_launcher",
-    "color": "green",
-    "broken_color": "green",
-    "breaks_into": [ { "item": "scrap", "count": 27 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
-    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
-  },{
-    "type": "AMMO",
-    "id": "mininuke_mod",
-    "price": 180000,
-    "//": "Never marketed pre-Cataclysm.",
-    "name": { "str": "小型原子爆弾(改良型)" },
-    "symbol": "*",
-    "color": "green",
-    "description": "大幅に改造された携帯用核兵器です。特殊なランチャーから発射する事を想定しており、時限式ではなく着弾の衝撃で爆発するように設計されています。多少は軽量化されていますが、手動では起動できません。爆風の範囲よりは遠くまで発射できそうです。多分。",
-    "material": [ "plastic" ],
-    "volume": "97 L",
-    "weight": "34500 g",
-    "bashing": 8,
-    "ammo_type": "mininuke_mod",
-    "damage": { "damage_type": "stab", "amount": 14 },
-    "stack_size": 2,
-    "effects": [ "MININUKE_MOD", "NEVER_MISFIRES" ]
-  },
-  {
     "id": "mininuke_launcher",
     "looks_like": "m79",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
     "color": "dark_gray",
-    "name": { "str": "小型原子爆弾ランチャー" },
+    "name": { "str_sp": "ランチャー(小型原子爆弾)" },
     "description": "鉄くずから作った自作の携帯型ランチャーです。改良型の原子爆弾を発射できるように設計された、恐るべき威力を誇る兵器です。",
     "price": 750000,
     "price_postapoc": 750,
@@ -53,11 +25,5 @@
     "reload": 800,
     "valid_mod_locations": [ [ "sling", 1 ], [ "grip mount", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ], [ "underbarrel mount", 1 ] ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "mininuke_mod": 1 } } ]
-  },
-  {
-    "type": "ammunition_type",
-    "id": "mininuke_mod",
-    "name": "modified mininuke",
-    "default": "mininuke_mod"
   }
 ]

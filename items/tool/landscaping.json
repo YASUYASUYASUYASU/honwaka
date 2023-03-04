@@ -1,5 +1,6 @@
 [
   {
+    "//": "シャベルの性能アップ",
     "id": "shovel",
     "type": "TOOL",
     "name": { "str": "shovel" },

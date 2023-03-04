@@ -1,5 +1,6 @@
 [
   {
+    "//": "ロボトミー君の性能アップ",
     "id": "e_tool",
     "type": "TOOL",
     "name": { "str": "entrenching tool" },

@@ -1,5 +1,6 @@
 [
   {
+    "//1": "こちらはボルトの定義、本体から消えてもいいように定義をそのまま持ってきている",
     "type": "AMMO",
     "id": "bolt_steel",
     "price": 1200,
@@ -9,6 +10,7 @@
     "description": "A fletched aluminum crossbow bolt with a bladed tip.  Useful for maximising damage to the target.",
     "material": [ "aluminum", "steel" ],
     "volume": "250 ml",
+    "longest_side": "400 mm",
     "price_postapoc": 1000,
     "weight": "40 g",
     "bashing": 5,
@@ -31,6 +33,7 @@
     "description": "A fletched aluminum crossbow bolt with a pointed tip.  Useful for piercing armor.",
     "material": [ "aluminum", "steel" ],
     "volume": "250 ml",
+    "longest_side": "400 mm",
     "price_postapoc": 750,
     "weight": "40 g",
     "bashing": 3,
@@ -54,6 +57,7 @@
     "description": "A fletched aluminum crossbow bolt with a blunt tip.  Useful for hunting small woodland creatures without splattering them all over the ground.",
     "material": [ "aluminum", "steel" ],
     "volume": "250 ml",
+    "longest_side": "400 mm",
     "price_postapoc": 250,
     "weight": "40 g",
     "bashing": 3,
@@ -78,6 +82,7 @@
     "description": "A fletched carbon fiber crossbow bolt shaft with an expanding broadhead tip.  Deals impressive damage to targets.",
     "material": [ "kevlar_rigid", "steel" ],
     "volume": "250 ml",
+    "longest_side": "400 mm",
     "price_postapoc": 1500,
     "weight": "30 g",
     "bashing": 1,
@@ -92,6 +97,7 @@
     "effects": [ "RECOVER_30" ]
   },
   {
+    "//1": "各種クロスボウはリロード時間を短縮させる(10分の１程度)",
     "id": "hand_crossbow",
     "type": "GUN",
     "name": { "str": "pistol crossbow" },

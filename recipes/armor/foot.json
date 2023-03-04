@@ -1,12 +1,13 @@
 [
   {
+    "//1": "神秘のブーツのレシピ",
     "result": "boots_bone",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
     "difficulty": 3,
-    "time": "20m",
+    "time": "1 h",
     "autolearn": true,
     "book_learn": [ [ "manual_tailor", 2 ], [ "textbook_tailor", 2 ] ],
     "using": [ [ "sewing_standard", 18 ] ],

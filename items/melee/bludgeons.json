@@ -1,20 +1,4 @@
 [
-    {
-    "type": "GENERIC",
-    "id": "battletorch_done",
-    "name": { "str": "ルイビルスロータラー(使用済)" },
-    "description": "耐熱性のノーメックス生地で覆った木製バットです。このままでも丁度いい近接武器になりますが、分解する事でより優れた野球バットとノーメックスの布片へと再利用できます。",
-    "weight": "1343 g",
-    "to_hit": 3,
-    "color": "brown",
-    "symbol": "/",
-    "material": [ "wood" ],
-    "techniques": [ "WBLOCK_1" ],
-    "flags": [ "DURABLE_MELEE" ],
-    "volume": "1750 ml",
-    "bashing": 19,
-    "price": 18000
-  },
   {
     "type": "GENERIC",
     "id": "i_staff",

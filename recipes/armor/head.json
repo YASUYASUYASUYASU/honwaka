@@ -1,16 +1,16 @@
 [
   {
+    "//1": "サバイバーヘルメットのレシピ",
     "result": "helmet_survivor",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "tailor",
-    "difficulty": 6,
+    "difficulty": 5,
     "skills_required": [ "fabrication", 4 ],
-    "time": "30m",
+    "time": "1 h",
     "autolearn": true,
-    "using": [ [ "sewing_standard", 10 ] ],
-    "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
+    "using": [ [ "sewing_standard", 10 ], [ "welding_standard", 30 ], [ "steel_standard", 20 ] ],
     "components": [
       [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
@@ -21,154 +21,99 @@
     ]
   },
   {
+    "//1": "XLサバイバーヘルメットのレシピ",
     "result": "helmet_xlsurvivor",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 6,
-    "skills_required": [ "fabrication", 4 ],
-    "time": "2 h",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 20 ] ],
-    "tools": [ [ [ "welder", 84 ], [ "welder_crude", 126 ], [ "soldering_iron", 126 ], [ "toolset", 126 ] ] ],
-    "components": [
-      [ [ "scrap", 4 ] ],
-      [ [ "rag", 6 ] ],
-      [ [ "leather", 16 ], [ "tanned_hide", 3 ] ],
-      [ [ "plastic_chunk", 20 ] ],
-      [ [ "kevlar_plate", 14 ] ],
-      [ [ "hood_rain", 2 ], [ "bag_plastic", 4 ] ],
-      [ [ "duct_tape", 300 ] ]
-    ]
-  },
-  {
-    "result": "helmet_xssurvivor",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 6,
-    "skills_required": [ "fabrication", 4 ],
-    "time": "30m",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 10 ] ],
-    "tools": [ [ [ "welder", 24 ], [ "welder_crude", 30 ], [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
+    "copy-from": "helmet_survivor",
+    "using": [ [ "sewing_standard", 20 ], [ "welding_standard", 40 ], [ "steel_standard", 30 ] ],
     "components": [
       [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
-      [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
-      [ [ "leather", 8 ], [ "tanned_hide", 2 ] ],
+      [ [ "hood_rain", 2 ], [ "bag_plastic", 4 ] ],
+      [ [ "leather", 16 ], [ "tanned_hide", 4 ] ],
+      [ [ "duct_tape", 200 ] ],
+      [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
+    ]
+  },
+  {
+    "//1": "XSサバイバーヘルメットのレシピ",
+    "result": "helmet_xssurvivor",
+    "type": "recipe",
+    "copy-from": "helmet_survivor",
+    "using": [ [ "sewing_standard", 5], [ "welding_standard", 20 ], [ "steel_standard", 10 ] ],
+    "components": [
+      [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
+      [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
+      [ [ "hood_rain", 1 ], [ "bag_plastic", 1 ] ],
+      [ [ "leather", 4 ], [ "tanned_hide", 1 ] ],
       [ [ "duct_tape", 70 ] ],
       [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
     ]
   },
   {
+    "//1": "重量型サバイバーヘルメットのレシピ",
     "result": "helmet_hsurvivor",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 7,
+    "copy-from": "helmet_survivor",
+    "difficulty": 6,
     "skills_required": [ "fabrication", 5 ],
-    "time": "2 h",
+    "time": "1 h",
     "autolearn": true,
-    "using": [ [ "sewing_standard", 10 ] ],
-    "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
+    "using": [ [ "sewing_standard", 10 ], [ "welding_standard", 30 ], [ "steel_standard", 20 ] ],
     "components": [
       [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
       [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
-      [ [ "steel_chunk", 2 ], [ "scrap", 6 ] ],
-      [ [ "duct_tape", 75 ] ],
-      [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
-    ]
-  },
-  {
-    "result": "helmet_xlhsurvivor",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 7,
-    "skills_required": [ "fabrication", 5 ],
-    "time": "2 h",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 10 ] ],
-    "tools": [ [ [ "welder", 84 ], [ "welder_crude", 126 ], [ "soldering_iron", 126 ], [ "toolset", 126 ] ] ],
-    "components": [
-      [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
-      [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
-      [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
+      [ [ "leather", 8 ], [ "tanned_hide", 2 ] ],
       [ [ "steel_chunk", 2 ], [ "scrap", 6 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
     ]
   },
   {
-    "result": "helmet_xshsurvivor",
+    "//1": "XL重量型サバイバーヘルメットのレシピ",
+    "result": "helmet_xlhsurvivor",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 7,
-    "skills_required": [ "fabrication", 5 ],
-    "time": "2 h",
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 10 ] ],
-    "tools": [ [ [ "welder", 24 ], [ "welder_crude", 30 ], [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
+    "copy-from": "helmet_hsurvivor",
+    "using": [ [ "sewing_standard", 20 ], [ "welding_standard", 40 ], [ "steel_standard", 30 ] ],
     "components": [
       [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
-      [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
-      [ [ "steel_chunk", 2 ], [ "scrap", 6 ] ],
+      [ [ "hood_rain", 2 ], [ "bag_plastic", 4 ] ],
+      [ [ "leather", 16 ], [ "tanned_hide", 4 ] ],
+      [ [ "steel_chunk", 4 ], [ "scrap", 12 ] ],
+      [ [ "duct_tape", 300 ] ],
+      [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
+    ]
+  },
+  {
+    "//1": "XS重量型サバイバーヘルメットのレシピ",
+    "result": "helmet_xshsurvivor",
+    "type": "recipe",
+    "copy-from": "helmet_hsurvivor",
+    "using": [ [ "sewing_standard", 5 ], [ "welding_standard", 15 ], [ "steel_standard", 10 ] ],
+    "components": [
+      [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
+      [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
+      [ [ "hood_rain", 1 ], [ "bag_plastic", 1 ] ],
+      [ [ "leather", 4 ], [ "tanned_hide", 1 ] ],
+      [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ],
       [ [ "duct_tape", 75 ] ],
       [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ]
     ]
   },
   {
+    "//1": "サバイバー防火フードヘルメットのレシピ(制作難易度の低下と制作時間の短縮)",
     "result": "hood_fsurvivor",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 8,
-    "skills_required": [ "fabrication", 6 ],
-    "time": "2 h",
-    "autolearn": true,
-    "book_learn": [ [ "textbook_fireman", 7 ] ],
-    "using": [ [ "sewing_standard", 40 ] ],
-    "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
-    "components": [
-      [ [ "nomex", 8 ] ],
-      [ [ "kevlar_plate", 4 ] ],
-      [ [ "nomex_hood", 1 ] ],
-      [ [ "duct_tape", 100 ] ]
-    ]
-  },
-  {
-    "result": "goggles_ir",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "electronics",
+    "copy-from": "helmet_survivor",
     "difficulty": 6,
-    "skills_required": [ "tailor", 1 ],
-    "time": "40 m",
-    "reversible": true,
-    "decomp_learn": 4,
-    "book_learn": [ [ "textbook_fireman", 6 ], [ "advanced_electronics", 5 ], [ "textbook_electronics", 6 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "goggles_ski", 1 ], [ "goggles_welding", 1 ], [ "mask_gas", 1 ] ],
-      [ [ "power_supply", 1 ] ],
-      [ [ "amplifier", 4 ] ],
-      [ [ "e_scrap", 2 ] ],
-      [ [ "scrap", 2 ] ]
-    ]
+    "skills_required": [ "fabrication", 5 ],
+    "time": "2 h"
   },
   {
-    "result": "goggles_nv",
+    "//1": "赤外線ゴーグルのレシピ",
+    "result": "goggles_ir",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -178,12 +123,26 @@
     "time": "40 m",
     "reversible": true,
     "decomp_learn": 4,
-    "book_learn": [ [ "textbook_fireman", 7 ], [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ] ],
+    "book_learn": [ [ "textbook_fireman", 5 ], [ "advanced_electronics", 5 ], [ "textbook_electronics", 5 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "goggles_ski", 1 ], [ "goggles_welding", 1 ], [ "mask_gas", 1 ] ],
-      [ [ "power_supply", 1 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "scrap", 2 ] ]
+    ]
+  },
+  {
+    "//1": "光増幅ゴーグルのレシピ",
+    "result": "goggles_nv",
+    "type": "recipe",
+    "copy-from": "goggles_ir",
+    "components": [
+      [ [ "goggles_ski", 1 ], [ "goggles_welding", 1 ], [ "mask_gas", 1 ] ],
+      [ [ "power_supply", 4 ] ],
       [ [ "amplifier", 3 ] ],
+      [ [ "e_scrap", 2 ] ],
       [ [ "scrap", 5 ] ]
     ]
   }

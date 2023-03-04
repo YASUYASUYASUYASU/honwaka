@@ -1,6 +1,6 @@
 [
   {
-    "id": "rifle_3006",
+    "id": "rifle_3006_honwaka",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -39,5 +39,16 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
     "flags": [ "RELOAD_EJECT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "3006": 1 } } ]
+  },
+  {
+    "id": "survivor_special_700",
+    "copy-from": "remington_700",
+    "type": "GUN",
+    "name": { "str": "ライフル(.30-06口径/ｽﾍﾟｼｬﾙ700)", "str_pl": "ライフル(.30-06口径/ｽﾍﾟｼｬﾙ700)" },
+    "description": "錆び付いたレシーバー、レミントン700互換の銃身、折れた松葉杖の上半分。これらの材料に接着剤を塗りダクトテープを巻きつけて、どうにかライフルらしき形に整え、仕上げにありったけの祈りをこめて完成した、真の生存者の為のライフルです。",
+    "clip_size": 1,
+    "relative": { "durability": -3 },
+    "proportional": { "price": 0.1, "price_postapoc": 0.1,"reload": 4 },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3006": 1 } } ]
   }
 ]

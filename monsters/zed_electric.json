@@ -1,5 +1,6 @@
 [
   {
+    "//1": "放電系ゾンビの放電攻撃の頻度を減らす",
     "id": "mon_zombie_brute_shocker",
     "copy-from": "mon_zombie_brute_shocker",
     "type": "MONSTER",

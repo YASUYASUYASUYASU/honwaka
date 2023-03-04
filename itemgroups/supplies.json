@@ -1,0 +1,33 @@
+[
+  {
+    "//1": "硝酸アンモニウムを工具店などの資材を置いている場所に出すようにする",
+    "type": "item_group",
+    "id": "hardware_bulk",
+    "copy-from": "hardware_bulk",
+    "extend": {
+      "items": [
+        [ "chem_ammonium_nitrate", 20 ]
+      ]
+    }
+  },
+  {
+    "id": "supplies_hardware",
+    "type": "item_group",
+    "copy-from": "supplies_hardware",
+    "extend": {
+      "items": [
+        [ "chem_ammonium_nitrate", 20 ]
+      ]
+    }
+  },
+  {
+    "id": "supplies_farming",
+    "type": "item_group",
+    "copy-from": "supplies_farming",
+    "extend": {
+      "items": [
+        [ "chem_ammonium_nitrate", 20 ]
+      ]
+    }
+  }
+]

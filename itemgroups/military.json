@@ -1,6 +1,7 @@
 [
   {
-    "//": "パワーアーマーシリーズを軍事設備に生成するよう追記",
+    "//1": "パワーアーマーシリーズを軍事設備に生成するよう追記",
+    "//2": "いつの間にか消えていたフュ―ジョンガンとその弾薬も追加",
     "type": "item_group",
     "id": "military",
     "subtype": "distribution",
@@ -12,7 +13,9 @@
         { "item": "power_armor_heavy", "prob": 1 },
         { "item": "power_armor_helmet_basic", "prob": 1 },
         { "item": "power_armor_helmet_heavy", "prob": 1 },
-        { "item": "power_armor_helmet_light", "prob": 1 }
+        { "item": "power_armor_helmet_light", "prob": 1 },
+        { "item": "ftk93", "prob": 1 },
+        { "item": "laser_pack", "prob": 10 }
       ]
     }
   }

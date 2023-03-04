@@ -1,5 +1,6 @@
 [
   {
+    "//1": "レイザーグロウ達の解体結果を通常の魚肉に変更",
     "id": "mon_alpha_razorclaw",
     "type": "MONSTER",
     "name": { "str": "alpha razorclaw" },

@@ -149,5 +149,22 @@
     "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
     "volume": "0 ml",
     "ammo_type": "money"
+  },
+  {
+    "type": "AMMO",
+    "id": "mininuke_mod",
+    "price": 180000,
+    "name": { "str": "小型原子爆弾(改良型)" },
+    "symbol": "*",
+    "color": "green",
+    "description": "大幅に改造された携帯用核兵器です。特殊なランチャーから発射する事を想定しており、時限式ではなく着弾の衝撃で爆発するように設計されています。多少は軽量化されていますが、手動では起動できません。爆風の範囲よりは遠くまで発射できそうです。多分。",
+    "material": [ "plastic" ],
+    "volume": "97 L",
+    "weight": "34500 g",
+    "bashing": 8,
+    "ammo_type": "mininuke_mod",
+    "damage": { "damage_type": "stab", "amount": 14 },
+    "stack_size": 2,
+    "effects": [ "MININUKE_MOD", "NEVER_MISFIRES" ]
   }
 ]

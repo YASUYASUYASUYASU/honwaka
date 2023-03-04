@@ -1,5 +1,6 @@
 [
   {
+    "//1": "各種ゾンビの掴み攻撃の頻度を下げる",
     "id": "mon_zombie",
     "type": "MONSTER",
     "copy-from": "mon_zombie",

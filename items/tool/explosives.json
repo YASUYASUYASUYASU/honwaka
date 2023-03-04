@@ -198,7 +198,10 @@
     "material": [ "steel" ],
     "symbol": "*",
     "color": "light_gray",
+    "explode_in_fire": true,
+    "explosion": { "power": 300, "shrapnel": { "casing_mass": 410, "fragment_mass": 0.5 } },
     "use_action": {
+      "need_wielding": true,
       "target": "pipebomb_act",
       "msg": "You light the fuse on the pipe bomb.",
       "target_charges": 6,

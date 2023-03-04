@@ -3,7 +3,7 @@
     "id": "inter_bayonet",
     "type": "GUNMOD",
     "name": { "str": "integrated bayonet" },
-    "description": "This is the bayonet integrated in the firearm.",
+    "description": "The weapon's integrated bayonet.",
     "weight": "1 g",
     "volume": "92 ml",
     "longest_side": "22 cm",
@@ -15,6 +15,13 @@
     "material": [ "steel" ],
     "symbol": ":",
     "color": "light_gray",
+    "use_action": {
+      "type": "transform",
+      "msg": "You fold in the bayonet.  It can no longer be used.",
+      "menu_text": "Fold",
+      "target": "inter_bayonet_folded",
+      "moves": 120
+    },
     "location": "underbarrel",
     "mod_targets": [ "shotgun", "rifle" ],
     "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
@@ -54,6 +61,7 @@
     "mod_targets": [ "pistol" ],
     "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
+    "mode_modifier": [ [ "REACH", "bayonet", 1, [ "MELEE" ] ] ],
     "flags": [ "STAB" ]
   },{
     "id": "sword_bayonet",
