@@ -119,10 +119,13 @@
     "degradation_multiplier": 0
   },
   {
+    "//": "重量と体積を修正実際のエンジンとの比較により",
     "id": "small_turbine_engine",
     "copy-from": "small_turbine_engine",
     "type": "ENGINE",
     "name": { "str": "1,350 HP gas turbine engine" },
+    "weight": "113 kg",
+    "volume": "90 L",
     "degradation_multiplier": 0
   },
   {
@@ -130,6 +133,8 @@
     "copy-from": "medium_turbine_engine",
     "type": "ENGINE",
     "name": { "str": "1,900 HP gas turbine engine" },
+    "weight": "200 kg",
+    "volume": "200 L",
     "degradation_multiplier": 0
   },
   {
@@ -137,6 +142,8 @@
     "copy-from": "large_turbine_engine",
     "type": "ENGINE",
     "name": { "str": "6,000 HP gas turbine engine" },
+    "weight": "400 kg",
+    "volume": "400 L",
     "degradation_multiplier": 0
   }
 ]

@@ -23,7 +23,9 @@
           { "group": "lab_files_generic", "prob": 15 },
           { "group": "bionics", "prob": 2 },
           { "group": "bionics_common", "prob": 2 },
-          { "group": "bionics_mil", "prob": 2 }
+          { "group": "bionics_mil", "prob": 2 },
+          { "group": "mut_lab", "prob": 5 },
+          { "group": "mutagens", "prob": 5 }
         ]
       },
       { "group": "wallets_science", "damage": [ 1, 4 ], "prob": 5 }

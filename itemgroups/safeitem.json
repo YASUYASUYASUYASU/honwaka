@@ -6,10 +6,10 @@
     "copy-from": "vault",
     "extend": {
       "items": [
-         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
-         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
-         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
-         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 8 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 6 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 2 }
       ]
     }
   },
@@ -19,10 +19,10 @@
     "copy-from": "jewelry_safe",
     "extend": {
       "items": [
-         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
-         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
-         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
-         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 8 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 6 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 2 }
       ]
     }
   },
@@ -33,10 +33,10 @@
     "subtype": "collection",
     "extend": {
       "items": [
-         { "group": "EXODII_CBM_Store_Tier1", "prob": 4 },
-         { "group": "EXODII_CBM_Store_Tier2", "prob": 3 },
-         { "group": "EXODII_CBM_Store_Tier3", "prob": 2 },
-         { "group": "EXODII_CBM_Store_Tier4", "prob": 1 }
+         { "group": "EXODII_CBM_Store_Tier1", "prob": 8 },
+         { "group": "EXODII_CBM_Store_Tier2", "prob": 6 },
+         { "group": "EXODII_CBM_Store_Tier3", "prob": 4 },
+         { "group": "EXODII_CBM_Store_Tier4", "prob": 2 }
       ]
     }
   }
