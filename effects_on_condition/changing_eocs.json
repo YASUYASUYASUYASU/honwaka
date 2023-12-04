@@ -1,0 +1,16 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "changing_initiate_check",
+    "copy-from": "changing_initiate_check",
+    "//": "Give player the CHANGING trait when they have enough basic mutagen in their blood.",
+    "recurrence": [ "5 m", "10 m" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "changing_mutate",
+    "copy-from": "changing_mutate",
+    "//": "Time for mutation!",
+    "recurrence": [ "1 m", "2 m" ]
+  }
+]

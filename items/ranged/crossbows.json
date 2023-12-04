@@ -13,7 +13,7 @@
     "longest_side": "400 mm",
     "price_postapoc": 1000,
     "weight": "40 g",
-    "bashing": 5,
+    "melee_damage": { "bash": 5 },
     "ammo_type": "bolt",
     "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.5, "armor_penetration": 2 },
     "range": 2,
@@ -36,8 +36,7 @@
     "longest_side": "400 mm",
     "price_postapoc": 750,
     "weight": "40 g",
-    "bashing": 3,
-    "cutting": 2,
+    "melee_damage": { "bash": 3, "cut": 2 },
     "ammo_type": "bolt",
     "damage": { "damage_type": "stab", "armor_penetration": 4 },
     "range": 2,
@@ -60,8 +59,7 @@
     "longest_side": "400 mm",
     "price_postapoc": 250,
     "weight": "40 g",
-    "bashing": 3,
-    "cutting": 2,
+    "melee_damage": { "bash": 3, "cut": 2 },
     "ammo_type": "bolt",
     "damage": { "damage_type": "stab", "constant_damage_multiplier": 0.5 },
     "range": 2,
@@ -85,7 +83,7 @@
     "longest_side": "400 mm",
     "price_postapoc": 1500,
     "weight": "30 g",
-    "bashing": 1,
+    "melee_damage": { "bash": 1 },
     "ammo_type": "bolt",
     "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.75 },
     "range": 4,
@@ -97,11 +95,12 @@
     "effects": [ "RECOVER_30" ]
   },
   {
-    "//1": "各種クロスボウはリロード時間を短縮させる(10分の１程度)",
+    "//1": "各種クロスボウはリロード時間を短縮させる(10分の１程度)また、威力を少しだけ底上げする",
     "id": "hand_crossbow",
     "type": "GUN",
     "name": { "str": "pistol crossbow" },
     "copy-from": "hand_crossbow",
+    "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "reload": 120
   },
   {
@@ -110,8 +109,8 @@
     "name": { "str": "wood crossbow" },
     "copy-from": "crossbow",
     "min_strength": 7,
-    "reload": 120
-
+    "reload": 120,
+    "ranged_damage": { "damage_type": "stab", "amount": 8 }
   },
   {
     "id": "compositecrossbow",
@@ -119,7 +118,8 @@
     "name": { "str": "composite crossbow" },
     "copy-from": "compositecrossbow",
     "min_strength": 8,
-    "reload": 120
+    "reload": 120,
+    "ranged_damage": { "damage_type": "stab", "amount": 8 }
   },
   {
     "id": "compcrossbow",
@@ -127,20 +127,23 @@
     "copy-from": "compcrossbow",
     "name": { "str": "compound crossbow" },
     "min_strength": 7,
-    "reload": 110
+    "reload": 110,
+    "ranged_damage": { "damage_type": "stab", "amount": 12 }
   },
   {
     "id": "huge_crossbow",
     "type": "GUN",
     "name": { "str": "heavy crossbow" },
     "copy-from": "huge_crossbow",
-    "reload": 600
+    "reload": 600,
+    "ranged_damage": { "damage_type": "stab", "amount": 20 }
   },
   {
     "id": "rep_crossbow",
     "type": "GUN",
     "name": { "str": "repeating crossbow" },
     "copy-from": "rep_crossbow",
-    "reload": 90
+    "reload": 90,
+    "ranged_damage": { "damage_type": "stab", "amount": 6 }
   }
 ]

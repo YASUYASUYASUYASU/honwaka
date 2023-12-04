@@ -1,0 +1,52 @@
+[
+  {
+    "//": "包帯系アイテムの使用時間削減の記述",
+    "id": "adhesive_bandages",
+    "type": "GENERIC",
+    "name": { "str": "adhesive bandage" },
+    "copy-from": "adhesive_bandages",
+    "use_action": { "type": "heal", "bandages_power": 1, "bleed": 4, "move_cost": 100 }
+  },
+  {
+    "id": "bandages",
+    "type": "GENERIC",
+    "name": { "str": "bandage" },
+    "copy-from": "bandages",
+    "use_action": { "type": "heal", "bandages_power": 4, "bleed": 15, "move_cost": 100 }
+  },
+  {
+    "id": "bandages_makeshift",
+    "type": "GENERIC",
+    "name": { "str": "makeshift bandage" },
+    "copy-from": "bandages_makeshift",
+    "use_action": { "type": "heal", "bandages_power": 2, "bleed": 10, "move_cost": 100 }
+  },
+  {
+    "id": "bandages_makeshift_bleached",
+    "type": "GENERIC",
+    "name": { "str": "bleached makeshift bandage" },
+    "copy-from": "bandages_makeshift_bleached",
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 100 }
+  },
+  {
+    "id": "bandages_makeshift_boiled",
+    "type": "GENERIC",
+    "name": { "str": "boiled makeshift bandage" },
+    "copy-from": "bandages_makeshift_boiled",
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 100 }
+  },
+  {
+    "id": "cotton_ball",
+    "type": "GENERIC",
+    "name": { "str_sp": "cotton balls" },
+    "copy-from": "cotton_ball",
+    "use_action": { "type": "heal", "bandages_power": 2, "bleed": 3, "move_cost": 100 }
+  },
+  {
+    "id": "medical_gauze",
+    "type": "GENERIC",
+    "name": { "str": "medical gauze" },
+    "copy-from": "medical_gauze",
+    "use_action": { "type": "heal", "bandages_power": 4, "bleed": 5, "move_cost": 100 }
+  }
+]

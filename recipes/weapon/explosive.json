@@ -2,6 +2,7 @@
   {
     "result": "grenade",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
     "skill_used": "fabrication",
@@ -14,7 +15,7 @@
     "components": [
       [ [ "pilot_light", 1 ] ],
       [ [ "superglue", 1 ], [ "duct_tape", 75 ], [ "string_36", 1 ] ],
-      [ [ "canister_empty", 1 ], [ "can_drink_unsealed", 1 ], [ "clay_canister", 1 ], [ "can_food_unsealed", 1 ] ],
+      [ [ "canister_empty", 1 ], [ "can_drink", 1 ], [ "clay_canister", 1 ], [ "can_food", 1 ] ],
       [ [ "bb", 100 ], [ "nail", 30 ] ],
       [
         [ "gunpowder", 72 ],
@@ -26,191 +27,5 @@
         [ "shot_bird", 24 ]
       ]
     ]
-  },
-  {
-    "result": "matchbomb",
-    "type" : "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "time": "10m",
-    "autolearn": true,
-    "tools": [ [ [ "matches", 20 ] ] ],
-    "components": [
-      [ [ "string_6", 1 ] ],
-      [ [ "bottle_glass", 1 ], [ "clay_canister", 1 ], [ "flask_glass", 1 ], [ "jar_glass", 1 ] ]
-    ]
-  },
-  {
-    "result": "tool_rdx_charge",
-    "type" : "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "fabrication",
-    "difficulty": 9,
-    "time": "1h",
-    "reversible": true,
-    "using": [ [ "cordage", 5 ] ],
-    "book_learn": [ [ "manual_launcher", 9 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "keg", 1 ], [ "keg_steel", 1] ],
-      [ [ "chem_rdx", 60 ] ],
-      [ [ "chem_hmtd", 200 ] ],
-      [ [ "scrap", 50 ] ]
-    ]
-  },
-  {
-    "result": "tool_rdx_sand_bomb",
-    "type" : "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "fabrication",
-    "difficulty": 4,
-    "time": "1h",
-    "reversible": true,
-    "book_learn": [[ "manual_launcher", 4 ] , [ "textbook_anarch", 5 ]],
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "pipe", 1 ] ],
-      [ [ "chem_rdx", 2 ] ],
-      [ [ "chem_hmtd", 1 ] ],
-      [ [ "string_6", 1 ] ],
-      [ [ "material_sand", 50 ] ]
-    ]
-  },
-  {
-    "result": "grenade_emp",
-    "type" : "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "electronics",
-    "difficulty": 4,
-    "time": "10m",
-    "reversible": true,
-    "book_learn": [ [ "textbook_anarch", 5 ], [ "advanced_electronics", 5 ] ],
-    "using": [ [ "soldering_standard", 6 ] ],
-    "qualities" : [ { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "superglue", 1 ], [ "string_36", 1 ] ],
-      [ [ "scrap", 3 ], [ "can_food_unsealed", 1 ], [ "can_drink_unsealed", 1 ], [ "clay_canister", 1], [ "canister_empty", 1 ] ],
-      [ [ "amplifier", 1 ], [ "power_supply", 1 ] ],
-      [ [ "cable", 5 ] ]
-    ]
-  },
-  {
-    "result": "scrambler",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "electronics",
-    "skills_required": [ "computer", 4 ],
-    "difficulty": 8,
-    "time": "10m",
-    "reversible": true,
-    "book_learn": [ [ "textbook_anarch", 8 ], [ "advanced_electronics", 8 ] ],
-    "using": [ [ "soldering_standard", 6 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "EMPbomb", 1 ] ], [ [ "antenna", 1 ] ], [ [ "transponder", 1 ] ], [ [ "e_scrap", 2 ] ] ]
-  },
-  {
-    "result": "fragment_bomb",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "fabrication",
-    "skills_required": [ "mechanics", 0 ],
-    "difficulty": 1,
-    "time": "12 m",
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "canister_empty", 1 ], [ "can_food_unsealed", 1 ], [ "clay_canister", 1 ], [ "can_drink_unsealed", 1 ] ],
-      [ [ "nail", 50 ], [ "scrap", 4 ] ],
-      [ [ "fuse", 1 ] ],
-      [ [ "superglue", 1 ], [ "duct_tape", 75 ], [ "cordage", 1, "LIST" ] ],
-      [
-        [ "gunpowder", 216 ],
-        [ "chem_black_powder", 324 ],
-        [ "chem_match_head_powder", 350 ],
-        [ "shot_he", 9 ],
-        [ "shot_flechette", 36 ],
-        [ "shot_00", 36 ],
-        [ "shot_slug", 36 ],
-        [ "shot_bird", 72 ]
-      ]
-    ]
-  },{
-    "result": "pipebomb",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "chemistry",
-    "difficulty": 1,
-    "time": "5m",
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "pipe", 1 ] ],
-      [
-        [ "gunpowder", 72 ],
-        [ "chem_black_powder", 72 ],
-        [ "shot_he", 3 ],
-        [ "shot_flechette", 12 ],
-        [ "shot_00", 12 ],
-        [ "shot_slug", 12 ],
-        [ "shot_bird", 24 ]
-      ],
-      [ [ "string_6", 1 ] ]
-    ]
-  },
-  {
-    "result": "tool_black_powder_charge",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "fabrication",
-    "difficulty": 4,
-    "time": "20h",
-    "reversible": true,
-    "book_learn": [ [ "manual_launcher", 4 ], [ "textbook_anarch", 5 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "jug_plastic", 1 ] ], [ [ "chem_black_powder", 600 ] ], [ [ "scrap", 20 ] ], [ [ "string_6", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "fertilizer_bomb",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "cooking",
-    "skills_required": [ "survival", 2 ],
-    "difficulty": 3,
-    "time": "15m",
-    "autolearn": true,
-    "book_learn": [ [ "adv_chemistry", 2 ], [ "textbook_chemistry", 2 ], [ "recipe_labchem", 3 ], [ "atomic_survival", 2 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "components": [
-      [ [ "jug_plastic", 1 ], [ "jar_3l_glass", 1 ] ],
-      [ [ "fertilizer_liquid", 4 ], [ "fertilizer_commercial", 4 ] ],
-      [ [ "gasoline", 400 ], [ "diesel", 400 ], [ "sugar", 100 ] ],
-      [ [ "string_6", 1 ], [ "rag", 1 ] ]
-    ]
-  },
-  {
-    "result": "tool_anfo_charge",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_EXPLOSIVE",
-    "skill_used": "cooking",
-    "difficulty": 7,
-    "time": "20h",
-    "reversible": true,
-    "book_learn": [ [ "manual_launcher", 7 ], [ "textbook_anarch", 8 ] ],
-    "tools": [ [ [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ], [ "soldering_iron", 30 ] ] ],
-    "components": [ [ [ "keg", 1 ], [ "keg_steel", 1 ] ], [ [ "chem_anfo", 70 ] ], [ [ "dynamite", 2 ] ] ]
   }
-  
 ]

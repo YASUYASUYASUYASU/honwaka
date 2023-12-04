@@ -20,6 +20,7 @@
   {
     "result": "small_helicopter_rotor",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "fabrication",
@@ -39,6 +40,7 @@
   {
     "result": "heavy_duty_military_rotor",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "fabrication",

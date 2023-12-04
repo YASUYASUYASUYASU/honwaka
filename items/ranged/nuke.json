@@ -16,7 +16,7 @@
     "ammo": [ "mininuke_mod" ],
     "weight": "11260 g",
     "volume": "2750 ml",
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "to_hit": -1,
     "range": 40,
     "dispersion": 600,

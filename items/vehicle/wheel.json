@@ -28,6 +28,13 @@
     "degradation_multiplier": 0
   },
   {
+    "id": "wheel_mount_skateboard",
+    "type": "GENERIC",
+    "copy-from": "wheel_mount_skateboard",
+    "name": { "str": "pair of skateboard trucks", "str_pl": "pairs of skateboard trucks" },
+    "degradation_multiplier": 0
+  },
+  {
     "id": "wheel_rim_medium",
     "type": "GENERIC",
     "copy-from": "wheel_rim_medium",
@@ -277,6 +284,14 @@
     "type": "WHEEL",
     "copy-from": "wheel_skate",
     "name": { "str": "skate wheel" },
+    "degradation_multiplier": 0
+  },
+  {
+    "id": "wheel_skateboard",
+    "type": "WHEEL",
+    "copy-from": "wheel_skateboard",
+    "category": "veh_parts",
+    "name": { "str": "set of skateboard wheels", "str_pl": "sets of skateboard wheels" },
     "degradation_multiplier": 0
   },
   {

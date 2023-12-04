@@ -32,5 +32,17 @@
         [ "bio_furnace", 10 ]
       ]
     }
+  },
+  {
+    "id": "consumer_electronics",
+    "type": "item_group",
+    "copy-from": "consumer_electronics",
+    "extend": { "items": [ { "group": "bionics", "prob": 10 },{ "group": "bionics_common", "prob": 5 },{ "group": "bionics_mil", "prob": 1 } ] }
+  },
+  {
+    "id": "electronics",
+    "type": "item_group",
+    "copy-from": "electronics",
+    "extend": { "items": [ { "group": "bionics", "prob": 5 },{ "group": "bionics_common", "prob": 3 },{ "group": "bionics_mil", "prob": 1 } ] }
   }
 ]

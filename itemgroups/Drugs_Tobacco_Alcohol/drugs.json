@@ -7,8 +7,8 @@
     "subtype": "distribution",
     "extend": {
       "items": [
-        { "item": "coldmedicine", "prob": 5, "charges": [ 1, 2 ] },
-        { "item": "ringer_solution", "prob": 5, "charges": [ 1, 3 ] }
+        { "item": "coldmedicine", "prob": 30, "count": [ 1, 2 ] },
+        { "item": "ringer_solution", "prob": 30, "count": [ 1, 3 ] }
       ]
     }
   }

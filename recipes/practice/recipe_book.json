@@ -2,28 +2,28 @@
   {
     "id":  "bookhei_01",
     "type": "practice",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_PRACTICE",
     "subcategory": "CSC_PRACTICE_MECHANICS",
     "name": "熟練 - ヘリコプター操縦",
     "practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 4 },
     "skill_used": "driving",
-    "time": "30 m",
-    "reversible": true,
+    "time": "60 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_helicopter_pilot","time_multiplier": 1.1,"fail_multiplier": 1 } ]
+    "proficiencies": [ { "proficiency": "prof_helicopter_pilot","time_multiplier": 1.1,"skill_penalty": 1 } ]
   },
   {
     "id":  "bookhei_02",
     "type": "practice",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_PRACTICE",
     "subcategory": "CSC_PRACTICE_MECHANICS",
     "name": "熟練 - ヘリコプター整備",
     "skill_used": "mechanics",
     "practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 4 },
-    "time": "30 m",
-    "reversible": true,
+    "time": "60 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_aircraft_mechanic","time_multiplier": 1.1,"fail_multiplier": 1 } ]
+    "proficiencies": [ { "proficiency": "prof_aircraft_mechanic","time_multiplier": 1.1,"skill_penalty": 1 } ]
   }
 
 ]

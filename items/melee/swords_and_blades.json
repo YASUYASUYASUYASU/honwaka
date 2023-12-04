@@ -11,7 +11,7 @@
     "ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "rigid": true, "ammo_restriction": { "gasoline": 50 } } ],
-    "techniques": "WBLOCK_2",
+    "techniques": [ "WBLOCK_2" ],
     "use_action": [
       {
         "target": "firemachete_on",
@@ -223,13 +223,5 @@
       { "type": "firestarter", "moves": 30 }
     ],
     "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
-  },
-  {
-    "id": "knife_trench",
-    "type": "TOOL",
-    "category": "weapons",
-    "name": { "str": "trench knife", "str_pl": "trench knives" },
-    "copy-from": "knife_trench",
-    "extend": { "flags": [ "UNARMED_WEAPON" ] }
   }
 ]

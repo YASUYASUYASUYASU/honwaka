@@ -3,6 +3,7 @@
     "//1": "液体アンモニアのアナザーレシピ(旧レシピ)西林 仁昭教授のモリブデンを含む触媒を使った次世代の合成方法とした。(モリブデン及び触媒はゲーム中ではないので鉄くずで代用)",
     "type": "recipe",
     "result": "ammonia_liquid",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "id_suffix": "old_style",

@@ -9,7 +9,7 @@
     "volume": "2500 ml",
     "price": 420000,
     "to_hit": -1,
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "magenta",
@@ -19,7 +19,7 @@
     "dispersion": 90,
     "durability": 6,
     "loudness": 15,
-    "ups_charges": 40,
+    "energy_drain": "40 kJ",
     "reload": 600,
     "valid_mod_locations": [
       [ "emitter", 1 ],

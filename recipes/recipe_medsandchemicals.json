@@ -2,6 +2,7 @@
   {
     "type" : "recipe",
     "result": "lsd",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "chemistry",
@@ -18,7 +19,7 @@
         [ "datura_seed", 2 ]
       ],
       [
-        [ "acid", 1 ]
+        [ "chem_sulphuric_acid", 1 ]
       ],
       [
         [ "aspirin", 10 ]
@@ -28,7 +29,7 @@
         [ "saline", 5 ]
       ],
       [
-        [ "ammonia", 1 ],
+        [ "ammonia_hydroxide", 1 ],
         [ "lye_powder", 100 ]
       ]
     ]

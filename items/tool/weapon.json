@@ -9,7 +9,7 @@
     "volume": "2 L",
     "price": 16000,
     "to_hit": 3,
-    "bashing": 18,
+    "melee_damage": { "bash": 18 },
     "material": [ "wood", "nomex" ],
     "symbol": "/",
     "color": "brown",
@@ -37,7 +37,7 @@
     "volume": "2 L",
     "price": 16000,
     "to_hit": 3,
-    "bashing": 18,
+    "melee_damage": { "bash": 18 },
     "material": [ "wood", "nomex" ],
     "symbol": "/",
     "initial_charges": 20,
@@ -71,7 +71,7 @@
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "DURABLE_MELEE" ],
     "volume": "1750 ml",
-    "bashing": 19,
+    "melee_damage": { "bash": 19 },
     "price": 18000
   }
 ]

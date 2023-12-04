@@ -22,20 +22,20 @@
     "copy-from": "electrolaser_conversion",
     "range_multiplier": 0.7,
     "damage_modifier": { "damage_type": "heat", "amount": -4 },
-    "ups_charges_multiplier": 1.1
+    "energy_drain_multiplier": 1.1
   },
   {
     "id": "effective_emitter",
     "type": "GUNMOD",
     "name": { "str": "effective emitter" },
     "copy-from": "effective_emitter",
-    "ups_charges_multiplier": 0.6
+    "energy_drain_multiplier": 0.6
   },
   {
     "id": "high_density_capacitor",
     "type": "GUNMOD",
     "name": { "str": "high density capacitor" },
     "copy-from": "effective_emitter",
-    "ups_charges_multiplier": 1.2
+    "energy_drain_multiplier": 1.2
   }
 ]

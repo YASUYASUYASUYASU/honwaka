@@ -16,7 +16,7 @@
         "fake_skills": [ [ "throw", 0 ] ],
         "fake_str": 6,
         "require_targeting_player": false,
-        "ranges": [ [ 2, 6, "DEFAULT" ] ],
+        "ranges": [ [ 2, 5, "DEFAULT" ] ],
         "description": "The feral human throws a rock!"
       }
     ]
@@ -44,7 +44,7 @@
         "type": "gun",
         "cooldown": 10,
         "move_cost": 150,
-        "gun_type": "m9",
+        "gun_type": "feral_m9",
         "ammo_type": "9mm",
         "fake_skills": [ [ "gun", 0 ], [ "pistol", 0 ] ],
         "fake_dex": 1,
@@ -68,7 +68,7 @@
         "cooldown": 10,
         "move_cost": 50,
         "//": "(movecost is 50 to show that the feral prepper doesn't take time to aim, and just shoots barbaric-ly)",
-        "gun_type": "m9",
+        "gun_type": "feral_m9",
         "ammo_type": "9mm",
         "fake_skills": [ [ "gun", 0 ], [ "pistol", 0 ] ],
         "fake_dex": 1,
@@ -98,6 +98,7 @@
         "fake_per": 1,
         "ranges": [ [ 0, 15, "DEFAULT" ] ],
         "require_targeting_player": false,
+        "target_moving_vehicles": true,
         "description": "The mad militiaman fires their rifle!"
       }
     ]
@@ -122,6 +123,7 @@
         "//": "(ferals don't care about max-effective range.)",
         "ranges": [ [ 0, 25, "DEFAULT" ] ],
         "require_targeting_player": false,
+        "target_moving_vehicles": true,
         "description": "The feral biker fires their shotgun!"
       }
     ]

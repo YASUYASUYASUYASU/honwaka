@@ -10,7 +10,7 @@
     "price": 10000,
     "price_postapoc": 2750,
     "to_hit": -1,
-    "bashing": 6,
+    "melee_damage": { "bash": 6 },
     "ranged_damage": { "damage_type": "bullet", "amount": -4 },
     "dispersion": 550,
     "durability": 6,

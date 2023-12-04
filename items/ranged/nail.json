@@ -12,7 +12,7 @@
     "price": 13000,
     "price_postapoc": 500,
     "to_hit": -2,
-    "bashing": 6,
+    "melee_damage": { "bash": 6 },
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "yellow",
@@ -34,7 +34,7 @@
     "description": "銃身を短くするなど大幅な改造を加え、銃床とハンドガードを取り付けたネイルガンです。弾倉を装填することができ、元よりも非常に使い勝手の良い武器になっています。",
     "longest_side": "70 cm",
     "to_hit": -1,
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "skill": "rifle",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ]],
     "clip_size": 0,
@@ -65,12 +65,12 @@
     "price": 75000,
     "price_postapoc": 5000,
     "to_hit": -2,
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "material": [ "copper", "steel" ],
     "range": 12,
     "ranged_damage": { "damage_type": "bullet", "amount": 8 },
     "dispersion": 180,
     "durability": 5,
-    "ups_charges": 2
+    "energy_drain": "2 kJ"
   }
 ]

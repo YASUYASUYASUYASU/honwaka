@@ -36,14 +36,14 @@
   {
     "id": "mon_mi_go_myrmidon",
     "type": "MONSTER",
-    "copy-from": "mon_zombie",
+    "copy-from": "mon_mi_go_myrmidon",
     "vision_day": 20,
     "vision_night": 10
   },
   {
     "id": "mon_mi_go_scout",
     "type": "MONSTER",
-    "copy-from": "mon_zombie",
+    "copy-from": "mon_mi_go_scout",
     "speed": 100,
     "vision_day": 20,
     "vision_night": 10

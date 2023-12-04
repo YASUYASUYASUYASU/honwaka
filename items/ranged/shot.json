@@ -11,7 +11,7 @@
     "price": 10000,
     "price_postapoc": 2250,
     "to_hit": -1,
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "dispersion": 550,
     "barrel_volume": "500 ml",
     "valid_mod_locations": [

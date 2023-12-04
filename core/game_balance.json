@@ -4,7 +4,7 @@
     "name": "PLAYER_MAX_STAMINA_BASE",
     "info": "Sets max stamina value of the player.",
     "stype": "int",
-    "value": 8000
+    "value": 10000
   },
   {
     "type": "EXTERNAL_OPTION",

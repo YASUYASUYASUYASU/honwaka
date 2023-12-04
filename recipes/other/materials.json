@@ -9,6 +9,14 @@
     "components": [ [ [ "cotton_patchwork", 8 ] ], [ [ "filament", 15, "LIST" ] ] ]
   },
   {
+    "result": "sheet_denim_patchwork",
+    "type": "recipe",
+    "copy-from": "sheet_denim_patchwork",
+    "time": "10 m",
+    "qualities": [ { "id": "SEW", "level": 2 }, { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "denim_patch", 8 ] ], [ [ "filament", 15, "LIST" ] ] ]
+  },
+  {
     "result": "sheet_canvas_patchwork",
     "type": "recipe",
     "copy-from": "sheet_canvas_patchwork",

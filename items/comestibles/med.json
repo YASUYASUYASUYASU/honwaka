@@ -9,63 +9,6 @@
     "healthy": 0
   },
   {
-    "//": "包帯系アイテムの使用時間削減の記述",
-    "id": "adhesive_bandages",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "adhesive bandage" },
-    "copy-from": "adhesive_bandages",
-    "use_action": { "type": "heal", "bandages_power": 1, "bleed": 4, "move_cost": 100 }
-  },
-  {
-    "id": "bandages",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "bandage" },
-    "copy-from": "bandages",
-    "use_action": { "type": "heal", "bandages_power": 4, "bleed": 15, "move_cost": 100 }
-  },
-  {
-    "id": "bandages_makeshift",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "makeshift bandage" },
-    "copy-from": "bandages_makeshift",
-    "use_action": { "type": "heal", "bandages_power": 2, "bleed": 10, "move_cost": 100 }
-  },
-  {
-    "id": "bandages_makeshift_bleached",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "bleached makeshift bandage" },
-    "copy-from": "bandages_makeshift_bleached",
-    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 100 }
-  },
-  {
-    "id": "bandages_makeshift_boiled",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "boiled makeshift bandage" },
-    "copy-from": "bandages_makeshift_boiled",
-    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 100 }
-  },
-  {
-    "id": "cotton_ball",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str_sp": "cotton balls" },
-    "copy-from": "cotton_ball",
-    "use_action": { "type": "heal", "bandages_power": 2, "bleed": 3, "move_cost": 100 }
-  },
-  {
-    "id": "medical_gauze",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "medical gauze" },
-    "copy-from": "medical_gauze",
-    "use_action": { "type": "heal", "bandages_power": 4, "bleed": 5, "move_cost": 100 }
-  },
-  {
     "//": "風邪薬とリンゲル液の記述",
     "id": "coldmedicine",
     "type": "COMESTIBLE",
@@ -81,7 +24,6 @@
     "symbol": "!",
     "color": "red",
     "container": "bottle_plastic_pill_prescription",
-    "charges": 2,
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You feel AMAZING!",
@@ -104,7 +46,6 @@
     "symbol": "!",
     "color": "red",
     "container": "bag_iv",
-    "charges": 1,
     "healthy": -2,
     "use_action": {
       "type": "consume_drug",

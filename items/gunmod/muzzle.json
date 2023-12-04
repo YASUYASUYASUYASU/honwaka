@@ -66,7 +66,7 @@
     "type": "GUNMOD",
     "name": { "str": "suppressor" },
     "//": "SilencerCo Hybrid 46",
-    "copy-from": "shot_suppressor",
+    "copy-from": "suppressor",
     "handling_modifier": 4,
     "loudness_modifier": -500
   },
@@ -81,7 +81,7 @@
     "id": "suppressor_compact",
     "type": "GUNMOD",
     "name": { "str": "compact suppressor" },
-    "copy-from": "mp5sd_suppressor",
+    "copy-from": "suppressor_compact",
     "handling_modifier": 2,
     "loudness_modifier": -300
   }

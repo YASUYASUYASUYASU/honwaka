@@ -2,6 +2,7 @@
   {
     "type": "recipe",
     "result": "royal_jelly",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
@@ -21,6 +22,7 @@
   {
     "type": "recipe",
     "result": "pine_nuts",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
@@ -34,10 +36,12 @@
   },{
     "type": "recipe",
     "result": "taint_tornado",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
     "difficulty": 5,
+    "charges": 2,
     "time": "10m",
     "autolearn": true,
     "qualities": [ { "id": "COOK", "level": 2 } ],
@@ -46,10 +50,12 @@
   },{
     "type": "recipe",
     "result": "drink_sewerbrew",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
     "skills_required": [ "survival", 1 ],
+    "charges": 2,
     "difficulty": 5,
     "time": "10m",
     "autolearn": true,

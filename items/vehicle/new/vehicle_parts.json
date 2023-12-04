@@ -10,7 +10,7 @@
     "material": [ "bone" ],
     "weight": 4000,
     "volume": 38,
-    "bashing": 8,
+    "melee_damage": { "bash": 8 },
     "to_hit": -4,
     "category": "veh_parts"
   }

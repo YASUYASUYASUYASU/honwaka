@@ -12,7 +12,7 @@
     "price": 110000,
     "price_postapoc": 500,
     "to_hit": -1,
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "brown",

@@ -4,42 +4,31 @@
     "id": "mon_zombie",
     "type": "MONSTER",
     "copy-from": "mon_zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 10 }, [ "GRAB", 50 ], [ "scratch", 30 ] ]
-  },
-  {
-    "id": "mon_zombie_cop",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_cop",
-    "special_attacks": [ [ "GRAB", 50 ], [ "scratch", 20 ] ]
-  },
-  {
-    "id": "mon_zombie_fireman",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_fireman",
-    "special_attacks": [ [ "GRAB", 50 ] ]
+    "grab_strength": 20,
+    "special_attacks": [ { "type": "bite", "cooldown": 10 }, { "id": "scratch_humanoid" } ]
   },
   {
     "id": "mon_zombie_hazmat",
     "type": "MONSTER",
     "copy-from": "mon_zombie_hazmat",
-    "special_attacks": [ [ "GRAB", 50 ] ]
-  },
-  {
-    "id": "mon_zombie_rot",
-    "type": "MONSTER",
-    "copy-from": "mon_zombie_rot",
-    "special_attacks": [ { "type": "bite", "cooldown": 2, "accuracy": 3, "infection_chance": 10 }, [ "GRAB", 50 ], [ "scratch", 20 ] ]
+    "special_attacks": [  ]
   },
   {
     "id": "mon_zombie_swat",
     "type": "MONSTER",
     "copy-from": "mon_zombie_swat",
-    "special_attacks": [ [ "GRAB", 50 ], [ "scratch", 15 ] ]
+    "grab_strength": 20,
+    "special_attacks": [ { "id": "grab", "cooldown": 30 }, { "id": "scratch_humanoid", "cooldown": 20 } ]
   },
   {
     "id": "mon_zombie_tough",
     "type": "MONSTER",
     "copy-from": "mon_zombie_tough",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.7 }, [ "GRAB", 50 ], [ "scratch", 20 ] ]
+    "grab_strength": 15,
+    "special_attacks": [
+      { "id": "grab", "cooldown": 20 },
+      { "id": "bite_humanoid", "cooldown": 15, "min_mul": 0.7 },
+      { "id": "scratch_humanoid" }
+    ]
   }
 ]

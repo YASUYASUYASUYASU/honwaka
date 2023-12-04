@@ -252,7 +252,7 @@
     "seed_data": { "plant_name": "cannabis", "fruit": "cannabis", "grow": "15 days" }
   },
   {
-    "type": "AMMO",
+    "type": "COMESTIBLE",
     "id": "fungal_seeds",
     "copy-from": "fungal_seeds",
     "name": { "str_sp": "fungal seeds" },

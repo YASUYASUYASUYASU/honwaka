@@ -3,6 +3,7 @@
     "//1": "補助火炎放射器のレシピ",
     "type": "recipe",
     "result": "aux_flamer",
+    "activity_level": "NO_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "mechanics",
@@ -42,6 +43,7 @@
     "//1": "シシケバブのレシピ",
     "type": "recipe",
     "result": "shishkebab",
+    "activity_level": "NO_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",
@@ -129,6 +131,7 @@
     "//1": "レーザーサイト(アンダーバレル)のレシピ",
     "type": "recipe",
     "result": "laser_sight",
+    "activity_level": "NO_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "electronics",
@@ -145,8 +148,8 @@
       [ [ "plut_cell", 1 ] ],
       [
         [ "scrap", 1 ],
-        [ "can_drink_unsealed", 1 ],
-        [ "can_food_unsealed", 1 ],
+        [ "can_drink", 1 ],
+        [ "can_food", 1 ],
         [ "canister_empty", 1 ],
         [ "plastic_chunk", 1 ]
       ],
@@ -167,8 +170,8 @@
       [ [ "plut_cell", 1 ] ],
       [
         [ "scrap", 1 ],
-        [ "can_drink_unsealed", 1 ],
-        [ "can_food_unsealed", 1 ],
+        [ "can_drink", 1 ],
+        [ "can_food", 1 ],
         [ "canister_empty", 1 ],
         [ "plastic_chunk", 1 ]
       ],

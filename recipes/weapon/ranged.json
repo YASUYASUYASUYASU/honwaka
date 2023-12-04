@@ -2,6 +2,7 @@
   {
     "result": "nailrifle",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -16,6 +17,7 @@
   {
     "type": "recipe",
     "result": "helsing",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -36,6 +38,7 @@
   {
     "type": "recipe",
     "result": "pneumatic_shotgun",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -56,6 +59,7 @@
   {
     "type": "recipe",
     "result": "mininuke_launcher",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -75,6 +79,7 @@
   },{
     "type": "recipe",
     "result": "rebar_rifle",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -101,6 +106,7 @@
   {
     "type" : "recipe",
     "result": "heavy_rail_rifle",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -152,6 +158,7 @@
   {
     "type" : "recipe",
     "result": "unbio_blaster_gun",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -265,6 +272,7 @@
     "//1": "アーチェリー弓のレシピ(制作時間を短縮し、難易度を低下)",
     "type": "recipe",
     "result": "reflexrecurvebow",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
     "skill_used": "fabrication",
@@ -315,6 +323,7 @@
     "//1": "ライフル(.223口径/手製ｶｰﾋﾞﾝ)のレシピ",
     "type": "recipe",
     "result": "surv_carbine_223_honwaka",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -376,6 +385,7 @@
     "//1": "ランチャー(40mm/手製3連ランチャー)のレシピ",
     "type": "recipe",
     "result": "flamethrower_simple",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -396,6 +406,7 @@
     "//1": "ライフル(コイルガン)のレシピ",
     "type": "recipe",
     "result": "coilgun",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
@@ -412,6 +423,7 @@
     "//1": "ライフル(石つぶて/空圧式アサルトライフル)のレシピ",
     "type": "recipe",
     "result": "tihar",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "mechanics",
@@ -446,6 +458,7 @@
     "//1": "火炎放射器(スプレー缶)のレシピ",
     "type": "recipe",
     "result": "flamethrower_crude",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "survival",

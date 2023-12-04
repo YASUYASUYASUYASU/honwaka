@@ -15,6 +15,13 @@
   },
   {
     "type": "GENERIC",
+    "id": "omnicamera_reinforced",
+    "copy-from": "omnicamera_reinforced",
+    "name": { "str": "reinforced security camera" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "GENERIC",
     "id": "vehicle_controls",
     "copy-from": "vehicle_controls",
     "name": { "str": "vehicle controls", "str_pl": "sets of vehicle controls" },

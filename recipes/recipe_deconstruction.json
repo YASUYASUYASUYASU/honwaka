@@ -2,6 +2,7 @@
   {
     "result": "battletorch_done",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "time": "20s",
     "components": [ [ [ "bat", 1 ] ], [ [ "nomex", 5 ] ] ]
   }

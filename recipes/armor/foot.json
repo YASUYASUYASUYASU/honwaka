@@ -3,6 +3,7 @@
     "//1": "神秘のブーツのレシピ",
     "result": "boots_bone",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",

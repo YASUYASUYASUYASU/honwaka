@@ -7,20 +7,6 @@
     "degradation_multiplier": 0
   },
   {
-    "id": "chemlab",
-    "copy-from": "chemlab",
-    "type": "GENERIC",
-    "name": { "str": "onboard chemistry lab" },
-    "degradation_multiplier": 0
-  },
-  {
-    "id": "craftrig",
-    "copy-from": "craftrig",
-    "type": "GENERIC",
-    "name": { "str": "FOODCO kitchen buddy", "str_pl": "FOODCO kitchen buddies" },
-    "degradation_multiplier": 0
-  },
-  {
     "id": "forgerig",
     "copy-from": "forgerig",
     "type": "GENERIC",
@@ -35,24 +21,10 @@
     "degradation_multiplier": 0
   },
   {
-    "id": "kitchen_unit",
-    "copy-from": "kitchen_unit",
-    "type": "GENERIC",
-    "name": { "str": "RV kitchen unit" },
-    "degradation_multiplier": 0
-  },
-  {
-    "id": "weldrig",
-    "copy-from": "weldrig",
-    "type": "GENERIC",
-    "name": { "str": "vehicle welding rig" },
-    "degradation_multiplier": 0
-  },
-  {
     "id": "weldkit",
     "copy-from": "weldkit",
     "type": "GENERIC",
-    "name": { "str": "vehicle welding kit" },
+    "name": { "str": "vehicle high-temperature welding kit" },
     "degradation_multiplier": 0
   }
 ]
