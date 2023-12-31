@@ -3,14 +3,21 @@
     "type": "GENERIC",
     "id": "seat",
     "copy-from": "seat",
-    "name": { "str": "seat" },
+    "name": { "str": "bucket seat" },
     "degradation_multiplier": 0
   },
   {
     "type": "GENERIC",
     "copy-from": "seat_leather",
     "id": "seat_leather",
-    "name": { "str": "leather seat" },
+    "name": { "str": "leather bucket seat" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "GENERIC",
+    "copy-from": "seat_bench_leather",
+    "id": "seat_bench_leather",
+    "name": { "str": "leather bench seat" },
     "degradation_multiplier": 0
   },
   {

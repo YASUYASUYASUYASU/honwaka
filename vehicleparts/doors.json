@@ -9,7 +9,7 @@
     "damage_reduction": { "all": 20 },
     "description": "A door.  Has a window so you can see out of it, even when closed.",
     "durability": 225,
-    "flags": [ "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "DOOR", "LOCKABLE_DOOR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "CARGO_PASSABLE", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "DOOR", "LOCKABLE_DOOR", "HUGE_OK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "item": "frame",
     "location": "center",
     "looks_like": "t_door_metal_c",
@@ -115,7 +115,6 @@
     "copy-from": "door_opaque",
     "damage_modifier": 75,
     "description": "An interior door.  Solid construction means you can't see through it when closed.",
-    "durability": 240,
     "name": { "str": "internal door" },
     "type": "vehicle_part"
   },
@@ -210,7 +209,7 @@
     },
     "breaks_into": [ { "item": "splinter", "count": [ 7, 9 ] } ],
     "extend": { "flags": [ "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ] },
-    "delete": { "flags": [ "CARGO" ] },
+    "delete": { "flags": [ "CARGO", "CARGO_PASSABLE" ] },
     "damage_reduction": { "all": 8 }
   },
   {
@@ -238,7 +237,7 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
     "extend": { "flags": [ "LOW_FINAL_AIR_DRAG", "SIMPLE_PART", "NO_ROOF_NEEDED","AIRCRAFT_REPAIRABLE_NOPROF" ] },
-    "delete": { "flags": [ "CARGO", "COVERED", "LOCKABLE_CARGO" ] }
+    "delete": { "flags": [ "CARGO", "CARGO_PASSABLE", "COVERED", "LOCKABLE_CARGO" ] }
   },
   {
     "type": "vehicle_part",
@@ -273,7 +272,7 @@
     },
     "breaks_into": "ig_vp_sheet_metal",
     "extend": { "flags": [ "OPAQUE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ] },
-    "delete": { "flags": [ "CARGO", "COVERED", "LOCKABLE_CARGO", "WINDOW" ] },
+    "delete": { "flags": [ "CARGO", "CARGO_PASSABLE", "COVERED", "LOCKABLE_CARGO", "WINDOW" ] },
     "damage_reduction": { "all": 7 }
   },
   {

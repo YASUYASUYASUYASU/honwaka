@@ -15,6 +15,13 @@
   },
   {
     "type": "GENERIC",
+    "copy-from": "integrated_cooler",
+    "id": "integrated_cooler",
+    "name": { "str": "small integrated cooler" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "GENERIC",
     "id": "mountable_heater",
     "copy-from": "mountable_heater",
     "name": { "str": "vehicle heater" },

@@ -47,7 +47,6 @@
     "copy-from": "motor_train1300",
     "name": { "str": "1,300 HP electric train engine" },
     "weight": "500 kg",
-    "volume": "250 L",
     "degradation_multiplier": 0
   }
 ]
