@@ -14,7 +14,7 @@
     "location": "center",
     "looks_like": "t_door_metal_c",
     "name": { "str": "door" },
-    "//": "30cm of weld per quadrant of damage",
+    "//": "30 cm of weld per quadrant of damage",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
@@ -89,7 +89,7 @@
     "durability": 600,
     "item": "hdframe",
     "name": { "str": "heavy-duty door" },
-    "//": "40cm of weld per quadrant of damage",
+    "//": "40 cm of weld per quadrant of damage",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
@@ -124,7 +124,7 @@
     "description": "A strong door.  A window lets you see through it when closed.",
     "durability": 420,
     "name": { "str": "hatch" },
-    "//": "30cm of weld per quadrant of damage, 4x that to install",
+    "//": "30 cm of weld per quadrant of damage, 4x that to install",
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 2 ] ],
@@ -133,7 +133,7 @@
       },
       "removal": {
         "skills": [ [ "mechanics", 2 ] ],
-        "time": "15 m",
+        "time": "40 m",
         "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_wrench_2", 1 ] ]
       },
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
@@ -162,7 +162,7 @@
     "durability": 900,
     "item": "hdframe",
     "name": { "str": "heavy-duty hatch" },
-    "//": "40cm of weld per quadrant of damage, 4x that to install",
+    "//": "40 cm of weld per quadrant of damage, 4x that to install",
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 3 ] ],
@@ -171,7 +171,7 @@
       },
       "removal": {
         "skills": [ [ "mechanics", 2 ] ],
-        "time": "30 m",
+        "time": "50 m",
         "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_wrench_2", 1 ] ]
       },
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "8 m", "using": [ [ "repair_welding_standard", 4 ] ] }

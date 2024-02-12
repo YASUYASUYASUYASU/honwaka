@@ -1,7 +1,7 @@
 [
   {
     "id": "surv_carbine_223_honwaka",
-    "copy-from": "ar15",
+    "copy-from": "modular_ar15",
     "type": "GUN",
     "name": { "str": "ライフル(.223口径/手製ｶｰﾋﾞﾝ)" },
     "description": "銃身が短縮された、手製にしては完成度の高いレバーアクション式カービン銃です。着脱式の自作弾倉やSTANAG規格互換弾倉に対応しており、自家製兵器の中では優れた部類だと言えます。",
