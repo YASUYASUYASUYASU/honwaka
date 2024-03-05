@@ -17,7 +17,7 @@
     "type": "GENERIC",
     "id": "workbench",
     "copy-from": "workbench",
-    "name": { "str": "workbench", "str_pl": "workbenches" },
+    "name": { "str": "workbench (folded)", "str_pl": "workbenches (folded)" },
     "degradation_multiplier": 0
   },
   {

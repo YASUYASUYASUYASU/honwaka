@@ -101,14 +101,14 @@
     "type": "GENERIC",
     "copy-from": "fridgetank",
     "id": "fridgetank",
-    "name": { "str": "refrigerated tank (60L)", "str_pl": "refrigerated tanks (60L)" },
+    "name": { "str": "refrigerated tank (60 L)", "str_pl": "refrigerated tanks (60 L)" },
     "degradation_multiplier": 0    
   },
   {
     "type": "GENERIC",
     "copy-from": "fridgetank_large",
     "id": "fridgetank_large",
-    "name": { "str": "refrigerated tank (100L)", "str_pl": "refrigerated tanks (100L)" },
+    "name": { "str": "refrigerated tank (100 L)", "str_pl": "refrigerated tanks (100 L)" },
     "degradation_multiplier": 0
   },
   {

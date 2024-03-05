@@ -224,6 +224,14 @@
     "degradation_multiplier": 0
   },
   {
+    "id": "wheel_caster_large",
+    "copy-from": "wheel_caster_large",
+    "category": "veh_parts",
+    "type": "WHEEL",
+    "name": { "str": "set of large casters", "str_pl": "sets of large casters" },
+    "degradation_multiplier": 0
+  },
+  {
     "id": "wheel_10",
     "copy-from": "wheel_10",
     "type": "WHEEL",

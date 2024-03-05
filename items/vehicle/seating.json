@@ -15,6 +15,13 @@
   },
   {
     "type": "GENERIC",
+    "id": "seat_bench",
+    "copy-from": "seat_bench",
+    "name": { "str": "bench seat" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "GENERIC",
     "copy-from": "seat_bench_leather",
     "id": "seat_bench_leather",
     "name": { "str": "leather bench seat" },

@@ -14,6 +14,13 @@
     "degradation_multiplier": 0
   },
   {
+    "id": "engine_1cyl_diesel_large",
+    "copy-from": "engine_1cyl_diesel_large",
+    "type": "ENGINE",
+    "name": { "str": "0.2 L large 1-cylinder diesel engine" },
+    "degradation_multiplier": 0
+  },
+  {
     "id": "1cyl_combustion_small",
     "copy-from": "1cyl_combustion_small",
     "type": "ENGINE",

@@ -5,5 +5,13 @@
     "copy-from": "yoke_harness",
     "name": { "str": "yoke and harness", "str_pl": "yokes and harnesses" },
     "degradation_multiplier": 0
+  },
+  {
+    "id": "yoke_harness_heavyduty",
+    "type": "WHEEL",
+    "copy-from": "yoke_harness_heavyduty",
+    "name": { "str": "reinforced yoke and harness", "str_pl": "reinforced yokes and harnesses" },
+    "degradation_multiplier": 0
+
   }
 ]

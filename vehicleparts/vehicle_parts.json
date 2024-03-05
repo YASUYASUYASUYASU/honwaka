@@ -880,7 +880,7 @@
     "size": "75 L",
     "item": "frame_wood_light",
     "location": "center",
-    "flags": [ "CARGO", "BOARDABLE", "COVERED", "HUGE_OK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "COVERED", "HUGE_OK", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 5 ] }, { "item": "string_36", "count": [ 10, 15 ] } ],
     "requirements": {
       "install": { "time": "10 m", "using": [ [ "rope_natural_short", 1 ] ] },
@@ -907,7 +907,7 @@
       "removal": { "skills": [ [ "fabrication", 1 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
       "repair": { "skills": [ [ "fabrication", 1 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ] ] }
     },
-    "flags": [ "CARGO", "BOARDABLE", "COVERED", "LOCKABLE_CARGO", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "COVERED", "LOCKABLE_CARGO", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 5 ] }, { "item": "nail", "charges": [ 10, 15 ] } ],
     "damage_reduction": { "all": 5 },
     "variants": [ { "symbols": "o", "symbols_broken": "#" } ]
@@ -931,7 +931,7 @@
       "removal": { "skills": [ [ "fabrication", 2 ] ], "time": "15 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
       "repair": { "skills": [ [ "fabrication", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ] ] }
     },
-    "flags": [ "CARGO", "BOARDABLE", "COVERED", "LOCKABLE_CARGO", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "COVERED", "LOCKABLE_CARGO", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 5 ] }, { "item": "nail", "charges": [ 10, 15 ] } ],
     "damage_reduction": { "all": 4 },
     "variants": [ { "symbols": "o", "symbols_broken": "#" } ]
@@ -1301,7 +1301,7 @@
         "using": [ [ "repair_welding_standard", 3 ], [ "soldering_standard", 8 ], [ "vehicle_wrench_1", 1 ], [ "vehicle_screw", 1 ] ]
       }
     },
-    "flags": [ "CONTROLS", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CONTROLS", "NEED_LEG", "INOPERABLE_SMALL", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [
       { "item": "steel_lump" },
       { "item": "steel_chunk", "count": [ 1, 3 ] },
@@ -3072,7 +3072,7 @@
       },
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "10 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
-    "flags": [ "PLANTER", "PROTRUSION", "CARGO", "ADVANCED_PLANTER", "EXTRA_DRAG", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "PLANTER", "PROTRUSION", "CARGO", "ADVANCED_PLANTER", "EXTRA_DRAG", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [
       { "item": "cable", "charges": [ 3, 6 ] },
       { "item": "e_scrap", "count": [ 4, 10 ] },

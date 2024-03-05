@@ -245,7 +245,7 @@
       { "item": "steel_chunk", "count": [ 6, 8 ] },
       { "item": "scrap", "count": [ 6, 8 ] }
     ],
-    "//": "20cm weld per damage quadrant to repair",
+    "//": "20 cm weld per damage quadrant to repair",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "20 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
@@ -271,7 +271,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 1 ] ] }
     },
-    "flags": [ "UNMOUNT_ON_DAMAGE", "PROTRUSION", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "UNMOUNT_ON_DAMAGE", "PROTRUSION", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 10 },
     "variants": [ { "symbols": "o", "symbols_broken": "#" } ]
   }

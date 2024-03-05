@@ -11,7 +11,7 @@
     "type": "GENERIC",
     "copy-from": "folding_solar_panel",
     "id": "folding_solar_panel",
-    "name": { "str": "collapsible solar array" },
+    "name": { "str": "deployed folding solar panel" },
     "degradation_multiplier": 0
   },
   {
