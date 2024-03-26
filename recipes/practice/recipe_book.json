@@ -1,6 +1,6 @@
 [
   {
-    "id":  "bookhei_01",
+    "id":  "bookhei_01_plc",
     "type": "practice",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_PRACTICE",
@@ -13,7 +13,7 @@
     "proficiencies": [ { "proficiency": "prof_helicopter_pilot","time_multiplier": 1.1,"skill_penalty": 1 } ]
   },
   {
-    "id":  "bookhei_02",
+    "id":  "bookhei_02_plc",
     "type": "practice",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_PRACTICE",

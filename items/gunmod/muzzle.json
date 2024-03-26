@@ -32,20 +32,8 @@
   {
     "id": "filter_suppressor",
     "type": "GUNMOD",
-    "name": { "str": "'solvent trap' suppressor" },
-    "copy-from": "filter_suppressor",
-    "consume_chance": 100,
-    "consume_divisor": 40,
-    "dispersion_modifier": 10,
-    "handling_modifier": 1,
-    "loudness_modifier": -40,
-    "flags": [ "DISABLE_SIGHTS", "CONSUMABLE" ]
-  },
-  {
-    "id": "bottle_suppressor",
-    "type": "GUNMOD",
     "name": { "str": "soda bottle silencer" },
-    "copy-from": "bottle_suppressor",
+    "copy-from": "filter_suppressor",
     "consume_chance": 1,
     "consume_divisor": 1,
     "damage_modifier": { "damage_type": "bullet", "amount": -5 },
