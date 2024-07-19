@@ -290,10 +290,25 @@
   {
     "//1": "ハンドガン(.45口径/手製ﾊﾝﾄﾞｷｬﾉﾝ)のレシピ(制作時間を短縮し、難易度を低下)",
     "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
     "result": "surv_hand_cannon",
-    "copy-from": "surv_hand_cannon",
-    "difficulty": 4,
-    "time": "2 h",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "traps", 2 ], [ "gun", 4 ] ],
+    "difficulty": 5,
+    "time": "8 h",
+    "book_learn": [ [ "manual_pistol", 5 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "//": "60cm weld",
+    "using": [ [ "welding_standard", 60 ] ],
+    "proficiencies": [
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_welding_basic" },
+      { "proficiency": "prof_gunsmithing_basic" },
+      { "proficiency": "prof_gunsmithing_revolver" }
+    ],
+    "components": [ [ [ "pipe", 1 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 2 ] ], [ [ "scrap", 2 ] ] ],
     "autolearn": true
   },
   {

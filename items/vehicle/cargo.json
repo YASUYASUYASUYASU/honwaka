@@ -70,23 +70,23 @@
     "degradation_multiplier": 0
   },
   {
-    "id": "stowed_fridge",
+    "id": "apartment_fridge",
     "type": "GENERIC",
     "name": "tied-down fridge",
-    "copy-from": "stowed_fridge",
+    "copy-from": "apartment_fridge",
     "degradation_multiplier": 0
   },
   {
     "id": "stowed_glass_fridge",
     "type": "GENERIC",
     "name": "tied-down glass door fridge",
-    "copy-from": "stowed_fridge"
+    "copy-from": "apartment_fridge"
   },
   {
     "id": "stowed_freezer",
     "type": "GENERIC",
     "name": "tied-down freezer",
-    "copy-from": "stowed_freezer",
+    "copy-from": "apartment_fridge",
     "degradation_multiplier": 0
   }
 ]

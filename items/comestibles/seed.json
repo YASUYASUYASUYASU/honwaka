@@ -285,7 +285,7 @@
     "id": "seed_lentils",
     "copy-from": "seed_lentils",
     "name": { "str_sp": "raw lentils" },
-    "seed_data": { "plant_name": "lentils", "fruit": "raw_lentils", "byproducts": [ "withered" ], "grow": "15 days" }
+    "seed_data": { "plant_name": "lentils", "fruit": "dry_lentil_stalks", "byproducts": [ "withered" ], "grow": "15 days" }
   },
   {
     "type": "COMESTIBLE",
