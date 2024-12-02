@@ -133,7 +133,7 @@
       { "item": "scrap", "count": [ 5, 10 ] },
       { "item": "medium_storage_battery", "count": [ 1, 2 ] }
     ],
-    "//": "29 cm length battery, welded on at least two edges",
+    "//": "29cm length battery, welded on at least two edges",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 2 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "300 s", "using": "vehicle_weld_removal" },
@@ -187,7 +187,7 @@
       "repair" : { "skills": [ [ "mechanics", 3 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
     },
     "durability": 20,
-    "folded_volume": "25 ml",
+    "folded_volume": "25ml",
     "breaks_into": [ { "item": "e_scrap", "prob": 10 } ],
     "flags": ["BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
   },
@@ -204,9 +204,9 @@
       "repair" : { "skills": [ [ "mechanics", 3 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
     },
     "durability": 20,
-    "folded_volume": "35 ml",
+    "folded_volume": "35ml",
     "breaks_into": [ { "item": "e_scrap", "prob": 10 } ],
-    "flags": ["BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
+    "flags": [ "BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
   },
   {
     "id": "car_medium_battery_cell",
@@ -223,7 +223,7 @@
     "durability": 30,
     "folded_volume": "450 ml",
     "breaks_into": [ { "item": "light_battery_cell", "count": [ 0, 3 ] }, { "item": "scrap", "count": [ 1, 4 ] } ],
-    "flags": ["BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
+    "flags": [ "BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "NO_REPAIR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
   },
   {
     "id": "car_medium_plus_battery_cell",
@@ -234,13 +234,12 @@
     "location": "on_battery_mount",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "using": [  ] },
-      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "using": [  ] },
-      "repair" : { "skills": [ [ "mechanics", 3 ] ], "time": "600 s", "using": [ [ "welding_standard", 5 ] ] }
+      "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "50 s", "using": [  ] }
     },
     "durability": 30,
     "folded_volume": "525 ml",
     "breaks_into": [ { "item": "light_plus_battery_cell", "count": [ 0, 3 ] }, { "item": "scrap", "count": [ 1, 4 ] } ],
-    "flags": ["BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
+    "flags": [ "BATTERY", "NEEDS_HANDHELD_BATTERY_MOUNT", "NO_REPAIR", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ]
   },
   {
     "id": "car_heavy_battery_cell",

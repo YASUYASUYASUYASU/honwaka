@@ -4,7 +4,7 @@
     "id": "mon_zombie",
     "type": "MONSTER",
     "copy-from": "mon_zombie",
-    "grab_strength": 20,
+    "grab_strength": 10,
     "special_attacks": [ { "type": "bite", "cooldown": 10 }, { "id": "scratch_humanoid" } ]
   },
   {
@@ -17,7 +17,7 @@
     "id": "mon_zombie_swat",
     "type": "MONSTER",
     "copy-from": "mon_zombie_swat",
-    "grab_strength": 20,
+    "grab_strength": 12,
     "special_attacks": [ { "id": "grab", "cooldown": 30 }, { "id": "scratch_humanoid", "cooldown": 20 } ]
   },
   {

@@ -68,26 +68,5 @@
     "copy-from": "turret_controls",
     "name": { "str": "turret control unit" },
     "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "hand_controls",
-    "copy-from": "hand_controls",
-    "name": { "str_sp": "hand controls" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "pedal_extenders",
-    "copy-from": "pedal_extenders",
-    "name": { "str_sp": "pedal extenders" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "pedal_extenders_makeshift",
-    "copy-from": "pedal_extenders_makeshift",
-    "name": { "str_sp": "makeshift pedal extenders" },
-    "degradation_multiplier": 0
   }
 ]

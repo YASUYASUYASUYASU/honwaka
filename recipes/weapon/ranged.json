@@ -382,22 +382,7 @@
     "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
-    "//1": "ランチャー(40mm/手製3連ランチャー)のレシピ(制作難易度を短縮)",
-    "type": "recipe",
-    "result": "triple_launcher_simple",
-    "copy-from": "triple_launcher_simple",
-    "difficulty": 5
-  },
-  {
-    "//1": "ランチャー(40mm/手製)のレシピ(制作難易度を低下)",
-    "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "result": "launcher_simple",
-    "copy-from": "triple_launcher_simple",
-    "difficulty": 4
-  },
-  {
-    "//1": "ランチャー(40mm/手製3連ランチャー)のレシピ",
+    "//1": "ランチャー(火炎放射器(自作))のレシピ",
     "type": "recipe",
     "result": "flamethrower_simple",
     "activity_level": "LIGHT_EXERCISE",

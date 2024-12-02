@@ -27,8 +27,10 @@
     "name": { "str": "改造ノートPC" },
     "description": "ロボットが使っている高周波数帯で通信ができるように修正した、携帯型の操作端末です。",
     "copy-from": "laptop",
+    "ammo": [ "battery" ],
     "use_action": [
       "EINKTABLETPC",
+      "EBOOKSAVE",
       "EBOOKREAD",
       "ELECTRICSTORAGE",
       "PORTABLE_GAME",

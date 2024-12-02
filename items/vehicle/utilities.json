@@ -1,12 +1,5 @@
 [
   {
-    "type": "TOOL",
-    "id": "minireactor",
-    "copy-from": "minireactor",
-    "name": { "str": "minireactor" },
-    "degradation_multiplier": 0
-  },
-  {
     "type": "GENERIC",
     "id": "mountable_cooler",
     "copy-from": "mountable_cooler",

@@ -65,28 +65,28 @@
   {
     "id": "animal_locker",
     "type": "GENERIC",
-    "copy-from": "livestock_carrier",
+    "copy-from": "animal_locker",
     "name": { "str": "animal locker" },
     "degradation_multiplier": 0
   },
   {
-    "id": "apartment_fridge",
+    "id": "stowed_fridge",
     "type": "GENERIC",
+    "copy-from": "stowed_fridge",
     "name": "tied-down fridge",
-    "copy-from": "apartment_fridge",
     "degradation_multiplier": 0
   },
   {
     "id": "stowed_glass_fridge",
     "type": "GENERIC",
     "name": "tied-down glass door fridge",
-    "copy-from": "apartment_fridge"
+    "copy-from": "stowed_glass_fridge"
   },
   {
     "id": "stowed_freezer",
     "type": "GENERIC",
     "name": "tied-down freezer",
-    "copy-from": "apartment_fridge",
+    "copy-from": "stowed_freezer",
     "degradation_multiplier": 0
   }
 ]

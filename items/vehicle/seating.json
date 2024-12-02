@@ -10,21 +10,11 @@
     "type": "GENERIC",
     "copy-from": "seat_leather",
     "id": "seat_leather",
-    "name": { "str": "leather bucket seat" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "seat_bench",
-    "copy-from": "seat_bench",
-    "name": { "str": "bench seat" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "copy-from": "seat_bench_leather",
-    "id": "seat_bench_leather",
-    "name": { "str": "leather bench seat" },
+    "name": { "str": "leather seat" },
+    "description": "A soft car seat covered with leather.",
+    "material": [ "leather", "cotton", "steel" ],
+    "price": 60000,
+    "price_postapoc": 250,
     "degradation_multiplier": 0
   },
   {
