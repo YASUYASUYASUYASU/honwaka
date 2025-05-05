@@ -1,62 +1,62 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "boat_board",
     "copy-from": "boat_board",
     "name": { "str": "wood boat hull" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "raft_board",
     "copy-from": "raft_board",
     "name": { "str": "raft boat hull" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "plastic_boat_hull",
     "copy-from": "plastic_boat_hull",
     "name": { "str": "plastic boat hull" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "carbonfiber_boat_hull",
     "copy-from": "carbonfiber_boat_hull",
     "name": { "str": "carbon fiber boat hull" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "hand_paddles",
     "copy-from": "hand_paddles",
     "name": { "str_sp": "oars" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "sail",
     "copy-from": "sail",
     "name": { "str": "sail" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "inflatable_section",
     "copy-from": "inflatable_section",
     "name": { "str_sp": "inflatable section" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "inflatable_airbag",
     "copy-from": "inflatable_airbag",
     "name": { "str_sp": "inflatable airbag" },
     "category": "veh_parts"
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "aluminum_boat_hull",
     "copy-from": "aluminum_boat_hull",
     "name": { "str": "aluminum boat hull" },

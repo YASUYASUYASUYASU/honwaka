@@ -1,44 +1,40 @@
 [
   {
     "abstract": "vehicle_alternator",
-    "type": "GENERIC",
-    "copy-from": "vehicle_alternator",
-    "name": { "str": "vehicle alternator" },
+    "type": "ITEM",
+    "name": { "str": "vehicle alternator", "//~": "NO_I18N" },
+    "category": "veh_parts",
+    "material": [ "lc_steel", "copper" ],
+    "symbol": ",",
+    "color": "light_cyan",
     "degradation_multiplier": 0
   },
   {
     "id": "alternator_car",
     "copy-from": "alternator_car",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "car alternator" },
     "degradation_multiplier": 0
   },
   {
     "id": "alternator_motorbike",
     "copy-from": "alternator_motorbike",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "motorbike alternator" },
     "degradation_multiplier": 0
   },
   {
     "id": "alternator_bicycle",
     "copy-from": "alternator_bicycle",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "bicycle alternator" },
     "degradation_multiplier": 0
   },
   {
     "id": "alternator_truck",
     "copy-from": "alternator_truck",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "truck alternator" },
-    "degradation_multiplier": 0
-  },
-  {
-    "id": "generator_7500w",
-    "copy-from": "generator_7500w",
-    "type": "GENERIC",
-    "name": { "str": "7.5kW generator" },
     "degradation_multiplier": 0
   }
 ]

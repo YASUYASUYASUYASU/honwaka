@@ -1,76 +1,76 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "sheet_metal",
     "copy-from": "sheet_metal",
     "name": { "str_sp": "sheet metal" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "wood_plate",
     "copy-from": "wood_plate",
     "name": { "str": "wooden armor kit" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "steel_plate",
     "copy-from": "steel_plate",
     "name": { "str_sp": "steel plating" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "alloy_plate",
     "copy-from": "alloy_plate",
     "name": { "str_sp": "superalloy plating" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "alloy_sheet",
     "copy-from": "alloy_sheet",
     "name": { "str": "superalloy sheet" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "spiked_plate",
     "copy-from": "spiked_plate",
     "name": { "str_sp": "spiked plating" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "hard_plate",
     "copy-from": "hard_plate",
     "name": { "str": "hard plating" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "mil_plate",
     "copy-from": "mil_plate",
     "name": { "str": "military composite plating" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "chitin_plate",
     "copy-from": "chitin_plate",
     "name": { "str": "chitin armor kit" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "acidchitin_plate",
     "copy-from": "acidchitin_plate",
     "name": { "str": "biosilicified chitin armor kit" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "counterweight",
     "copy-from": "counterweight",
     "name": { "str": "counterweight" },

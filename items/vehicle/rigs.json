@@ -1,29 +1,30 @@
 [
   {
     "abstract": "vehicle_rig",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "vehicle_rig",
-    "name": { "str": "vehicle crafting rig" },
+    "name": { "str": "vehicle crafting rig", "//~": "NO_I18N" },
     "degradation_multiplier": 0
   },
   {
     "id": "forgerig",
     "copy-from": "forgerig",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "vehicle forge rig" },
     "degradation_multiplier": 0
   },
   {
     "id": "kilnrig",
     "copy-from": "kilnrig",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "vehicle kiln" },
     "degradation_multiplier": 0
   },
   {
     "id": "weldkit",
     "copy-from": "weldkit",
-    "type": "GENERIC",
+    "type": "ITEM",
     "name": { "str": "vehicle high-temperature welding kit" },
     "degradation_multiplier": 0
   }

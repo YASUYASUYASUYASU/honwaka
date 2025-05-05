@@ -6,7 +6,7 @@
     "description": "大抵の銃器に取り付けられる、特製の小型火炎放射器です。殺傷能力を大幅に拡張します。",
     "weight": "1820 g",
     "volume": "1 L",
-    "price": 85000,
+    "price": "85 USD",
     "install_time": "10 m",
     "material": [ "steel" ],
     "symbol": ":",

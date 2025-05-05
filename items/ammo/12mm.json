@@ -6,8 +6,8 @@
     "copy-from": "12mm",
     "name": { "str_sp": "弾薬(12mm/自作)" },
     "description": "スクラップから作られたH&Kレールガン用の弾薬です。正規品ほどの威力は出ませんが、レールガンで発射が可能です。",
-    "price": 3000,
-    "price_postapoc": 3000,
+    "price": "30 USD",
+    "price_postapoc": "30 USD",
     "ammo_type": "12mm",
     "damage": { "damage_type": "bullet", "amount": 35, "armor_penetration": 30 }
   }

@@ -7,7 +7,7 @@
     "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。着火して点灯することで熱い試合のプレイボールを宣言できます。着火にはライターやマッチが必要です。",
     "weight": "1485 g",
     "volume": "2 L",
-    "price": 16000,
+    "price": "16 USD",
     "to_hit": 3,
     "melee_damage": { "bash": 18 },
     "material": [ "wood", "nomex" ],
@@ -35,7 +35,7 @@
     "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。今やナイターの球場でもベースラインがはっきりと見えるくらいに明るく燃えています。これなら主審がどんなに遠くにいてもストライクの判定を出せますね。",
     "weight": "1485 g",
     "volume": "2 L",
-    "price": 16000,
+    "price": "16 USD",
     "to_hit": 3,
     "melee_damage": { "bash": 18 },
     "material": [ "wood", "nomex" ],
@@ -72,6 +72,6 @@
     "flags": [ "DURABLE_MELEE" ],
     "volume": "1750 ml",
     "melee_damage": { "bash": 19 },
-    "price": 18000
+    "price": "16 USD"
   }
 ]

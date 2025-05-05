@@ -1,65 +1,72 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "foldframe",
     "copy-from": "foldframe",
     "name": { "str": "foldable light frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "xlframe",
     "copy-from": "xlframe",
     "name": { "str": "extra-light frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "foldxlframe",
     "copy-from": "foldxlframe",
     "name": { "str": "foldable extra-light frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "frame",
     "copy-from": "frame",
     "name": { "str": "steel frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "hdframe",
     "copy-from": "hdframe",
     "name": { "str": "heavy-duty frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "frame_wood",
     "copy-from": "frame_wood",
     "name": { "str": "wooden frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "foldwoodframe",
     "copy-from": "foldwoodframe",
     "name": { "str": "foldable wooden frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "frame_wood_light",
     "copy-from": "frame_wood_light",
     "name": { "str": "light wooden frame" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "frame_wood_deck",
     "name": { "str": "skateboard deck" },
     "copy-from": "frame_wood_deck",
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "ITEM",
+    "id": "frame_concrete_mix",
+    "copy-from": "frame_concrete_mix",
+    "name": { "str_sp": "concrete mixer chassis" },
     "degradation_multiplier": 0
   }
 ]

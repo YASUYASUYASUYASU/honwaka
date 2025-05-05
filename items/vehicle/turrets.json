@@ -1,7 +1,7 @@
 [
   {
     "id": "turret_mount",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "turret_mount",
     "name": { "str": "turret mount" },
     "degradation_multiplier": 0

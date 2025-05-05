@@ -6,10 +6,10 @@
     "color": "white",
     "name": "装甲キット(骨)",
     "description": "車両に取り付けられる、骨で作られた装甲です。",
-    "price": 1200,
+    "price": "1 USD",
     "material": [ "bone" ],
-    "weight": 4000,
-    "volume": 38,
+    "weight": "4 kg",
+    "volume": "3800 ml",
     "melee_damage": { "bash": 8 },
     "to_hit": -4,
     "category": "veh_parts"

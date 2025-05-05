@@ -7,7 +7,7 @@
     "description": "ケブラーを革で補強した特製ヘルメットです。着心地が良く、危険から身を守ります。",
     "weight": "1420 g",
     "volume": "2500 ml",
-    "price": 58000,
+    "price": "58 USD",
     "to_hit": -1,
     "melee_damage": { "bash": 10 },
     "material": [ "kevlar", "leather" ],
@@ -29,7 +29,7 @@
     "name": { "str": "XLサバイバーヘルメット" },
     "weight": "3060 g",
     "volume": "6 L",
-    "price": 58000,
+    "price": "58 USD",
     "looks_like": "helmet_survivor",
     "armor": [ { "encumbrance": 30, "coverage": 100, "covers": [ "head" ] } ],
     "extend": { "flags": [ "OVERSIZE" ] }
@@ -42,7 +42,7 @@
     "name": { "str": "XSサバイバーヘルメット" },
     "weight": "710 g",
     "volume": "1250 ml",
-    "price": 58000,
+    "price": "58 USD",
     "looks_like": "helmet_survivor",
     "armor": [ { "encumbrance": 30, "coverage": 100, "covers": [ "head" ] } ],
     "extend": { "flags": [ "UNDERSIZE" ] }
@@ -55,7 +55,7 @@
     "description": "鋼鉄で補強した特製のケブラーヘルメットです。着心地が良く、危険から身を守ります。補強のためかなり重くなっています。",
     "weight": "3312 g",
     "volume": "2500 ml",
-    "price": 58000,
+    "price": "58 USD",
     "to_hit": -1,
     "melee_damage": { "bash": 10 },
     "material": [ "kevlar", "steel" ],
@@ -77,7 +77,7 @@
     "name": { "str": "XL重量型サバイバーヘルメット" },
     "weight": "6624 g",
     "volume": "5 L",
-    "price": 58000,
+    "price": "58 USD",
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
@@ -88,7 +88,7 @@
     "name": { "str": "XS重量型サバイバーヘルメット" },
     "weight": "1656 g",
     "volume": "1250 ml",
-    "price": 58000,
+    "price": "58 USD",
     "extend": { "flags": [ "UNDERSIZE" ] }
   }
 ]

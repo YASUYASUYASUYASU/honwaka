@@ -1,7 +1,8 @@
 [
   {
     "id": "fuel_bunker",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "copy-from": "fuel_bunker",
     "name": { "str": "fuel bunker" },
     "degradation_multiplier": 0

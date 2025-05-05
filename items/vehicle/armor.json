@@ -1,14 +1,15 @@
 [
   {
     "id": "rebar_plate",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "rebar_plate",
     "name": { "str": "rebar grate" },
     "degradation_multiplier": 0
   },
   {
     "id": "spring_plate",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "spring_plate",
     "category": "veh_parts",
     "name": { "str": "shock absorber" },

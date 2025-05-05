@@ -1,132 +1,111 @@
 [
   {
-    "type": "TOOL",
-    "id": "minireactor",
-    "copy-from": "minireactor",
-    "name": { "str": "minireactor" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "mountable_cooler",
     "copy-from": "mountable_cooler",
     "name": { "str": "vehicle cooler" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "integrated_cooler",
     "id": "integrated_cooler",
     "name": { "str": "small integrated cooler" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "mountable_heater",
     "copy-from": "mountable_heater",
     "name": { "str": "vehicle heater" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "mountable_heater_small",
     "id": "mountable_heater_small",
     "name": { "str": "small vehicle heater" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "towel_hanger",
     "copy-from": "towel_hanger",
     "name": { "str": "towel hanger" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "recharge_station",
     "copy-from": "recharge_station",
     "name": { "str": "recharging station" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "battery_charger",
     "copy-from": "battery_charger",
     "name": { "str": "battery charger" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "washing_machine",
     "copy-from": "washing_machine",
     "name": { "str": "washing machine" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "programmable_autopilot",
     "copy-from": "programmable_autopilot",
     "name": { "str": "programmable autopilot" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "vh_autoclave",
     "copy-from": "vh_autoclave",
     "name": { "str": "mountable autoclave" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
-    "copy-from": "minifridge",
-    "id": "minifridge",
-    "name": { "str": "minifridge" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "minifreezer",
-    "copy-from": "minifreezer",
-    "name": { "str": "minifreezer" },
-    "degradation_multiplier": 0
-  },
-  {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "dishwasher",
     "copy-from": "dishwasher",
     "name": { "str": "portable dishwasher" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "fridgetank",
     "id": "fridgetank",
     "name": { "str": "refrigerated tank (60 L)", "str_pl": "refrigerated tanks (60 L)" },
     "degradation_multiplier": 0    
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "fridgetank_large",
     "id": "fridgetank_large",
     "name": { "str": "refrigerated tank (100 L)", "str_pl": "refrigerated tanks (100 L)" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "heattank",
     "id": "heattank",
     "name": { "str": "heated tank" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "water_faucet",
     "copy-from": "water_faucet",
     "name": { "str": "water faucet" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "oil_press_electric",
     "copy-from": "oil_press_electric",
     "name": { "str": "electric oil press", "str_pl": "electric oil presses" },

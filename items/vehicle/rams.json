@@ -1,7 +1,8 @@
 [
   {
     "id": "tearer",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tearer",
     "name": { "str": "shredder" },
     "degradation_multiplier": 0

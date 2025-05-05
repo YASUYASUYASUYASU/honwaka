@@ -1,42 +1,67 @@
 [
   {
-    "type": "GENERIC",
+    "//": "Assumed to be ~0.5 m x 0.5 m to fit in a vehicle tile",
+    "type": "ITEM",
     "id": "solar_panel",
     "copy-from": "solar_panel",
     "name": { "str": "solar panel" },
-    "flags": [ "WATER_BREAK" ],
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "//": "Four solar panels stuck together to fit in 1 m x 1 m",
+    "type": "ITEM",
+    "id": "ground_solar_panel",
+    "name": { "str": "solar panel array" },
+    "copy-from": "ground_solar_panel",
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "ITEM",
     "copy-from": "folding_solar_panel",
     "id": "folding_solar_panel",
+    "name": { "str": "folding solar panel" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
+    "copy-from": "folding_solar_panel_deployed",
+    "id": "folding_solar_panel_deployed",
     "name": { "str": "deployed folding solar panel" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "folding_solar_panel_v2",
     "id": "folding_solar_panel_v2",
-    "name": { "str": "advanced collapsible solar array" },
+    "name": { "str": "solar suitcase" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
+    "copy-from": "folding_solar_panel_v2_deployed",
+    "id": "folding_solar_panel_v2_deployed",
+    "name": { "str": "deployed solar suitcase" },
+    "degradation_multiplier": 0
+  },
+  {
+    "type": "ITEM",
     "id": "reinforced_solar_panel",
     "name": { "str": "reinforced solar panel" },
     "copy-from": "reinforced_solar_panel",
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "//": "Assumed to be ~0.5 m x 0.5 m to fit in a vehicle tile",
+    "type": "ITEM",
     "id": "solar_panel_v2",
     "name": { "str": "advanced solar panel" },
     "copy-from": "solar_panel_v2",
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "reinforced_solar_panel_v2",
     "name": { "str": "advanced reinforced solar panel" },
     "copy-from": "reinforced_solar_panel_v2",

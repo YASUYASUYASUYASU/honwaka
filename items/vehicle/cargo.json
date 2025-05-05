@@ -1,6 +1,6 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "basket",
     "copy-from": "basket",
     "name": { "str": "wire basket" },
@@ -8,34 +8,34 @@
   },
   {
     "id": "bike_rack",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "bike_rack",
     "name": { "str": "bike rack" },
     "degradation_multiplier": 0
   },
   {
     "id": "cargo_lock",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "cargo_lock",
     "name": { "str": "cargo lock set" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "folding_basket",
     "copy-from": "folding_basket",
     "name": { "str": "folding wire basket" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "bike_basket",
     "copy-from": "bike_basket",
     "name": { "str": "bike basket" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "cargo_rack",
     "copy-from": "cargo_rack",
     "name": { "str": "cargo carrier" },
@@ -43,50 +43,30 @@
   },
   {
     "id": "cargo_aisle",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "cargo_aisle",
     "name": { "str": "floor trunk" },
     "degradation_multiplier": 0
   },
   {
     "id": "livestock_carrier",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "livestock_carrier",
     "name": { "str": "livestock carrier" },
     "degradation_multiplier": 0
   },
   {
     "id": "mounted_spare_tire",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "mounted_spare_tire",
     "name": { "str": "mounted spare tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "animal_locker",
-    "type": "GENERIC",
-    "copy-from": "livestock_carrier",
+    "type": "ITEM",
+    "copy-from": "animal_locker",
     "name": { "str": "animal locker" },
-    "degradation_multiplier": 0
-  },
-  {
-    "id": "apartment_fridge",
-    "type": "GENERIC",
-    "name": "tied-down fridge",
-    "copy-from": "apartment_fridge",
-    "degradation_multiplier": 0
-  },
-  {
-    "id": "stowed_glass_fridge",
-    "type": "GENERIC",
-    "name": "tied-down glass door fridge",
-    "copy-from": "apartment_fridge"
-  },
-  {
-    "id": "stowed_freezer",
-    "type": "GENERIC",
-    "name": "tied-down freezer",
-    "copy-from": "apartment_fridge",
     "degradation_multiplier": 0
   }
 ]

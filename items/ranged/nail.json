@@ -9,8 +9,8 @@
     "weight": "3904 g",
     "volume": "750 ml",
     "longest_side": "45 cm",
-    "price": 13000,
-    "price_postapoc": 500,
+    "price": "13 USD",
+    "price_postapoc": "1 USD",
     "to_hit": -2,
     "melee_damage": { "bash": 6 },
     "material": [ "plastic", "steel" ],
@@ -49,7 +49,6 @@
         "item_restriction": [ "nailmag" ]
       }
     ],
-    "relative": { "weight": 1000, "volume": 6, "range": 3, "damage_type": "bullet", "amount": 4 },
     "proportional": { "price": 1.1, "dispersion": 2 }
   },
   {
@@ -62,8 +61,8 @@
     "weight": "2041 g",
     "volume": "2750 ml",
     "longest_side": "80 cm",
-    "price": 75000,
-    "price_postapoc": 5000,
+    "price": "75 USD",
+    "price_postapoc": "5 USD",
     "to_hit": -2,
     "melee_damage": { "bash": 10 },
     "material": [ "copper", "steel" ],

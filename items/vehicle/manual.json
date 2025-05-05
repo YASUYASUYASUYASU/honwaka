@@ -1,13 +1,13 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "hand_rims",
     "copy-from": "hand_rims",
     "name": { "str": "set of hand rims", "str_pl": "sets of hand rims" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "foot_crank",
     "copy-from": "foot_crank",
     "name": { "str": "foot crank" },

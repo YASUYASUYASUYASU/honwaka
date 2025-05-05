@@ -8,7 +8,7 @@
     "description": "改造された大きな鋼製のナイフです。燃料タンクと点火装置、そして遮熱ハンドガードが取り付けられています。ガソリンを充填して起動することで刃は炎によって加熱され、斬り付けた敵をさらに焼灼します。",
     "proportional": { "weight": 1.2, "volume": 1.1 },
     "to_hit": 0,
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "rigid": true, "ammo_restriction": { "gasoline": 50 } } ],
     "techniques": [ "WBLOCK_2" ],
@@ -54,7 +54,7 @@
     "name": { "str": "ライジングサン(オフ)" },
     "description": "峰にノズルが取り付けられた日本刀です。人は火を好み、刀を好みます。なら合体させてしまえばいいのです。斬り付けると同時にバーナーから吐き出された炎が敵を燃やします。使用するには点火が必要です。",
     "proportional": { "weight": 1.2, "volume": 1.1 },
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
     "use_action": {
@@ -98,7 +98,7 @@
     "name": { "str": "ファイアブランド(オフ)", "str_pl": "ファイアブランド(オフ)" },
     "description": "ブロードソードと火炎放射器を組み合わせた暗黒時代を切り開く逸品です。火を灯し、今こそ信仰心無きゾンビどもにこの地の領主が誰なのかを教えてやりましょう。",
     "proportional": { "weight": 1.2, "volume": 1.1 },
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
     "use_action": {
@@ -144,7 +144,7 @@
     "//": "All of this is SUPPOSED to be in German.",
     "description": "Ein großes zweihändiges Schwert aus Deutschland, an dessen Klinge sichunter Zuführung von Benzin, eine anhaltende Flamme erzeugen lässt. Es ist eine sehr mächtige Waffe.(ガソリンの炎で刀身を燃やし続けるドイツ生まれの大型両手剣です。非常に強力な武器です。)",
     "proportional": { "weight": 1.1, "volume": 1.1 },
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
     "use_action": {
@@ -189,7 +189,7 @@
     "name": { "str": "シシケバブ(オフ)", "str_pl": "シシカバブ(オフ)" },
     "description": "燃料パイプと点火装置が取り付けてある、大きな刃です。ガソリンを充填して点火することで刃の攻撃に炎の熱が加わり、また周囲を照らします。使用することで点火します。",
     "proportional": { "weight": 1.2, "volume": 1.1 },
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 0,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],    
     "use_action": {

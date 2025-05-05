@@ -1,7 +1,8 @@
 [
   {
     "id": "battery_car",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "copy-from": "battery_car",
     "name": { "str": "car battery", "str_pl": "car batteries" },
     "degradation_multiplier": 0
@@ -9,26 +10,28 @@
   {
     "id": "battery_motorbike",
     "copy-from": "battery_motorbike",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "motorbike battery", "str_pl": "motorbike batteries" },
     "degradation_multiplier": 0
   },
   {
     "id": "battery_motorbike_small",
     "copy-from": "battery_motorbike_small",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "small motorbike battery", "str_pl": "small motorbike batteries" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "it_battery_mount",
     "copy-from": "it_battery_mount",
     "name": { "str": "storage battery case" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "it_handheld_battery_mount",
     "name": { "str": "tool battery mount" },
     "copy-from": "it_handheld_battery_mount",
@@ -37,27 +40,31 @@
   {
     "id": "large_storage_battery",
     "copy-from": "large_storage_battery",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "very large storage battery", "str_pl": "very large storage batteries" },
     "degradation_multiplier": 0
   },
   {
     "id": "medium_storage_battery",
     "copy-from": "medium_storage_battery",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "medium storage battery", "str_pl": "medium storage batteries" },
     "degradation_multiplier": 0
   },
   {
     "id": "small_storage_battery",
     "copy-from": "small_storage_battery",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str": "small storage battery", "str_pl": "small storage batteries" },
     "degradation_multiplier": 0
   },
   {
     "id": "storage_battery",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "copy-from": "storage_battery",
     "category": "veh_parts",
     "name": { "str": "large storage battery", "str_pl": "large storage batteries" },

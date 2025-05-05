@@ -2,35 +2,35 @@
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_MAX_STAMINA_BASE",
-    "info": "Sets max stamina value of the player.",
+    "//": "Sets the base max stamina value of the player, before cardio modifiers.",
     "stype": "int",
     "value": 10000
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_CARDIOFIT_STAMINA_SCALING",
-    "info": "Sets the effect of cardio on maximum stamina.",
+    "//": "Sets the effect of cardio on maximum stamina.",
     "stype": "int",
     "value": 6
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_BASE_STAMINA_REGEN_RATE",
-    "info": "Sets base stamina regeneration per turn of the player.  May be used as an offset in stamina draining effects.",
+    "//": "Sets base stamina regeneration per turn of the player, before cardio modifiers.  May be used as an offset in stamina draining effects.",
     "stype": "float",
     "value": 40
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "PLAYER_BASE_STAMINA_BURN_RATE",
-    "info": "Sets base stamina burn per 100 moves of the walking player.",
+    "//": "Sets base stamina burn per 100 moves of the walking player.",
     "stype": "int",
     "value": 10
   },
   {
     "type": "EXTERNAL_OPTION",
     "name": "NPC_HEALING_RATE",
-    "info": "Set base NPC healing rate per turn.  Default: 0.0001",
+    "//": "Set base NPC healing rate per turn.  Default: 0.0001",
     "stype": "float",
     "value": 0.0002
   }

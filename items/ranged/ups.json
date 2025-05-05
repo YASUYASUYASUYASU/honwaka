@@ -7,7 +7,7 @@
     "description": "サイボーグからもぎ取ったフュージョンブラスターをライフルにしました。この即席の武器はUPSで動作します。",
     "weight": "2680 g",
     "volume": "2500 ml",
-    "price": 420000,
+    "price": "420 USD",
     "to_hit": -1,
     "melee_damage": { "bash": 10 },
     "material": [ "steel", "plastic" ],

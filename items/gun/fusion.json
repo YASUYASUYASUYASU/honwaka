@@ -7,7 +7,7 @@
     "color": "magenta",
     "name": { "str_sp": "ライフル(核融合ｾﾙ/FTK-93ﾌｭｰｼﾞｮﾝｶﾞﾝ)" },
     "description": "モンスターが大発生する少し前に開発された非常に強力な核融合ライフルです。装弾数はわずか2発ですが、特殊過熱装置によって撃ち出される発射体の殺傷力は凄まじいものがあります。",
-    "price": 980000,
+    "price": "980 USD",
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "PLASMA", "EXPLOSIVE", "FLAME" ],
     "flags": [ "NEVER_JAMS" ],

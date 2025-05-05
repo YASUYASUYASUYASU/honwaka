@@ -8,7 +8,7 @@
     "copy-from": "clay_pot",
     "weight": "1500 g",
     "volume": "2 L",
-    "price": 0,
+    "price": "50 cent",
     "material": [ "stone" ],
     "pocket_data": [
       {
@@ -28,11 +28,20 @@
     "description": "ロボットが使っている高周波数帯で通信ができるように修正した、携帯型の操作端末です。",
     "copy-from": "laptop",
     "use_action": [
-      "EINKTABLETPC",
-      "EBOOKREAD",
-      "ELECTRICSTORAGE",
+      "E_FILE_DEVICE",
+      "EBOOKSAVE",
       "PORTABLE_GAME",
-      "ROBOTCONTROL"
+      "ROBOTCONTROL",
+      {
+        "target": "laptop_screen_lit",
+        "msg": "You light up the screen.",
+        "menu_text": "Light up the screen",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The laptop's batteries need more charge.",
+        "type": "transform"
+      },
+      { "type": "link_up", "cable_length": 5, "charge_rate": "140 W" }
     ]
   }
 ]

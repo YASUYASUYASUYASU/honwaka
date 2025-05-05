@@ -2,8 +2,8 @@
   {
     "type": "AMMO",
     "id": "shotcanister_scrap",
-    "price": 1000,
-    "price_postapoc": 250,
+    "price": "10 USD",
+    "price_postapoc": "2 USD",
     "name": { "str": "弾薬(紙筒弾/金属片)" },
     "symbol": "=",
     "color": "green",
@@ -23,8 +23,8 @@
   {
     "type": "AMMO",
     "id": "shotcanister_pebble",
-    "price": 1000,
-    "price_postapoc": 50,
+    "price": "10 USD",
+    "price_postapoc": "50 cent",
     "name": { "str": "弾薬(紙筒弾/石つぶて)" },
     "symbol": "=",
     "color": "green",
@@ -44,8 +44,8 @@
   {
     "type": "AMMO",
     "id": "shotcanister_flechette",
-    "price": 1000,
-    "price_postapoc": 250,
+    "price": "10 USD",
+    "price_postapoc": "25 cent",
     "name": { "str": "弾薬(紙筒弾/矢弾)" },
     "symbol": "=",
     "color": "green",
@@ -65,8 +65,8 @@
   {
     "type": "AMMO",
     "id": "shotcanister_bearing",
-    "price": 1000,
-    "price_postapoc": 250,
+    "price": "10 USD",
+    "price_postapoc": "25 cent",
     "name": { "str": "弾薬(紙筒弾/ﾍﾞｱﾘﾝｸﾞﾎﾞｰﾙ)" },
     "symbol": "=",
     "color": "green",
@@ -92,7 +92,7 @@
   {
     "type": "AMMO",
     "id": "reloaded_laser_pack",
-    "price": 80,
+    "price": "80 USD",
     "name": { "str": "弾薬(核融合パック/非正規)" },
     "symbol": "=",
     "color": "light_green",
@@ -117,7 +117,7 @@
   {
     "type": "AMMO",
     "id": "laser_pack",
-    "price": 80000,
+    "price": "800 USD",
     "name": { "str": "弾薬(核融合パック)" },
     "symbol": "=",
     "color": "light_green",
@@ -135,7 +135,7 @@
   {
     "type": "AMMO",
     "id": "mininuke_mod",
-    "price": 180000,
+    "price": "1800 USD",
     "name": { "str": "小型原子爆弾(改良型)" },
     "symbol": "*",
     "color": "green",

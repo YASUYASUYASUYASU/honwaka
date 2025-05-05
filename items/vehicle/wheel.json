@@ -1,84 +1,95 @@
 [
   {
     "id": "wheel_mount_wood",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "wheel_mount_wood",
     "name": { "str": "wooden wheel mount" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_mount_light",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_mount_light",
     "name": { "str": "light wheel mount" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_mount_medium",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_mount_medium",
     "name": { "str": "medium wheel hub assembly", "str_pl": "medium wheel hub assemblies" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_mount_heavy",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_mount_heavy",
     "name": { "str": "heavy wheel hub assembly", "str_pl": "heavy wheel hub assemblies" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_mount_skateboard",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_mount_skateboard",
     "name": { "str": "pair of skateboard trucks", "str_pl": "pairs of skateboard trucks" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_rim_medium",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_rim_medium",
     "name": { "str": "medium steel rim" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_rim_motorbike",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_rim_motorbike",
     "name": { "str": "steel motorbike rim" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_rim_wide",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_rim_wide",
     "name": { "str": "wide steel rim" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_rim_bicycle",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "wheel_rim_bicycle",
     "name": { "str": "bicycle rim" },
     "degradation_multiplier": 0
   },
   {
     "id": "tire_medium",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tire_medium",
     "name": { "str": "17\" car tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "tire_medium_slick",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tire_medium_slick",
     "name": { "str": "16\" racing tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "tire_motorbike",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tire_motorbike",
     "name": { "str": "16\" motorbike tire" },
     "degradation_multiplier": 0
@@ -86,13 +97,15 @@
   {
     "id": "tire_motorbike_or",
     "copy-from": "tire_motorbike_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "20\" off-road motorbike tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "tire_wide",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tire_wide",
     "name": { "str": "24\" wide tire" },
     "degradation_multiplier": 0
@@ -100,13 +113,15 @@
   {
     "id": "tire_wide_or",
     "copy-from": "tire_wide_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "24\" off-road wide tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "tire_bicycle",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "tire_bicycle",
     "name": { "str": "27\" bicycle tire" },
     "degradation_multiplier": 0
@@ -114,27 +129,31 @@
   {
     "id": "tire_bicycle_or",
     "copy-from": "tire_bicycle_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "27\" off-road bicycle tire" },
     "degradation_multiplier": 0
   },
   {
     "id": "deflated_wheel",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "deflated_wheel",
     "name": { "str": "deflated 17\" wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "deflated_wheel_slick",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "deflated_wheel_slick",
     "name": { "str": "deflated 16\" racing wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "deflated_wheel_motorbike",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "deflated_wheel_motorbike",
     "name": { "str": "deflated 16\" motorbike wheel" },
     "degradation_multiplier": 0
@@ -142,13 +161,15 @@
   {
     "id": "deflated_wheel_motorbike_or",
     "copy-from": "deflated_wheel_motorbike_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "deflated 20\" off-road motorbike wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "deflated_wheel_wide",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "copy-from": "deflated_wheel_wide",
     "name": { "str": "deflated 24\" wide wheel" },
     "degradation_multiplier": 0
@@ -156,7 +177,8 @@
   {
     "id": "deflated_wheel_wide_or",
     "copy-from": "deflated_wheel_wide_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "deflated 24\" off-road wide wheel" },
     "degradation_multiplier": 0
   },
@@ -170,26 +192,30 @@
   {
     "id": "deflated_wheel_bicycle_or",
     "copy-from": "deflated_wheel_bicycle_or",
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "veh_parts",
     "name": { "str": "deflated 27\" off-road bicycle wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel",
     "name": { "str": "wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_slick",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_slick",
     "name": { "str": "racing wheel" },
     "degradation_multiplier": 0
   },
   {
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "id": "wheel_armor",
     "copy-from": "wheel_armor",
     "name": { "str": "armored wheel" },
@@ -197,14 +223,16 @@
   },
   {
     "id": "wheel_barrow",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_barrow",
     "name": { "str": "wheelbarrow wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_bicycle",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_bicycle",
     "name": { "str": "bicycle wheel" },
     "degradation_multiplier": 0
@@ -212,43 +240,50 @@
   {
     "id": "wheel_bicycle_or",
     "copy-from": "wheel_bicycle_or",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "off-road bicycle wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_caster",
     "copy-from": "wheel_caster",
-    "type": "WHEEL",
-    "name": { "str": "set of casters", "str_pl": "sets of casters" },
+    "category": "veh_parts",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
+    "name": { "str": "set of small casters", "str_pl": "sets of small casters" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_caster_large",
-    "copy-from": "wheel_caster_large",
-    "category": "veh_parts",
-    "type": "WHEEL",
-    "name": { "str": "set of large casters", "str_pl": "sets of large casters" },
+    "copy-from": "wheel_caster",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
+    "name": { "str": "set of medium casters", "str_pl": "sets of medium casters" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_10",
+    "category": "veh_parts",
     "copy-from": "wheel_10",
-    "type": "WHEEL",
-    "name": { "str": "set of wheels", "str_pl": "sets of wheels" },
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
+    "name": { "str": "set of large casters", "str_pl": "sets of large casters" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_metal",
     "copy-from": "wheel_metal",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "metal wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_rail",
     "copy-from": "wheel_rail",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "rail wheel" },
     "degradation_multiplier": 0
   },
@@ -256,12 +291,14 @@
     "id": "wheel_rail_small_pair",
     "copy-from": "wheel_rail_small_pair",
     "name": { "str": "pair of small rail wheels", "str_pl": "pairs of small rail wheels" },
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_motorbike",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_motorbike",
     "name": { "str": "motorbike wheel" },
     "degradation_multiplier": 0
@@ -269,34 +306,39 @@
   {
     "id": "wheel_motorbike_or",
     "copy-from": "wheel_motorbike_or",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "off-road motorbike wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "hd_steel_drum",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "hd_steel_drum",
     "name": { "str": "large steel drum" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_small",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_small",
     "name": { "str": "small wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_skate",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_skate",
     "name": { "str": "skate wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_skateboard",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_skateboard",
     "category": "veh_parts",
     "name": { "str": "set of skateboard wheels", "str_pl": "sets of skateboard wheels" },
@@ -305,20 +347,23 @@
   {
     "id": "wheel_tricycle",
     "copy-from": "wheel_tricycle",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "set of tricycle wheels", "str_pl": "sets of tricycle wheels" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_wheelchair",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_wheelchair",
     "name": { "str": "pair of wheelchair wheels", "str_pl": "pairs of wheelchair wheels" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_wide",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_wide",
     "name": { "str": "wide wheel" },
     "degradation_multiplier": 0
@@ -326,13 +371,15 @@
   {
     "id": "wheel_wide_or",
     "copy-from": "wheel_wide_or",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "off-road wide wheel" },
     "degradation_multiplier": 0
   },
   {
     "id": "wheel_wood",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "copy-from": "wheel_wood",
     "category": "veh_parts",
     "name": { "str": "wooden cart wheel" },
@@ -341,8 +388,24 @@
   {
     "id": "wheel_wood_b",
     "copy-from": "wheel_wood_b",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "name": { "str": "banded wooden cart wheel" },
+    "degradation_multiplier": 0
+  },
+  {
+    "id": "wheel_mount_concrete_mix",
+    "type": "ITEM",
+    "copy-from": "wheel_mount_concrete_mix",
+    "name": { "str_sp": "concrete mixer wheel mounts" },
+    "degradation_multiplier": 0
+  },
+  {
+    "id": "wheel_set_concrete_mix",
+    "copy-from": "wheel_set_concrete_mix",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
+    "name": { "str_sp": "concrete mixer wheels" },
     "degradation_multiplier": 0
   }
 ]

@@ -1,7 +1,6 @@
 [
   {
     "id": "mon_fungaloid",
-    "alias": "mon_fungaloid_dormant",
     "type": "MONSTER",
     "copy-from": "mon_fungaloid",
     "special_attacks": [ [ "FUNGUS", 300 ] ]

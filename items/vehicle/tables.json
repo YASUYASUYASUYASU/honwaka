@@ -1,27 +1,27 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "v_table",
     "copy-from": "v_table",
     "name": { "str": "fancy table" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "w_table",
     "copy-from": "w_table",
     "name": { "str": "wooden table" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "workbench",
     "copy-from": "workbench",
     "name": { "str": "workbench (folded)", "str_pl": "workbenches (folded)" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "workbench_with_recharger",
     "copy-from": "workbench_with_recharger",
     "name": { "str": "workbench with battery recharger", "str_pl": "workbenches with battery rechargers" },

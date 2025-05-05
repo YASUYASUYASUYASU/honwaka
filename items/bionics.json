@@ -17,7 +17,7 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "CBM: 体内炉" },
     "description": "このCBMを移植している場合、エネルギー密度の高い有機素材を(Eキーを押すことで)燃料として焼却してCBM電力を充電できます。特定の素材を燃焼すると他の素材よりも多くの電力を生成できます。",
-    "price": 450000,
+    "price": "4500 USD",
     "difficulty": 4
   },
   {
@@ -34,7 +34,7 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "CBM: 体内格納庫" },
     "description": "胸の内部を格納領域に改造します。 最大所持容量が2L増加します。",
-    "price": 400000,
+    "price": "4000 USD",
     "difficulty": 7
   },
   {
@@ -43,7 +43,7 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "CBM: フュージョンブラスターアーム" },
     "description": "左腕をフュージョンブラスターアームに取り替えます！電力を使って熱線を射出する武器を得ますが、片腕を失うため、武器の両手持ちはできず、片手分の力でしか物を扱えなくなります。",
-    "price": 220000,
+    "price": "2200 USD",
     "difficulty": 3
   },
   {
@@ -61,7 +61,7 @@
     "name": { "str": "フュージョンブラスターアーム" },
     "description": "this a pseudo item",
     "volume": "3 L",
-    "price": 0,
+    "price": "1 USD",
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "magenta",

@@ -54,7 +54,6 @@
     "name": { "str": "heavy-duty military Blackhawk rotors" },
     "item": "heavy_duty_military_rotor",
     "//": "rotor diameter is in meters",
-    "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
     "rotor_diameter": 16,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "10 m", "using": [ [ "welding_standard", 5 ] ] },

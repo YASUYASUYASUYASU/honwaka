@@ -1,27 +1,27 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "wind_turbine",
     "copy-from": "wind_turbine",
     "name": { "str": "wind turbine" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "xl_wind_turbine",
     "copy-from": "xl_wind_turbine",
     "name": { "str": "large wind turbine" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "water_wheel",
     "copy-from": "xl_wind_turbine",
     "name": { "str": "water wheel" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "xl_water_wheel",
     "copy-from": "xl_water_wheel",
     "name": { "str": "large water wheel" },

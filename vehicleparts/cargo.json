@@ -16,7 +16,7 @@
       "removal": { "skills": [ [ "fabrication", 2 ] ], "time": "5 m", "using": [ [ "vehicle_nail_removal", 1 ] ] },
       "repair": { "skills": [ [ "fabrication", 2 ] ], "time": "5 m", "using": [ [ "adhesive", 2 ] ] }
     },
-    "flags": [ "CARGO", "BOARDABLE", "COVERED", "CARGO_PASSABLE","SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "CARGO", "BOARDABLE", "COVERED","SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": "ig_vp_cloth",
     "variants": [ { "symbols": "o", "symbols_broken": "#" } ]
   },
@@ -34,7 +34,7 @@
     "requirements": {
       "install": { "skills": [ [ "fabrication", 1 ] ], "time": "5 m", "using": [ [ "vehicle_bolt_install_simple", 1 ] ] },
       "removal": { "skills": [ [ "fabrication", 1 ] ], "time": "5 m", "using": [ [ "vehicle_wrench_1", 1 ] ] },
-      "repair": { "skills": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 5 ] ] }
+      "repair": { "skills": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "repair_welding_lc_steel", 5 ] ] }
     },
     "flags": [ "CARGO", "BOARDABLE", "CARGO_PASSABLE", "FLAT_SURF","SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": "ig_vp_sheet_metal",
@@ -94,7 +94,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
     },
-    "flags": [ "UNMOUNT_ON_DAMAGE", "CARGO", "PROTRUSION", "CARGO_PASSABLE", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "UNMOUNT_ON_DAMAGE", "CARGO", "PROTRUSION", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "damage_reduction": { "all": 6 },
     "variants": [ { "symbols": "o", "symbols_broken": "#" } ]
   },
@@ -261,8 +261,8 @@
     "durability": 150,
     "description": "A collection of pipes and frames for supporting a bike or other small vehicle and carrying it on your vehicle.  Move a single tile wide vehicle so that all of that vehicle's tiles are next to bike racks, and then 'e'xamine any bike rack to mount that vehicle onto the bike rack.  'e'xamine the bike rack to unmount the carried vehicle.",
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 6, 8 ] },
-      { "item": "steel_chunk", "count": [ 6, 8 ] },
+      { "item": "mc_steel_lump", "count": [ 6, 8 ] },
+      { "item": "mc_steel_chunk", "count": [ 6, 8 ] },
       { "item": "scrap", "count": [ 6, 8 ] }
     ],
     "//": "20 cm weld per damage quadrant to repair",

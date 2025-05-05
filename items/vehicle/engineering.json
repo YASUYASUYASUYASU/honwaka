@@ -1,41 +1,41 @@
 [
   {
     "id": "cantilever_medium",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "cantilever_medium",
     "name": { "str": "steel boom" },
     "degradation_multiplier": 0
   },
   {
     "id": "cantilever_small",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "cantilever_small",
     "name": { "str": "telescopic cantilever" },
     "degradation_multiplier": 0
   },
   {
     "id": "pallet_lifter",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "pallet_lifter",
     "name": { "str": "pallet lifter" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "v_rockwheel_item",
     "copy-from": "v_rockwheel_item",
     "name": { "str": "rockwheel" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "v_airjack_item",
     "copy-from": "v_airjack_item",
     "name": { "str": "airjack" },
     "degradation_multiplier": 0
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "v_motorcycle_kickstand_item",
     "copy-from": "v_motorcycle_kickstand_item",
     "name": { "str": "motorcycle kickstand" },
