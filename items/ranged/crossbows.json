@@ -1,7 +1,8 @@
 [
   {
     "//1": "こちらはボルトの定義、本体から消えてもいいように定義をそのまま持ってきている",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "bolt_steel",
     "price": "1 USD",
     "name": { "str": "aluminum broadhead bolt" },
@@ -24,7 +25,8 @@
     "effects": [ "RECOVER_35" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "bolt_steel_bodkin",
     "price": "1 USD",
     "name": { "str": "aluminum field point bolt" },
@@ -47,7 +49,8 @@
     "effects": [ "RECOVER_40" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "bolt_steel_target",
     "price": "1 USD",
     "name": { "str": "aluminum small game bolt" },
@@ -70,7 +73,8 @@
     "effects": [ "RECOVER_45", "NOGIB" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "bolt_cf",
     "price": "1 USD",
     "name": { "str": "carbon fiber hunting bolt" },
@@ -97,7 +101,8 @@
   {
     "//1": "各種クロスボウはリロード時間を短縮させる(10分の１程度)また、威力を少しだけ底上げする",
     "id": "hand_crossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "pistol crossbow" },
     "copy-from": "hand_crossbow",
     "ranged_damage": { "damage_type": "stab", "amount": 6 },
@@ -105,7 +110,8 @@
   },
   {
     "id": "crossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "wood crossbow" },
     "copy-from": "crossbow",
     "min_strength": 7,
@@ -114,7 +120,8 @@
   },
   {
     "id": "compositecrossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "composite crossbow" },
     "copy-from": "compositecrossbow",
     "min_strength": 8,
@@ -123,7 +130,8 @@
   },
   {
     "id": "compcrossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "copy-from": "compcrossbow",
     "name": { "str": "compound crossbow" },
     "min_strength": 7,
@@ -132,7 +140,8 @@
   },
   {
     "id": "huge_crossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "heavy crossbow" },
     "copy-from": "huge_crossbow",
     "reload": 600,
@@ -140,7 +149,8 @@
   },
   {
     "id": "rep_crossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "repeating crossbow" },
     "copy-from": "rep_crossbow",
     "reload": 90,

@@ -1,6 +1,7 @@
 [
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "shotcanister_scrap",
     "price": "10 USD",
     "price_postapoc": "2 USD",
@@ -21,7 +22,8 @@
     "count": 10
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "shotcanister_pebble",
     "price": "10 USD",
     "price_postapoc": "50 cent",
@@ -42,7 +44,8 @@
     "count": 10
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "shotcanister_flechette",
     "price": "10 USD",
     "price_postapoc": "25 cent",
@@ -63,7 +66,8 @@
     "count": 10
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "shotcanister_bearing",
     "price": "10 USD",
     "price_postapoc": "25 cent",
@@ -90,7 +94,8 @@
     "default": "shotcanister_scrap"
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "reloaded_laser_pack",
     "price": "80 USD",
     "name": { "str": "弾薬(核融合パック/非正規)" },
@@ -115,7 +120,8 @@
     "default": "laser_pack"
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "laser_pack",
     "price": "800 USD",
     "name": { "str": "弾薬(核融合パック)" },
@@ -133,7 +139,8 @@
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "mininuke_mod",
     "price": "1800 USD",
     "name": { "str": "小型原子爆弾(改良型)" },

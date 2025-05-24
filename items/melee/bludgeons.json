@@ -1,13 +1,15 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "WEAPON" ],
     "id": "i_staff",
     "name": { "str": "ironshod quarterstaff", "str_pl": "ironshod quarterstaves" },
     "copy-from": "i_staff",
     "extend": { "flags": [ "DURABLE_MELEE" ] }
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+    "subtypes": [ "WEAPON" ],
     "id": "q_staff",
     "name": { "str": "quarterstaff", "str_pl": "quarterstaves" },
     "copy-from": "q_staff",

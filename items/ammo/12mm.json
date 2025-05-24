@@ -2,7 +2,8 @@
   {
     "//": "12ミリレールガンの弾薬が貴重なので自作可能な廉価版を追加",
     "id": "12mm_makeshift",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "copy-from": "12mm",
     "name": { "str_sp": "弾薬(12mm/自作)" },
     "description": "スクラップから作られたH&Kレールガン用の弾薬です。正規品ほどの威力は出ませんが、レールガンで発射が可能です。",

@@ -2,20 +2,23 @@
   {
     "//": "ロックピックの性能アップと自作バールの性能アップ",
     "id": "emergency_lockpick",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "rudimentary lockpick" },
     "copy-from": "emergency_lockpick",
     "qualities": [ [ "LOCKPICK", 5 ] ]
   },
   {
     "id": "crude_picklock",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "improvised lockpick" },
     "copy-from": "crude_picklock",
     "qualities": [ [ "LOCKPICK", 10 ] ]
   },{
     "id": "makeshift_crowbar",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "makeshift crowbar" },
     "copy-from": "makeshift_crowbar",
     "qualities": [ [ "PRY", 2 ], [ "HAMMER", 1 ] ],
@@ -23,7 +26,8 @@
   },
   {
     "id": "picklocks",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "locksmith kit" },
     "copy-from": "picklocks",
     "qualities": [ [ "LOCKPICK", 15 ] ]

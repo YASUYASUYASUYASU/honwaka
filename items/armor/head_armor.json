@@ -1,7 +1,8 @@
 [
   {
     "id": "helmet_survivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "category": "armor",
     "name": { "str": "サバイバーヘルメット" },
     "description": "ケブラーを革で補強した特製ヘルメットです。着心地が良く、危険から身を守ります。",
@@ -23,7 +24,8 @@
   },
   {
     "id": "helmet_xlsurvivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "copy-from": "helmet_survivor",
     "category": "armor",
     "name": { "str": "XLサバイバーヘルメット" },
@@ -36,7 +38,8 @@
   },
   {
     "id": "helmet_xssurvivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "copy-from": "helmet_survivor",
     "category": "armor",
     "name": { "str": "XSサバイバーヘルメット" },
@@ -49,7 +52,8 @@
   },
   {
     "id": "helmet_hsurvivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "category": "armor",
     "name": { "str": "重量型サバイバーヘルメット" },
     "description": "鋼鉄で補強した特製のケブラーヘルメットです。着心地が良く、危険から身を守ります。補強のためかなり重くなっています。",
@@ -71,7 +75,8 @@
   },
   {
     "id": "helmet_xlhsurvivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "copy-from": "helmet_hsurvivor",
     "category": "armor",
     "name": { "str": "XL重量型サバイバーヘルメット" },
@@ -82,7 +87,8 @@
   },
   {
     "id": "helmet_xshsurvivor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": ["ARMOR" ],
     "copy-from": "helmet_hsurvivor",
     "category": "armor",
     "name": { "str": "XS重量型サバイバーヘルメット" },

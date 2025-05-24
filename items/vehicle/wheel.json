@@ -184,7 +184,7 @@
   },
   {
     "id": "deflated_wheel_bicycle",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "deflated_wheel_bicycle",
     "name": { "str": "deflated 27\" bicycle wheel" },
     "degradation_multiplier": 0

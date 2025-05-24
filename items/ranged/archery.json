@@ -1,7 +1,8 @@
 [
   {
     "//1": "こちらは矢の定義、本体から消えてもいいように定義をそのまま持ってきている",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "arrow_metal",
     "price": "1 USD",
     "name": { "str": "aluminum broadhead arrow" },
@@ -25,7 +26,8 @@
     "effects": [ "RECOVER_35" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "arrow_metal_bodkin",
     "price": "1 USD",
     "name": { "str": "aluminum field point arrow" },
@@ -49,7 +51,8 @@
     "effects": [ "RECOVER_40" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "arrow_metal_target",
     "price": "1 USD",
     "name": { "str": "aluminum small game arrow" },

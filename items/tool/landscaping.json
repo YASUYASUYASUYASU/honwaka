@@ -2,7 +2,8 @@
   {
     "//": "シャベルの性能アップ",
     "id": "shovel",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "shovel" },
     "copy-from": "shovel",
     "qualities": [ [ "DIG", 4 ], [ "COOK", 1 ], [ "BUTCHER", -70 ] ]

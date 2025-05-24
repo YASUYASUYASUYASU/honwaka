@@ -1,7 +1,8 @@
 [
   {
     "id": "recipe_mininuke_launch",
-    "type": "BOOK",
+    "type": "ITEM",
+    "subtypes": ["BOOK" ],
     "name": { "str": "本(学習/238-NK: 実用性の強化)", "str_pl": "本(学習/238-NK: 実用性の強化)" },
     "description": "この文書の執筆者は、バネ式原子核制御装置について徹底的に研究し、説得力のある提案をしたようです。「否認」のスタンプが押されています。",
     "weight": "854 g",
@@ -19,7 +20,8 @@
   },
   {
     "id": "bookhei_01",
-    "type": "BOOK",
+    "type": "ITEM",
+    "subtypes": ["BOOK" ],
     "name":  "航空機用マニュアル",
     "description": "自分で調べ上げ、操作方法をまとめた航空機用マニュアルです。",
     "weight": "191 g",
@@ -29,7 +31,8 @@
   },
   {
     "id": "bookhei_02",
-    "type": "BOOK",
+    "type": "ITEM",
+    "subtypes": ["BOOK" ],
     "name":  "航空機整備用マニュアル",
     "description": "自分で調べ上げ、整備方法をまとめた航空機整備用マニュアルです。",
     "weight": "191 g",

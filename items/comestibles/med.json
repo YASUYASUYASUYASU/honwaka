@@ -2,7 +2,8 @@
   {
     "//": "アスピリンの健康度低下を削除",
     "id": "aspirin",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["COMESTIBLE" ],
     "comestible_type": "MED",
     "name": { "str": "aspirin" },
     "copy-from": "aspirin",
@@ -11,7 +12,8 @@
   {
     "//": "風邪薬とリンゲル液の記述",
     "id": "coldmedicine",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["COMESTIBLE" ],
     "comestible_type": "MED",
     "name": { "str": "風邪薬", "str_pl": "風邪薬" },
     "description": "日本の大手製薬会社が製造した風邪薬です。風邪、インフルエンザを即時に治療します。時が時ならノーベル賞物の薬ですが、もはやノーベル賞自体がなくなってしまいましたので、この功績も今後忘れ去られていくでしょう…。この薬は大変動直前に発表された商品で、アメリカに流通してる量自体が少ないようです",
@@ -33,7 +35,8 @@
   },
   {
     "id": "ringer_solution",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["COMESTIBLE" ],
     "comestible_type": "MED",
     "name": { "str": "リンゲル液", "str_pl": "リンゲル液" },
     "description": "英国の生理学者リンガーが創製した血液と等張で電解質組成やpHなどが調整された塩類溶液です。補液剤として大量出血，下痢・嘔吐(おうと)等による脱水状態などの際に注射します。これを注射するとリンゲル液が血液の代わりに働き、出血性ショックの症状をやわらげ、出血死を抑えますが、かなり気分が悪くなる為、輸血後は安静にしなければなりません。",

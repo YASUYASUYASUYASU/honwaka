@@ -2,7 +2,7 @@
   {
     "id": "cash_card",
     "subtypes": [ "TOOL" ],
-    "type": "TOOL",
+    "type": "ITEM",
     "category": "currency",
     "copy-from": "card_plastic_abstract",
     "symbol": "$",

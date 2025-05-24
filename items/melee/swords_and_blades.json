@@ -1,7 +1,8 @@
 [
   {
     "id": "firemachete",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "makeshift_machete",
     "category": "weapons",
     "name": { "str": "No. 9(オフ)", "str_pl": "No. 9(オフ)" },
@@ -27,7 +28,8 @@
   },
   {
     "id": "firemachete_on",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "No. 9(オン)", "str_pl": "No. 9(オン)" },
     "description": "改造された大きな鋼製のナイフです。燃料タンクと点火装置、そして遮熱ハンドガードが取り付けられています。刃は炎に包まれて輝いています。植物質の敵に対して特に有効で、照明にもなります。",
     "copy-from": "firemachete",
@@ -48,7 +50,8 @@
   },
   {
     "id": "firekatana",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "katana",
     "category": "weapons",
     "name": { "str": "ライジングサン(オフ)" },
@@ -70,7 +73,8 @@
   },
   {
     "id": "firekatana_on",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "firekatana",
     "category": "weapons",
     "name": { "str": "ライジングサン(オン)" },
@@ -92,7 +96,8 @@
   },
   {
     "id": "broadfire",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "broadsword",
     "category": "weapons",
     "name": { "str": "ファイアブランド(オフ)", "str_pl": "ファイアブランド(オフ)" },
@@ -114,7 +119,8 @@
   },
   {
     "id": "broadfire_on",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "ファイアブランド(オン)", "str_pl": "ファイアブランド(オン)" },
     "description": "ブロードソードと火炎放射器を組み合わせた暗黒時代を切り開く逸品です。刃は火に包まれ、熱を帯びて輝いています。エクスカリバーもかたなしです！使用することで火を消します。",
     "copy-from": "broadfire",
@@ -137,7 +143,8 @@
   },
   {
     "id": "zweifire",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "zweihander",
     "category": "weapons",
     "name": { "str": "フラーメンシュヴェルター(オフ)", "str_pl": "フラーメンシュヴェルター(オフ)" },
@@ -160,7 +167,8 @@
   },
   {
     "id": "zweifire_on",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "zweifire",
     "category": "weapons",
     "name": { "str": "フラーメンシュヴェルター(オン)", "str_pl": "フラーメンシュヴェルター(オン)" },
@@ -183,7 +191,8 @@
   },
     {
     "id": "shishkebab",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "copy-from": "machete",
     "category": "weapons",
     "name": { "str": "シシケバブ(オフ)", "str_pl": "シシカバブ(オフ)" },
@@ -207,7 +216,8 @@
   {
     "id": "shishkebab_on",
     "copy-from": "shishkebab",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "シシケバブ(オン)", "str_pl": "シシケバブ(オン)" },
     "description": "燃料パイプと点火装置が取り付けてある、大きな刃です。ガソリンを充填して点火することで刃の攻撃に炎の熱が加わり、また周囲を照らします。現在点火されています。",
     "turns_per_charge": 40,

@@ -1,7 +1,8 @@
 [
   {
     "id": "arrowrest",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "arrow rest" },
     "copy-from": "arrowrest",
     "dispersion_modifier": -30,
@@ -9,7 +10,8 @@
   },
   {
     "id": "bow_stabilizer",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "bow stabilizer" },
     "copy-from": "bow_stabilizer",
     "dispersion_modifier": -30,
@@ -17,7 +19,8 @@
   },
   {
     "id": "bow_silencer",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "bow dampening kit" },
     "copy-from": "bow_silencer",
     "dispersion_modifier": -1,

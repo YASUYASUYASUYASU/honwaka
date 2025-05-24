@@ -2,14 +2,16 @@
   {
     "//": "ロボトミー君の性能アップ",
     "id": "e_tool",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "entrenching tool" },
     "copy-from": "e_tool",
     "qualities": [ [ "CUT", 1 ], [ "DIG", 4 ], [ "BUTCHER", -8 ], [ "COOK", 1 ] ]
   },
   {
     "id": "horn_bicycle",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "veh_parts",
     "name": { "str": "bicycle horn" },
     "copy-from": "horn_bicycle",
@@ -17,7 +19,8 @@
   },
   {
     "id": "horn_big",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "veh_parts",
     "name": { "str": "truck horn" },
     "copy-from": "horn_big",
@@ -25,7 +28,8 @@
   },
   {
     "id": "horn_car",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "veh_parts",
     "name": { "str": "car horn" },
     "copy-from": "horn_car",

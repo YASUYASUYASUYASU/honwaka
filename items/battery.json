@@ -1,7 +1,8 @@
 [
   {
     "id": "heavy_atomic_battery_cell",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "category": "tool_magazine",
     "name": { "str": "heavy plutonium fuel battery", "str_pl": "heavy plutonium fuel batteries" },
     "copy-from": "heavy_atomic_battery_cell",
@@ -10,7 +11,8 @@
   },
   {
     "id": "huge_atomic_battery_cell",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "category": "tool_magazine",
     "name": { "str": "military plutonium fuel cell" },
     "copy-from": "huge_atomic_battery_cell",

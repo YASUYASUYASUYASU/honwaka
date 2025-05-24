@@ -2,7 +2,8 @@
   {
 
     "id": "rebar_rail",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str_sp": "弾薬(ﾚｰﾙ/鉄筋)" },
     "description": "一端を尖らせた真っ直ぐな短い鉄筋です。かなり強力な電磁兵器の発射体として利用できます。",
     "weight": "236 g",
@@ -25,7 +26,8 @@
   {
     "id": "steel_rail",
     "copy-from": "rebar_rail",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str_sp": "弾薬(ﾚｰﾙ/鋼)" },
     "description": "一端を尖らせた真っ直ぐに鍛造した短い鋼鉄です。かなり強力な電磁兵器の発射体として利用できます。",
     "weight": "212 g",

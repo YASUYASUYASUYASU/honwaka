@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["COMESTIBLE" ],
     "id": "taint_tornado",
     "name": "ゾンビトルネード",
     "category": "mutagen",
@@ -31,7 +32,8 @@
     }
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": ["COMESTIBLE" ],
     "id": "drink_sewerbrew",
     "name": "汚水カクテル",
     "weight": "250 g",

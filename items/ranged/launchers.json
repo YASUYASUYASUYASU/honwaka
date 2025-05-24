@@ -2,7 +2,8 @@
   {
     "id": "flamethrower_simple",
     "copy-from": "flamethrower_base",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "ランチャー(火炎放射器(自作))" },
     "description": "シンプルな自作の火炎放射器です。その性能は素晴らしいとまでは言えないが、地形や怪物に火をつけるには十分な性能です。",
     "weight": "907 g",
@@ -26,7 +27,8 @@
   },
   {
     "id": "flamethrower_crude",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "symbol": "(",
     "name": { "str": "ランチャー(火炎放射器(スプレー缶))" },
     "description": "世界中のごろつきが愛用する簡易兵器です。スプレー缶にダクトテープでライターを取り付けただけでも十分危なっかしいオモチャになりますが、小さなガソリンタンクと噴霧ノズル、簡単な加圧ポンプまで付いています。加圧に数分の時間がかかります。",

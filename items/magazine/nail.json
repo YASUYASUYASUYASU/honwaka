@@ -2,7 +2,8 @@
   {
     "id": "nailmag",
     "looks_like": "stanag30",
-    "type": "MAGAZINE",
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
     "name": { "str_sp": "弾倉(ｺｲﾙｶﾞﾝ簡易/60発)" },
     "description": "ネイルライフル用の即席弾倉です。錫製の缶にバネとダクトテープを付けただけの物で、装填もしづらく信頼性も全くありません。",
     "weight": "60 g",

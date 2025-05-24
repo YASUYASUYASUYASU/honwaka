@@ -1,7 +1,8 @@
 [
     {
     "id": "battletorch",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "weapons",
     "name": { "str_sp": "ルイビルスロータラー" },
     "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。着火して点灯することで熱い試合のプレイボールを宣言できます。着火にはライターやマッチが必要です。",
@@ -29,7 +30,8 @@
   },
   {
     "id": "battletorch_lit",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "weapons",
     "name": { "str_sp": "ルイビルスロータラー(点火)" },
     "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。今やナイターの球場でもベースラインがはっきりと見えるくらいに明るく燃えています。これなら主審がどんなに遠くにいてもストライクの判定を出せますね。",
@@ -59,7 +61,7 @@
     "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH", "BURNOUT" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "battletorch_done",
     "name": { "str": "ルイビルスロータラー(使用済)" },
     "description": "耐熱性のノーメックス生地で覆った木製バットです。このままでも丁度いい近接武器になりますが、分解する事でより優れた野球バットとノーメックスの布片へと再利用できます。",

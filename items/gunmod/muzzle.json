@@ -1,7 +1,8 @@
 [
   {
     "id": "muzzle_brake",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "muzzle brake" },
     "copy-from": "muzzle_brake",
     "dispersion_modifier": 5,
@@ -12,13 +13,15 @@
   {
     "id": "muzzle_brake_mod",
     "copy-from": "muzzle_brake",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "modified muzzle brake" },
     "mod_targets": [ "pistol", "smg", "rifle", "shotgun" ]
   },
   {
     "id": "crafted_suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "homemade suppressor" },
     "copy-from": "crafted_suppressor",
     "consume_chance": 20,
@@ -31,7 +34,8 @@
   },
   {
     "id": "filter_suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "soda bottle silencer" },
     "copy-from": "filter_suppressor",
     "consume_chance": 1,
@@ -43,7 +47,8 @@
   },
   {
     "id": "shot_suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "shotgun suppressor" },
     "//": "SilencerCo Salvo 12",
     "copy-from": "shot_suppressor",
@@ -51,7 +56,8 @@
   },
   {
     "id": "suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "suppressor" },
     "//": "SilencerCo Hybrid 46",
     "copy-from": "suppressor",
@@ -61,13 +67,15 @@
   {
     "id": "mp5sd_suppressor",
     "copy-from": "mp5sd_suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "MP5SD integral suppressor" },
     "loudness_modifier": -320
   },
   {
     "id": "suppressor_compact",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "compact suppressor" },
     "copy-from": "suppressor_compact",
     "handling_modifier": 2,

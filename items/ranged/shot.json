@@ -2,7 +2,8 @@
   {
     "id": "lever_shotgun",
     "copy-from": "winchester_1887",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str_sp": "ショットガン(12ga/手製ﾚﾊﾞｰｱｸｼｮﾝ)" },
     "description": "小型のチューブマガジンを内蔵した、短い自作のレバーアクションショットガンです。パイプと木材を組み合わせた原始的なデザインではありますが、それなりに使えるショットガンです。",
     "weight": "2311 g",

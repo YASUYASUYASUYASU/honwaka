@@ -1,7 +1,8 @@
 [
   {
     "id": "bio_powershot",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD","GUN" ],
     "name": { "str": "Power shot" },
     "description": "This is a pseudo item -- the builtin part of a fusion blaster for the maximum power firing mode.",
     "weight": "1 g",
@@ -14,13 +15,11 @@
     "symbol": ":",
     "color": "light_red",
     "location": "underbarrel",
-    "gun_data": {
-      "skill": "rifle",
-      "range": 30,
-      "ranged_damage": { "damage_type": "stab", "amount": 1 },
-      "ammo_effects": [ "PLASMA", "EXPLOSIVE", "FLAME", "NPC_AVOID" ],
-      "durability": 10
-    },
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
+    "ammo_effects": [ "PLASMA", "EXPLOSIVE", "FLAME", "NPC_AVOID" ],
+    "durability": 10,
     "flags": [ "IRREMOVABLE" ]
   }
 ]

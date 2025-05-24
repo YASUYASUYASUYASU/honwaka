@@ -1,7 +1,8 @@
 [
   {
     "id": "beam_scatterer",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "beam scatterer" },
     "copy-from": "beam_scatterer",
     "range_multiplier": 0.9
@@ -9,7 +10,8 @@
   },
   {
     "id": "focusing_lens",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "focusing lens", "str_pl": "focusing lenses" },
     "copy-from": "focusing_lens",
     "damage_modifier": { "damage_type": "heat", "amount": 5 },
@@ -17,7 +19,8 @@
   },
   {
     "id": "electrolaser_conversion",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "electrolaser conversion" },
     "copy-from": "electrolaser_conversion",
     "range_multiplier": 0.7,
@@ -26,14 +29,16 @@
   },
   {
     "id": "effective_emitter",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "effective emitter" },
     "copy-from": "effective_emitter",
     "energy_drain_multiplier": 0.6
   },
   {
     "id": "high_density_capacitor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "high density capacitor" },
     "copy-from": "effective_emitter",
     "energy_drain_multiplier": 1.2
