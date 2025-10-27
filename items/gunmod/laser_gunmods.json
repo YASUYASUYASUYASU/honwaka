@@ -40,7 +40,7 @@
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "high density capacitor" },
-    "copy-from": "effective_emitter",
+    "copy-from": "high_density_capacitor",
     "energy_drain_multiplier": 1.2
   }
 ]

@@ -58,7 +58,8 @@
         "type": "transform"
       }
     ],
-    "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH", "BURNOUT" ]
+    "light": 60,
+    "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH", "BURNOUT" ]
   },
   {
     "type": "ITEM",

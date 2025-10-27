@@ -34,28 +34,6 @@
     "dodge": 0
   },
   {
-    "//": "狂人警備員(銃もち):射撃を弱体化",
-    "id": "mon_feral_labsecurity_9mm",
-    "type": "MONSTER",
-    "name": { "str": "feral security guard" },
-    "copy-from": "mon_feral_labsecurity_9mm",
-    "special_attacks": [
-      {
-        "type": "gun",
-        "cooldown": 10,
-        "move_cost": 150,
-        "gun_type": "feral_m9",
-        "ammo_type": "9mm",
-        "fake_skills": [ [ "gun", 0 ], [ "pistol", 0 ] ],
-        "fake_dex": 1,
-        "fake_per": 2,
-        "ranges": [ [ 0, 14, "DEFAULT" ] ],
-        "require_targeting_player": false,
-        "description": "The feral security guard fires their Beretta M9A1!"
-      }
-    ]
-  },
-  {
     "//": "狂人州兵(銃もち):射撃を弱体化",
     "id": "mon_feral_militia",
     "type": "MONSTER",

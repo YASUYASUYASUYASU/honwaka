@@ -12,9 +12,8 @@
   },
   {
     "type": "item_group",
-    "id": "bionics_common",
-    "subtype": "distribution",
-    "copy-from": "bionics_common",
+    "id": "bionics",
+    "copy-from": "bionics",
     "extend": {
       "items": [
         [ "bio_furnace", 10 ]
@@ -23,10 +22,8 @@
   },
     {
     "type": "item_group",
-    "id": "bionics_sci",
-    "subtype": "distribution",
-    "//": "High-tech bionics, handy for the harried researcher.  They get access to classified toys too, but only stuff a scientist would have use for.",
-    "copy-from": "bionics_sci",
+    "id": "bionics",
+    "copy-from": "bionics",
     "extend": {
       "items": [
         [ "bio_furnace", 10 ]

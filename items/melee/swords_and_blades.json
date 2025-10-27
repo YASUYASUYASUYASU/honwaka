@@ -46,7 +46,8 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "light": 60,
+    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "firekatana",
@@ -92,7 +93,8 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "light": 60,
+    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "broadfire",
@@ -139,7 +141,8 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "light": 20,
+    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "zweifire",
@@ -187,7 +190,8 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "light": 60,
+    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
     {
     "id": "shishkebab",
@@ -232,6 +236,7 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "extend": { "flags": [ "FIRE", "LIGHT_60", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "light": 60,
+    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   }
 ]

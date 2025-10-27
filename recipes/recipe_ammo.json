@@ -9,6 +9,7 @@
     "time": "20m",
     "autolearn" : true,
     "book_learn" : [[ "recipe_arrows", 1 ] , [ "book_archery", 3]],
+    "tools": [ [ [ "metalworking_tongs_any", 1, "LIST" ] ] ],
     "qualities":[
       {"id":"CUT","level":2},
       {"id":"HAMMER","level":2}
@@ -46,6 +47,7 @@
     "using": [ [ "welding_standard", 1 ] ],
     "difficulty": 4,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 2 } ],
+    "tools": [ [ [ "metalworking_tongs_any", 1, "LIST" ] ] ],
     "components": [
       [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
       [ [ "steel_chunk_any", 1, "LIST" ] ],
@@ -79,6 +81,7 @@
     "difficulty": 2,
     "time": "20 m",
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 2 } ],
+    "tools": [ [ [ "metalworking_tongs_any", 1, "LIST" ] ] ],
     "components": [
       [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
       [ [ "steel_chunk_any", 1, "LIST" ] ],
@@ -94,6 +97,7 @@
     "copy-from": "arrow_wood_heavy",
     "skills_required": [ [ "survival", 1 ] ],
     "difficulty": 3,
+    "qualities": [ { "id": "CUT", "level": 2 }, { "id": "HAMMER", "level": 1 } ],
     "components": [
       [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
       [ [ "stick", 2 ], [ "broom", 2 ], [ "2x4", 2 ], [ "bee_sting", 2 ], [ "mop", 2 ] ],
@@ -144,6 +148,11 @@
     "type" : "recipe",
     "result" : "arrow_metal_bodkin",
     "copy-from": "arrow_metal",
+    "qualities" : [
+      {"id":"CUT","level":1},
+      {"id":"HAMMER","level":1},
+      {"id":"SAW_M","level":1}
+    ], 
     "components" : [
       [
         [ "adhesive", 1, "LIST" ],
@@ -162,6 +171,11 @@
     "type" : "recipe",
     "result" : "arrow_metal_target",
     "copy-from": "arrow_metal",
+    "qualities" : [
+      {"id":"CUT","level":1},
+      {"id":"HAMMER","level":1},
+      {"id":"SAW_M","level":1}
+    ], 
     "components" : [
       [
         [ "adhesive", 1, "LIST" ],
@@ -203,6 +217,10 @@
     "result": "bolt_metal",
     "copy-from": "bolt_metal",
     "id_suffix": "for_scrap",
+    "qualities":[
+      {"id":"HAMMER","level":1},
+      {"id":"SAW_M","level":1}
+    ], 
     "components": [
       [
         ["scrap", 6],
@@ -241,6 +259,7 @@
     "result": "bolt_steel_bodkin",
     "activity_level": "LIGHT_EXERCISE",
     "copy-from": "bolt_steel",
+    "qualities":[ {"id":"HAMMER","level":1} ],
     "components": [
       [
         ["scrap_aluminum", 6],

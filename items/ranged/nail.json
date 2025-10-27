@@ -36,6 +36,7 @@
     "description": "銃身を短くするなど大幅な改造を加え、銃床とハンドガードを取り付けたネイルガンです。弾倉を装填することができ、元よりも非常に使い勝手の良い武器になっています。",
     "longest_side": "70 cm",
     "to_hit": -1,
+    "range": 5,
     "melee_damage": { "bash": 12 },
     "skill": "rifle",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ]],

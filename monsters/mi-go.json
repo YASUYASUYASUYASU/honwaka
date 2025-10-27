@@ -12,6 +12,7 @@
   {
     "id": "mon_mi_go_slaver",
     "type": "MONSTER",
+    "name": { "str": "mi-go slaver" },
     "copy-from": "mon_mi_go_slaver",
     "speed": 100,
     "vision_day": 20,
@@ -20,6 +21,7 @@
   {
     "id": "mon_mi_go_surgeon",
     "type": "MONSTER",
+    "name": { "str": "mi-go surgeon" },
     "copy-from": "mon_mi_go_surgeon",
     "speed": 100,
     "vision_day": 20,
@@ -28,6 +30,7 @@
   {
     "id": "mon_mi_go_guard",
     "type": "MONSTER",
+    "name": { "str": "mi-go guard" },
     "copy-from": "mon_mi_go_guard",
     "speed": 100,
     "vision_day": 20,
@@ -36,6 +39,7 @@
   {
     "id": "mon_mi_go_myrmidon",
     "type": "MONSTER",
+    "name": { "str": "mi-go myrmidon" },
     "copy-from": "mon_mi_go_myrmidon",
     "vision_day": 20,
     "vision_night": 10
@@ -43,6 +47,7 @@
   {
     "id": "mon_mi_go_scout",
     "type": "MONSTER",
+    "name": { "str": "mi-go scout" },
     "copy-from": "mon_mi_go_scout",
     "speed": 100,
     "vision_day": 20,

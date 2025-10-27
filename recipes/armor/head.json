@@ -104,15 +104,6 @@
     ]
   },
   {
-    "//1": "サバイバー防火フードヘルメットのレシピ(制作難易度の低下と制作時間の短縮)",
-    "result": "hood_fsurvivor",
-    "type": "recipe",
-    "copy-from": "helmet_survivor",
-    "difficulty": 6,
-    "skills_required": [ "fabrication", 5 ],
-    "time": "2 h"
-  },
-  {
     "//1": "赤外線ゴーグルのレシピ",
     "result": "goggles_ir",
     "type": "recipe",
@@ -140,6 +131,7 @@
     "result": "goggles_nv",
     "type": "recipe",
     "copy-from": "goggles_ir",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "goggles_ski", 1 ], [ "goggles_welding", 1 ], [ "mask_gas", 1 ] ],
       [ [ "power_supply", 4 ] ],

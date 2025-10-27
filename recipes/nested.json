@@ -8,7 +8,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "name": "bows",
-    "nested_category_data": [ "selfbow", "shortbow", "longbow", "compositebow", "compgreatbow", "woodgreatbow","recurbow", "compbow", "reflexrecurvebow" ]
+    "nested_category_data": [ "selfbow", "shortbow", "reflexbow", "longbow", "compositebow", "compgreatbow", "woodgreatbow","recurbow", "compbow", "reflexrecurvebow" ]
   },
   {
     "//1": "クロスボウのネストにコンパウンドクロスボウを追加",

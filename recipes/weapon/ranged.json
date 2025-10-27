@@ -264,6 +264,20 @@
     "type": "recipe",
     "copy-from": "compgreatbow",
     "result": "compgreatbow",
+    "qualities": [
+      { "id": "CUT", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "HAMMER_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "CHISEL", "level": 3 }
+    ],
+    "tools": [ [ [ "hotcut_any", 1, "LIST" ] ] ],
+    "components": [
+      [ [ "steel_standard", 2, "LIST" ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "sheet_metal_small", 8 ] ],
+      [ [ "cordage_superior", 18, "LIST" ] ]
+    ],
     "difficulty": 6,
     "time": "7 h",
     "book_learn": [ [ "recipe_bows", 6 ], [ "welding_book", 5 ], [ "textbook_mechanics", 5 ] ]
@@ -316,7 +330,9 @@
     "type": "recipe",
     "result": "compositecrossbow",
     "copy-from": "compositecrossbow",
-    "time": "4 h"
+    "time": "4 h",
+    "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [ [ [ "stick", 5 ], [ "2x4", 3 ] ], [ [ "bone_sturdy", 3, "LIST" ] ], [ [ "cordage_superior", 1, "LIST" ] ] ]
   },
   {
     "//1": "コンパウンドクロスボウのレシピ(バニラには存在しないレシピの為、それっぽく仕上げる)",
@@ -325,6 +341,7 @@
     "copy-from": "compositecrossbow",
     "difficulty": 6,
     "tools": [ [ [ "swage", -1 ] ], [ [ "tongs", -1 ] ] ],
+    "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "stick", 5 ], [ "2x4", 3 ] ],
       [ [ "sheet_metal_small", 4 ] ],
@@ -452,7 +469,25 @@
     "copy-from": "bigun",
     "difficulty": 6,
     "time": "2 h",
-    "autolearn": true
+    "autolearn": true,
+    "qualities": [
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+      [ [ "xlframe", 1 ] ],
+      [ [ "simple_crank", 1 ], [ "foot_crank", 1 ] ],
+      [ [ "sheet_metal_small", 12 ] ],
+      [ [ "pipe", 6 ] ],
+      [ [ "chain", 1 ] ],
+      [ [ "motor_tiny", 1 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "spring", 7 ] ],
+      [ [ "scrap", 2 ] ]
+    ]
   },
   {
     "//1": "火炎放射器(スプレー缶)のレシピ",

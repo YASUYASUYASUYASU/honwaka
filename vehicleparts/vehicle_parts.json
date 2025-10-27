@@ -257,7 +257,7 @@
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 1 ] ] }
     },
     "flags": [ "MOUNTABLE" ],
-    "breaks_into": [ { "item": "steel_chunk", "count": [ 0, 1 ] }, { "item": "scrap", "charges": [ 3, 7 ] } ],
+    "breaks_into": [ { "item": "mc_steel_chunk", "count": [ 0, 1 ] }, { "item": "scrap", "charges": [ 3, 7 ] } ],
     "damage_reduction": { "all": 5 },
     "variants": [ { "symbols": "^", "symbols_broken": "#" } ]
   },
@@ -314,7 +314,6 @@
     "color": "white",
     "durability": 400,
     "description": "An aisle.",
-    "size": "100 L",
     "item": "sheet_metal",
     "location": "center",
     "//": ".5 m square sheet of metal, likely affixed with bolts in places, assume 200 cm weld to install and 50 cm weld to repair",
@@ -897,7 +896,7 @@
     },
     "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WORKBENCH", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "2x4", "prob": 5 }, { "item": "splinter", "count": [ 4, 8 ] }, { "item": "nail", "charges": [ 4, 7 ] } ],
-    "workbench": { "multiplier": 1.5, "mass": 150000, "volume": "200 L" },
+    "workbench": { "multiplier": 1.5, "mass": "150 kg", "volume": "200 L" },
     "damage_reduction": { "all": 24 },
     "variants": [ { "symbols": "#", "symbols_broken": "#" } ]
   },
@@ -920,7 +919,7 @@
     },
     "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WORKBENCH", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [ { "item": "2x4", "prob": 5 }, { "item": "splinter", "count": [ 4, 8 ] }, { "item": "nail", "charges": [ 4, 7 ] } ],
-    "workbench": { "multiplier": 1.5, "mass": 150000, "volume": "1000L" },
+    "workbench": { "multiplier": 1.5, "mass": "150 kg", "volume": "1000 L" },
     "damage_reduction": { "all": 16 },
     "variants": [ { "symbols": "#", "symbols_broken": "#" } ]
   },
@@ -974,7 +973,7 @@
       { "item": "lc_steel_chunk", "count": [ 7, 12 ] },
       { "item": "scrap", "charges": [ 15, 30 ] }
     ],
-    "workbench": { "multiplier": 2, "mass": 300000, "volume": "1000L" },
+    "workbench": { "multiplier": 1.5, "mass": "300 kg", "volume": "1000 L" },
     "damage_reduction": { "all": 29 },
     "variants": [ { "symbols": "#", "symbols_broken": "#" } ]
   },
@@ -1006,7 +1005,7 @@
       { "item": "e_scrap", "count": [ 0, 2 ] }
     ],
     "size": "29500 ml",
-    "workbench": { "multiplier": 2, "mass": 300000, "volume": "1000L" },
+    "workbench": { "multiplier": 2, "mass": "300 kg", "volume": "1000 L" },
     "damage_reduction": { "all": 29 }
   },
   {
@@ -1144,7 +1143,7 @@
     "unfolding_tools": [ "hand_pump" ],
     "unfolding_time": "150 seconds",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ], [ "drilling_standard", 10 ] ] },
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ], [ "drilling_light", 10 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "adhesive", 2 ] ] }
     },
@@ -1168,7 +1167,7 @@
     "unfolding_tools": [ "hand_pump" ],
     "unfolding_time": "150 seconds",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ], [ "drilling_standard", 10 ] ] },
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ], [ "drilling_light", 10 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "adhesive_rubber", 2 ], [ "tire_rubber", 2 ] ] }
     },
@@ -2279,7 +2278,7 @@
       },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": [ [ "repair_welding_standard", 2 ] ] }
     },
-    "flags": [ "BOARDABLE", "CARGO", "COVERED", "HUGE_OK", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
+    "flags": [ "BOARDABLE", "CARGO", "COVERED", "HUGE_OK", "FURNITURE_TIEDOWN", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF" ],
     "breaks_into": [
       { "item": "mc_steel_lump", "count": [ 12, 19 ] },
       { "item": "mc_steel_chunk", "count": [ 7, 12 ] },
@@ -2302,7 +2301,6 @@
     "description": "A cargo space for carrying livestock.  'e'xamine it to capture an animal next to you, or to release the animal currently contained.  When selecting an animal to capture, choose its tile relative to you, not the part.",
     "//1": "240 cm weld to install, 60 cm per damage quadrant to repair",
     "size": "300 L",
-    "comfort": 2,
     "item": "livestock_carrier",
     "location": "center",
     "requirements": {
@@ -2532,7 +2530,7 @@
   {
     "type": "vehicle_part",
     "id": "jumper_cable_debug",
-    "name": { "str": "shiny debug cable" },
+    "name": { "str": "shiny debug cable", "//~": "NO_I18N" },
     "categories": [ "other" ],
     "color": "yellow",
     "broken_color": "dark_gray",
@@ -3028,7 +3026,7 @@
     "durability": 200,
     "description": "A water purifier, powered by the vehicle's batteries.  You can use it to purify water in a container or in the vehicle's tanks.  'e'xamine the tile with the purifier to use it.",
     "item": "water_purifier",
-    "location": "anywhere",
+    "location": "on_cargo",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_screw", 1 ] ] },

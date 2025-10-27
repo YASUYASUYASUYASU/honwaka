@@ -15,7 +15,8 @@
       { "group": "bionics_common", "prob": 5 },
       { "group": "bionics_mil", "prob": 5 },
       { "group": "mut_lab", "prob": 5 },
-      { "group": "mutagen_kits", "prob": 20 }
+      { "group": "mutagen_kits", "prob": 40 },
+      { "group": "bionics", "prob": 40 }
     ]
   },
   {
