@@ -1,0 +1,78 @@
+[
+    {
+    "id": "battletorch",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "category": "weapons",
+    "name": { "str_sp": "ルイビルスロータラー" },
+    "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。着火して点灯することで熱い試合のプレイボールを宣言できます。着火にはライターやマッチが必要です。",
+    "weight": "1485 g",
+    "volume": "2 L",
+    "price": "16 USD",
+    "to_hit": 3,
+    "melee_damage": { "bash": 18 },
+    "material": [ "wood", "nomex" ],
+    "symbol": "/",
+    "color": "brown",
+    "initial_charges": 25,
+    "max_charges": 25,
+    "charges_per_use": 1,
+    "techniques": [ "WBLOCK_1" ],
+    "use_action": {
+      "target": "battletorch_lit",
+      "msg": "You light the Louisville Slaughterer.",
+      "need_fire": 1,
+      "menu_text": "Light",
+      "type": "transform"
+    },
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "battletorch_lit",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "category": "weapons",
+    "name": { "str_sp": "ルイビルスロータラー(点火)" },
+    "description": "木製バットを燃料を染み込ませた布と耐熱性のノーメックス生地で覆ったものです。今やナイターの球場でもベースラインがはっきりと見えるくらいに明るく燃えています。これなら主審がどんなに遠くにいてもストライクの判定を出せますね。",
+    "weight": "1485 g",
+    "volume": "2 L",
+    "price": "16 USD",
+    "to_hit": 3,
+    "melee_damage": { "bash": 18 },
+    "material": [ "wood", "nomex" ],
+    "symbol": "/",
+    "initial_charges": 20,
+    "max_charges": 20,
+    "turns_per_charge": 60,
+    "techniques": [ "WBLOCK_1" ],
+    "color": "red",
+    "revert_to": "battletorch_done",
+    "use_action": [
+      { "type": "firestarter", "moves": 30 },
+      {
+        "target": "battletorch",
+        "msg": "The Louisville Slaughterer is extinguished.",
+        "menu_text": "Extinguish",
+        "type": "transform"
+      }
+    ],
+    "light": 60,
+    "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH", "BURNOUT" ]
+  },
+  {
+    "type": "ITEM",
+    "id": "battletorch_done",
+    "name": { "str": "ルイビルスロータラー(使用済)" },
+    "description": "耐熱性のノーメックス生地で覆った木製バットです。このままでも丁度いい近接武器になりますが、分解する事でより優れた野球バットとノーメックスの布片へと再利用できます。",
+    "weight": "1343 g",
+    "to_hit": 3,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "DURABLE_MELEE" ],
+    "volume": "1750 ml",
+    "melee_damage": { "bash": 19 },
+    "price": "16 USD"
+  }
+]

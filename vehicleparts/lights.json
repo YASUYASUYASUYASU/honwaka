@@ -24,7 +24,6 @@
   {
     "id": "floodlight",
     "type": "vehicle_part",
-    "name": { "str": "floodlight" },
     "item": "floodlight",
     "location": "on_roof",
     "categories": [ "lighting" ],

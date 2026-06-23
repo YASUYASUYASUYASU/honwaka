@@ -1,0 +1,228 @@
+[
+  {
+    "id": "firemachete",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "makeshift_machete",
+    "category": "weapons",
+    "name": { "str": "No. 9(オフ)", "str_pl": "No. 9(オフ)" },
+    "description": "改造された大きな鋼製のナイフです。燃料タンクと点火装置、そして遮熱ハンドガードが取り付けられています。ガソリンを充填して起動することで刃は炎によって加熱され、斬り付けた敵をさらに焼灼します。",
+    "proportional": { "weight": 1.2, "volume": 1.1 },
+    "to_hit": 0,
+    "tool_ammo": [ "gasoline" ],
+    "charges_per_use": 0,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "rigid": true, "ammo_restriction": { "gasoline": 50 } } ],
+    "techniques": [ "WBLOCK_2" ],
+    "use_action": [
+      {
+        "target": "firemachete_on",
+        "msg": "No.9が輝き始めました",
+        "need_fire": 0,
+        "menu_text": "ON",
+        "type": "transform"
+      }
+    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 12 ] ],
+    "extend": { "flags": [ "FIRE" ] }
+  },
+  {
+    "id": "firemachete_on",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "No. 9(オン)", "str_pl": "No. 9(オン)" },
+    "description": "改造された大きな鋼製のナイフです。燃料タンクと点火装置、そして遮熱ハンドガードが取り付けられています。刃は炎に包まれて輝いています。植物質の敵に対して特に有効で、照明にもなります。",
+    "copy-from": "firemachete",
+    "turns_per_charge": 40,
+    "revert_to": "firemachete",
+    "use_action": [
+      {
+        "target": "firemachete",
+        "msg": "No.9が光を失いました。",
+        "need_fire": 0,
+        "menu_text": "OFF",
+        "type": "transform"
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  },
+  {
+    "id": "firekatana",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "katana",
+    "category": "weapons",
+    "name": { "str": "ライジングサン(オフ)" },
+    "description": "峰にノズルが取り付けられた日本刀です。人は火を好み、刀を好みます。なら合体させてしまえばいいのです。斬り付けると同時にバーナーから吐き出された炎が敵を燃やします。使用するには点火が必要です。",
+    "proportional": { "weight": 1.2, "volume": 1.1 },
+    "tool_ammo": [ "gasoline" ],
+    "charges_per_use": 0,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
+    "use_action": {
+      "target": "firekatana_on",
+      "msg": "太陽が昇りました。",
+      "need_fire": 0,
+      "menu_text": "ON",
+      "type": "transform"
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 6 ] ],
+    "extend": { "flags": [ "FIRE" ] }
+  },
+  {
+    "id": "firekatana_on",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "firekatana",
+    "category": "weapons",
+    "name": { "str": "ライジングサン(オン)" },
+    "description": "怒れる太陽の火を纏った日本刀です！いや、まあ、温度的に太陽はちょっと言い過ぎましたが、とにかく威力は折り紙付きですよ。使用することで火を消します。",
+    "turns_per_charge": 40,
+    "revert_to": "firekatana",
+    "use_action": [
+      {
+        "target": "firekatana",
+        "msg": "太陽が沈みました。",
+        "need_fire": 0,
+        "menu_text": "OFF",
+        "type": "transform"
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "light": 60,
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  },
+  {
+    "id": "broadfire",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "broadsword",
+    "category": "weapons",
+    "name": { "str": "ファイアブランド(オフ)", "str_pl": "ファイアブランド(オフ)" },
+    "description": "ブロードソードと火炎放射器を組み合わせた暗黒時代を切り開く逸品です。火を灯し、今こそ信仰心無きゾンビどもにこの地の領主が誰なのかを教えてやりましょう。",
+    "proportional": { "weight": 1.2, "volume": 1.1 },
+    "tool_ammo": [ "gasoline" ],
+    "charges_per_use": 0,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
+    "use_action": {
+      "target": "broadfire_on",
+      "msg": "剣は戦いを求め燃え始めました!",
+      "need_fire": 1,
+      "menu_text": "ON",
+      "type": "transform"
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 6 ] ],
+    "extend": { "flags": [ "FIRE" ] }
+  },
+  {
+    "id": "broadfire_on",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "ファイアブランド(オン)", "str_pl": "ファイアブランド(オン)" },
+    "description": "ブロードソードと火炎放射器を組み合わせた暗黒時代を切り開く逸品です。刃は火に包まれ、熱を帯びて輝いています。エクスカリバーもかたなしです！使用することで火を消します。",
+    "copy-from": "broadfire",
+    "weight": "1474 g",
+    "volume": "2250 ml",
+    "turns_per_charge": 40,
+    "revert_to": "broadfire",
+    "use_action": [
+      {
+        "target": "broadfire",
+        "msg": "剣は力を失いました！",
+        "need_fire": 0,
+        "menu_text": "OFF",
+        "type": "transform"
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "extend": { "flags": [ "LIGHT_20","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  },
+  {
+    "id": "zweifire",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "zweihander",
+    "category": "weapons",
+    "name": { "str": "フラーメンシュヴェルター(オフ)", "str_pl": "フラーメンシュヴェルター(オフ)" },
+    "//": "All of this is SUPPOSED to be in German.",
+    "description": "Ein großes zweihändiges Schwert aus Deutschland, an dessen Klinge sichunter Zuführung von Benzin, eine anhaltende Flamme erzeugen lässt. Es ist eine sehr mächtige Waffe.(ガソリンの炎で刀身を燃やし続けるドイツ生まれの大型両手剣です。非常に強力な武器です。)",
+    "proportional": { "weight": 1.1, "volume": 1.1 },
+    "tool_ammo": [ "gasoline" ],
+    "charges_per_use": 0,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],
+    "use_action": {
+      "target": "zweifire_on",
+      "msg": "Die Klinge deines Schwertes brennt!(剣の刃が炎に包まれました！)",
+      "need_fire": 1,
+      "menu_text": "ON",
+      "type": "transform"
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 1 ] ],
+    "extend": { "flags": [ "FIRE" ] }
+  },
+  {
+    "id": "zweifire_on",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "zweifire",
+    "category": "weapons",
+    "name": { "str": "フラーメンシュヴェルター(オン)", "str_pl": "フラーメンシュヴェルター(オン)" },
+    "//": "All of this is SUPPOSED to be in German.",
+    "description": "Ein großes zweihändiges Schwert aus Deutschland, an dessen Klinge sichunter Zuführung von Benzin, eine anhaltende Flamme erzeugen lässt. Es ist eine sehr mächtige Waffe.(ガソリンの炎で刀身を燃やし続けるドイツ生まれの大型両手剣です。非常に強力な武器です。)",
+    "turns_per_charge": 40,
+    "revert_to": "zweifire",
+    "use_action": [
+      {
+        "target": "zweifire",
+        "msg": "Die Flamme deines Schwertes erlischt.(剣の炎が消えました。)",
+        "need_fire": 0,
+        "menu_text": "OFF",
+        "type": "transform"
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  },
+    {
+    "id": "shishkebab",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "copy-from": "machete",
+    "category": "weapons",
+    "name": { "str": "シシケバブ(オフ)", "str_pl": "シシカバブ(オフ)" },
+    "description": "燃料パイプと点火装置が取り付けてある、大きな刃です。ガソリンを充填して点火することで刃の攻撃に炎の熱が加わり、また周囲を照らします。使用することで点火します。",
+    "proportional": { "weight": 1.2, "volume": 1.1 },
+    "tool_ammo": [ "gasoline" ],
+    "charges_per_use": 0,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 50 } } ],    
+    "use_action": {
+      "target": "shishkebab_on",
+      "msg": "ゾンビとダンスだ！",
+      "need_fire": 1,
+      "menu_text": "ON",
+      "type": "transform"
+    },
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -30 ] ],
+    "techniques": [ "WBLOCK_1" ],
+    "extend": { "flags": [ "FIRE" ] }
+  },
+  {
+    "id": "shishkebab_on",
+    "copy-from": "shishkebab",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
+    "name": { "str": "シシケバブ(オン)", "str_pl": "シシケバブ(オン)" },
+    "description": "燃料パイプと点火装置が取り付けてある、大きな刃です。ガソリンを充填して点火することで刃の攻撃に炎の熱が加わり、また周囲を照らします。現在点火されています。",
+    "turns_per_charge": 40,
+    "use_action": [
+      {
+        "target": "shishkebab",
+        "msg": "あばよ。シシカバブの炎が消えました。",
+        "need_fire": 0,
+        "menu_text": "OFF",
+        "type": "transform"
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  }
+]

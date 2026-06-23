@@ -39,7 +39,6 @@
     "location": "center",
     "looks_like": "reclining_seat",
     "//": "weld repairs would mostly be the frame and springs of the seat, so low 6 cm cost per quadrant",
-    "name": { "str": "bucket seat" },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
@@ -157,7 +156,7 @@
     "description": "A simple fabric seat, suspended from the frame itself.",
     "item": "sheet",
     "folded_volume": "1000 ml",
-    "location": "on_frame",
+    "location": "anywhere",
     "requirements": { "repair": { "skills": [ [ "tailor", 2 ] ], "time": "200 s", "using": [ [ "sewing_standard", 4 ] ] } },
     "breaks_into": [ { "item": "cotton_patchwork", "count": [ 1, 6 ] } ],
     "extend": { "flags": [ "BELTABLE" ] },

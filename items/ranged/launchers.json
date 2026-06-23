@@ -1,7 +1,7 @@
 [
   {
     "id": "flamethrower_simple",
-    "copy-from": "flamethrower_base",
+    "copy-from": "launcher_base",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "name": { "str": "ランチャー(火炎放射器(自作))" },

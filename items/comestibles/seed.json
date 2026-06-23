@@ -46,12 +46,7 @@
     "plant_name": "hops",
     "fruit": "hops",
     "byproducts": [ "straw_pile" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "12 days"
   },
   {
     "id": "seed_blackberries",
@@ -65,12 +60,7 @@
     "fruit": "blackberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_blueberries",
@@ -84,12 +74,7 @@
     "fruit": "blueberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_cranberries",
@@ -103,12 +88,7 @@
     "fruit": "cranberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_huckleberries",
@@ -122,13 +102,7 @@
     "fruit": "huckleberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" },
-      { "GROWTH_OVERGROWN": "1 hour" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_mulberries",
@@ -142,12 +116,7 @@
     "fruit": "mulberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_elderberries",
@@ -161,12 +130,7 @@
     "fruit": "elderberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_raspberries",
@@ -180,12 +144,7 @@
     "fruit": "raspberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_strawberries",
@@ -199,12 +158,7 @@
     "fruit": "strawberries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "seed_grapes",
@@ -218,12 +172,7 @@
     "fruit": "grapes",
     "seeds": false,
     "byproducts": [ "grape_leaves", "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -239,12 +188,7 @@
     "fruit": "rose_hips",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -256,12 +200,7 @@
     "flags": [ "PLANTABLE_SEED", "NUTRIENT_OVERRIDE", "INEDIBLE" ],
     "plant_name": "tobacco",
     "fruit": "tobacco_raw",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -275,12 +214,7 @@
     "plant_name": "barley",
     "fruit": "barley_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ],
+    "grow": "7 days",
     "into": "null",
     "recipe": ""
   },
@@ -297,12 +231,7 @@
     "flags": [ "PLANTABLE_SEED", "NUTRIENT_OVERRIDE", "INEDIBLE" ],
     "plant_name": "sugar beet",
     "fruit": "sugar_beet",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -316,12 +245,7 @@
     "plant_name": "lettuce",
     "fruit": "lettuce_head",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "8 days"
   },
   {
     "type": "ITEM",
@@ -336,12 +260,7 @@
     "plant_name": "cabbage",
     "fruit": "cabbage_head",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "8 days"
   },
   {
     "type": "ITEM",
@@ -356,12 +275,7 @@
     "plant_name": "radish",
     "fruit": "radish_taproot",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "4 days" },
-      { "GROWTH_SEEDLING": "4 days" },
-      { "GROWTH_MATURE": "4 days" },
-      { "GROWTH_HARVEST": "4 days" }
-    ]
+    "grow": "3 days"
   },
   {
     "type": "ITEM",
@@ -376,12 +290,7 @@
     "fruit": "tomato",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "17 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -397,12 +306,7 @@
     "plant_name": "cotton",
     "fruit": "cotton_boll",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "16 days" },
-      { "GROWTH_SEEDLING": "16 days" },
-      { "GROWTH_MATURE": "16 days" },
-      { "GROWTH_HARVEST": "16 days" }
-    ],
+    "grow": "1 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -418,12 +322,7 @@
     "plant_name": "broccoli",
     "fruit": "broccoli",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "7 days"
   },
   {
     "type": "ITEM",
@@ -438,12 +337,7 @@
     "fruit": "zucchini",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "6 days" },
-      { "GROWTH_SEEDLING": "6 days" },
-      { "GROWTH_MATURE": "6 days" },
-      { "GROWTH_HARVEST": "6 days" }
-    ]
+    "grow": "4 days"
   },
   {
     "type": "ITEM",
@@ -457,12 +351,7 @@
     "plant_name": "onion",
     "fruit": "onion",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "17 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -476,12 +365,7 @@
     "plant_name": "garlic",
     "fruit": "garlic",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -495,12 +379,7 @@
     "plant_name": "cattail",
     "fruit": "cattail_stalk",
     "byproducts": [ "cattail_rhizome" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "required_terrain_flag": "SHALLOW_WATER"
   },
   {
@@ -523,13 +402,26 @@
     "fruit": "lotus_rhizome",
     "seeds": true,
     "byproducts": [ "withered", "lotus" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "required_terrain_flag": "SHALLOW_WATER"
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "seed_lotus_boiled",
+    "name": { "str_sp": "boiled lotus seeds" },
+    "weight": "30 g",
+    "flags": [ "EATEN_HOT" ],
+    "color": "white",
+    "spoils_in": "2 days",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "looks_like": "lotus_rhizome",
+    "calories": 25,
+    "description": "Boiled lotus seeds, with a soft taste.",
+    "material": [ "veggy" ],
+    "volume": "100 ml",
+    "vitamins": [ [ "veggy_allergen", 1 ] ]
   },
   {
     "type": "ITEM",
@@ -543,12 +435,7 @@
     "plant_name": "dahlia",
     "fruit": "dahlia_root",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -562,12 +449,7 @@
     "volume": "2 ml",
     "plant_name": "salsify",
     "fruit": "salsify_raw",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -582,12 +464,7 @@
     "plant_name": "chicory",
     "fruit": "chicory_raw",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -601,12 +478,7 @@
     "plant_name": "wild root",
     "fruit": "carrot_wild",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -619,12 +491,7 @@
     "description": "Some small decorative plant seeds, likely grass or flower.  Don't expect them to be useful for anything other than dry plant material.",
     "plant_name": "decorative plant",
     "fruit": "withered",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -637,12 +504,7 @@
     "flags": [ "PLANTABLE_SEED", "NUTRIENT_OVERRIDE", "INEDIBLE" ],
     "plant_name": "cactus",
     "fruit": "cactus_pad",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -656,12 +518,7 @@
     "plant_name": "carrot",
     "fruit": "carrot",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -676,12 +533,7 @@
     "fruit": "corn",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "8 days",
     "into": "null",
     "recipe": ""
   },
@@ -699,12 +551,7 @@
     "fruit": "chili_pepper",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "17 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -718,12 +565,7 @@
     "plant_name": "salad cucumber",
     "fruit": "cucumber",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -737,12 +579,7 @@
     "plant_name": "gherkin cucumber",
     "fruit": "gherkin",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -763,12 +600,7 @@
     "fruit": "potato",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "12 days" },
-      { "GROWTH_SEEDLING": "12 days" },
-      { "GROWTH_MATURE": "12 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -788,12 +620,7 @@
     "fruit_div": 2,
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -814,12 +641,7 @@
     "flags": [ "PLANTABLE_SEED", "NUTRIENT_OVERRIDE", "INEDIBLE" ],
     "plant_name": "cannabis",
     "fruit": "cannabis",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -836,12 +658,7 @@
     "fruit": "null",
     "//": "dummy entry, results are hardcoded",
     "plant_name": "fungal flower",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -870,12 +687,7 @@
     "fruit": "null",
     "//": "dummy entry, results are hardcoded",
     "plant_name": "Marloss berry",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -892,12 +704,7 @@
     "fruit": "raw_beans",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -913,12 +720,7 @@
     "fruit": "raw_edamame",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "null",
     "recipe": ""
   },
@@ -935,12 +737,7 @@
     "plant_name": "lentils",
     "fruit": "dry_lentil_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -955,12 +752,7 @@
     "volume": "2 ml",
     "plant_name": "thyme",
     "fruit": "thyme",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -974,12 +766,7 @@
     "fruit": "watermelon",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -993,12 +780,7 @@
     "fruit": "melon",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1018,12 +800,7 @@
     "fruit": "pumpkin",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -1044,12 +821,7 @@
     "plant_name": "sunflower",
     "fruit": "seed_sunflower",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "paste_seed",
     "recipe": "paste_seed_mill_8_1"
   },
@@ -1066,12 +838,7 @@
     "plant_name": "dogbane",
     "fruit": "dogbane",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1086,12 +853,7 @@
     "plant_name": "bee balm",
     "fruit": "bee_balm",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1105,12 +867,7 @@
     "volume": "2 ml",
     "plant_name": "mugwort",
     "fruit": "mugwort",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1124,12 +881,7 @@
     "volume": "2 ml",
     "plant_name": "spinach",
     "fruit": "spinach",
-    "growth_stages": [
-      { "GROWTH_SEED": "6 days" },
-      { "GROWTH_SEEDLING": "6 days" },
-      { "GROWTH_MATURE": "6 days" },
-      { "GROWTH_HARVEST": "6 days" }
-    ]
+    "grow": "5 days"
   },
   {
     "type": "ITEM",
@@ -1143,12 +895,7 @@
     "plant_name": "buckwheat",
     "fruit": "buckwheat_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ],
+    "grow": "9 days",
     "into": "null",
     "recipe": ""
   },
@@ -1164,12 +911,7 @@
     "volume": "2 ml",
     "plant_name": "wild herb",
     "fruit": "wild_herbs",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1184,12 +926,7 @@
     "plant_name": "wild vegetable",
     "fruit": "veggy_wild",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1203,12 +940,7 @@
     "volume": "2 ml",
     "plant_name": "dandelion",
     "fruit": "raw_dandelion",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1222,12 +954,7 @@
     "volume": "2 ml",
     "plant_name": "burdock",
     "fruit": "raw_burdock",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1241,12 +968,7 @@
     "plant_name": "Japanese knotweed",
     "fruit": "japanese_knotweed_stem",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1261,12 +983,7 @@
     "plant_name": "wild rice",
     "fruit": "wild_rice_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1280,12 +997,7 @@
     "plant_name": "Jerusalem artichoke",
     "fruit": "jerusalem_artichoke",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1300,12 +1012,7 @@
     "fruit": "m_stellatum_berries",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1319,12 +1026,7 @@
     "plant_name": "wild sarsaparilla",
     "fruit": "wild_sarsaparilla_root",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1338,12 +1040,7 @@
     "fruit": "mayapple",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1357,12 +1054,7 @@
     "fruit": "wintergreen_berry",
     "seeds": false,
     "byproducts": [ "wintergreen_leaves", "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1376,12 +1068,7 @@
     "plant_name": "groundnut",
     "fruit": "groundnut",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1395,12 +1082,7 @@
     "plant_name": "wild garlic",
     "fruit": "wild_garlic",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1414,12 +1096,7 @@
     "volume": "2 ml",
     "plant_name": "bamboo",
     "fruit": "raw_bamboo",
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1434,12 +1111,7 @@
     "plant_name": "rhubarb",
     "fruit": "rhubarb",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1451,12 +1123,7 @@
     "plant_name": "mushroom",
     "fruit": "mushroom",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1469,12 +1136,7 @@
     "plant_name": "morel mushroom",
     "fruit": "mushroom_morel",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "id": "datura_seed",
@@ -1494,12 +1156,7 @@
     "plant_name": "datura",
     "fruit": "datura_seed",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1513,12 +1170,7 @@
     "plant_name": "celery",
     "fruit": "celery",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "16 days" },
-      { "GROWTH_SEEDLING": "16 days" },
-      { "GROWTH_MATURE": "16 days" },
-      { "GROWTH_HARVEST": "16 days" }
-    ]
+    "grow": "1 days"
   },
   {
     "type": "ITEM",
@@ -1532,12 +1184,7 @@
     "plant_name": "oats",
     "fruit": "oat_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "17 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ],
+    "grow": "6 days",
     "into": "null",
     "recipe": ""
   },
@@ -1553,12 +1200,7 @@
     "plant_name": "garlic",
     "fruit": "garlic",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "17 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "id": "seed_wheat",
@@ -1572,12 +1214,7 @@
     "plant_name": "wheat",
     "fruit": "wheat_stalks",
     "seeds": false,
-    "growth_stages": [
-      { "GROWTH_SEED": "15 days" },
-      { "GROWTH_SEEDLING": "15 days" },
-      { "GROWTH_MATURE": "15 days" },
-      { "GROWTH_HARVEST": "15 days" }
-    ],
+    "grow": "12 days",
     "into": "null",
     "recipe": ""
   },
@@ -1593,12 +1230,7 @@
     "plant_name": "chamomile",
     "fruit": "chamomile",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1612,17 +1244,11 @@
     "plant_name": "spurge",
     "fruit": "spurge",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
     "subtypes": [ "SEED", "COMESTIBLE" ],
-    "category": "seeds",
     "id": "seed_popcorn",
     "copy-from": "kernels",
     "name": { "str_sp": "seed popcorn" },
@@ -1633,12 +1259,7 @@
     "fruit": "popcorn_cob",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1651,12 +1272,7 @@
     "plant_name": "horseradish",
     "fruit": "horseradish_root",
     "byproducts": [ "horseradish_greens" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1675,12 +1291,7 @@
     "plant_name": "mustard",
     "fruit": "seed_mustard",
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "10 days" },
-      { "GROWTH_SEEDLING": "10 days" },
-      { "GROWTH_MATURE": "10 days" },
-      { "GROWTH_HARVEST": "10 days" }
-    ]
+    "grow": "9 days"
   },
   {
     "type": "ITEM",
@@ -1695,12 +1306,7 @@
     "fruit": "bell_pepper",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "7 days"
   },
   {
     "type": "ITEM",
@@ -1715,12 +1321,7 @@
     "fruit": "raw_bottle_gourd",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   },
   {
     "type": "ITEM",
@@ -1734,11 +1335,6 @@
     "fruit": "eggplant",
     "seeds": false,
     "byproducts": [ "withered" ],
-    "growth_stages": [
-      { "GROWTH_SEED": "8 days" },
-      { "GROWTH_SEEDLING": "8 days" },
-      { "GROWTH_MATURE": "8 days" },
-      { "GROWTH_HARVEST": "8 days" }
-    ]
+    "grow": "6 days"
   }
 ]

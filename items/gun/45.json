@@ -1,7 +1,7 @@
 [
   {
     "id": "surv_hand_cannon",
-    "copy-from": "pistol_revolver",
+    "copy-from": "gun_base_handgun_manual",
     "looks_like": "sw_619",
     "type": "ITEM",
     "subtypes": [ "GUN" ],

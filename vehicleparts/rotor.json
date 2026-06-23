@@ -52,7 +52,6 @@
     "copy-from": "heavy_duty_military_rotor",
     "type": "vehicle_part",
     "name": { "str": "heavy-duty military Blackhawk rotors" },
-    "item": "heavy_duty_military_rotor",
     "//": "rotor diameter is in meters",
     "rotor_diameter": 16,
     "requirements": {

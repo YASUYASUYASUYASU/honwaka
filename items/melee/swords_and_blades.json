@@ -17,7 +17,6 @@
       {
         "target": "firemachete_on",
         "msg": "No.9が輝き始めました",
-        "active": true,
         "need_fire": 0,
         "menu_text": "ON",
         "type": "transform"
@@ -39,15 +38,13 @@
       {
         "target": "firemachete",
         "msg": "No.9が光を失いました。",
-        "active": false,
         "need_fire": 0,
         "menu_text": "OFF",
         "type": "transform"
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "light": 60,
-    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "firekatana",
@@ -64,7 +61,6 @@
     "use_action": {
       "target": "firekatana_on",
       "msg": "太陽が昇りました。",
-      "active": true,
       "need_fire": 0,
       "menu_text": "ON",
       "type": "transform"
@@ -86,15 +82,13 @@
       {
         "target": "firekatana",
         "msg": "太陽が沈みました。",
-        "active": false,
         "need_fire": 0,
         "menu_text": "OFF",
         "type": "transform"
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "light": 60,
-    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "broadfire",
@@ -111,7 +105,6 @@
     "use_action": {
       "target": "broadfire_on",
       "msg": "剣は戦いを求め燃え始めました!",
-      "active": true,
       "need_fire": 1,
       "menu_text": "ON",
       "type": "transform"
@@ -134,15 +127,13 @@
       {
         "target": "broadfire",
         "msg": "剣は力を失いました！",
-        "active": false,
         "need_fire": 0,
         "menu_text": "OFF",
         "type": "transform"
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "light": 20,
-    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "extend": { "flags": [ "LIGHT_20","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
   {
     "id": "zweifire",
@@ -160,7 +151,6 @@
     "use_action": {
       "target": "zweifire_on",
       "msg": "Die Klinge deines Schwertes brennt!(剣の刃が炎に包まれました！)",
-      "active": true,
       "need_fire": 1,
       "menu_text": "ON",
       "type": "transform"
@@ -183,15 +173,13 @@
       {
         "target": "zweifire",
         "msg": "Die Flamme deines Schwertes erlischt.(剣の炎が消えました。)",
-        "active": false,
         "need_fire": 0,
         "menu_text": "OFF",
         "type": "transform"
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "light": 60,
-    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   },
     {
     "id": "shishkebab",
@@ -208,7 +196,6 @@
     "use_action": {
       "target": "shishkebab_on",
       "msg": "ゾンビとダンスだ！",
-      "active": true,
       "need_fire": 1,
       "menu_text": "ON",
       "type": "transform"
@@ -229,14 +216,12 @@
       {
         "target": "shishkebab",
         "msg": "あばよ。シシカバブの炎が消えました。",
-        "active": false,
         "need_fire": 0,
         "menu_text": "OFF",
         "type": "transform"
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "light": 60,
-    "extend": { "flags": [ "FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+    "extend": { "flags": [ "LIGHT_60","FIRE", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
   }
 ]

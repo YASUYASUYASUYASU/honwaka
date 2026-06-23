@@ -71,8 +71,8 @@
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 4 ] ],
-        "time": "45 m",
-        "using": [ [ "welding_standard", 10 ], [ "vehicle_wrench_2", 1 ] ]
+        "time": "60 m",
+        "using": [ [ "welding_standard", 100 ], [ "vehicle_wrench_2", 1 ] ]
       },
       "removal": {
         "skills": [ [ "mechanics", 3 ] ],
@@ -163,7 +163,7 @@
   {
     "id": "rail_wheel_small_pair",
     "type": "vehicle_part",
-    "name": { "str": "small rail wheels (pair)" },
+    "name": { "str": "pair of small rail wheels" },
     "item": "wheel_rail_small_pair",
     "copy-from": "rail_wheel",
     "description": "A pair of small rail wheels.  It performs well when riding on a pair of small rails.  It performs terribly when not on a rail.  Moreover, you can't steer it.",
@@ -273,7 +273,7 @@
       "removal": { "skills": [ [ "mechanics", 0 ] ], "time": "20 m", "using": [ [ "vehicle_fasten", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "10 m", "using": [ [ "adhesive", 1 ], [ "tire_rubber", 1 ] ] }
     },
-    "flags": [ "WHEEL", "UNSTABLE_WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" , "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF"],
+    "flags": [ "WHEEL", "UNSTABLE_WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY", "SIMPLE_PART","AIRCRAFT_REPAIRABLE_NOPROF"],
     "damage_reduction": { "all": 60, "cut": 30, "stab": 16 },
     "variants": [ { "symbols": "0", "symbols_broken": "x" } ]
   },
@@ -651,7 +651,7 @@
   {
     "id": "wheel_wheelchair",
     "type": "vehicle_part",
-    "name": { "str": "wheelchair wheels (pair)" },
+    "name": { "str": "wheelchair wheel" },
     "item": "wheel_wheelchair",
     "location": "under",
     "looks_like": "wheel_bicycle",
